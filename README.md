@@ -27,6 +27,7 @@
 #### Gameplay
 - [Better Horse Control](https://www.nexusmods.com/witcher3/mods/2000?)
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080/?)
+- [Complete Animations](https://www.nexusmods.com/witcher3/mods/2632/?)
 - [Immersive Cam - Alt Horse Controls](https://www.nexusmods.com/witcher3/mods/689/?)
 - [Immersive Horse Whistling](https://www.nexusmods.com/witcher3/mods/2651/?)
 - [Roach Never Stops](https://www.nexusmods.com/witcher3/mods/2288/?)

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="CAanim"                  displayName="Mods.CA.toggles">
+		<PresetsArray>
+			<Preset id="0"              displayName="Default">
+				<Entry varId="CAeat"                value="0.0" /> 
+				<Entry varId="CAdrink"              value="0.0" /> 				
+				<Entry varId="CAoil"                value="1.0" /> 
+				<Entry varId="CAloot"               value="0.0" /> 
+				<Entry varId="CAgrindstone"         value="1.0" /> 
+				<Entry varId="CAworkbench"          value="1.0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="CAeat"             displayName="CA_eat"             displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="CA_movable">
+                        <Entry varId="CAeat" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="CA_static_default">
+                        <Entry varId="CAeat" value="1"/>
+                    </Option>
+					<Option id="2" displayName="CA_static_alt">
+                        <Entry varId="CAeat" value="2"/>
+                    </Option>
+					<Option id="3" displayName="CA_static_default_combat">
+                        <Entry varId="CAeat" value="3"/>
+                    </Option>
+					<Option id="4" displayName="CA_static_alt_combat">
+                        <Entry varId="CAeat" value="4"/>
+                    </Option>
+					<Option id="5" displayName="CA_disabled">
+                        <Entry varId="CAeat" value="5"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CAdrink"           displayName="CA_drink"           displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="CA_movable">
+                        <Entry varId="CAdrink" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="CA_static_default">
+                        <Entry varId="CAdrink" value="1"/>
+                    </Option>
+					<Option id="2" displayName="CA_static_alt">
+                        <Entry varId="CAdrink" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="CA_static_default_combat">
+                        <Entry varId="CAdrink" value="3"/>
+                    </Option>
+					<Option id="4" displayName="CA_static_alt_combat">
+                        <Entry varId="CAdrink" value="4"/>
+                    </Option>
+					<Option id="5" displayName="CA_disabled">
+                        <Entry varId="CAdrink" value="5"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CAoil"             displayName="CA_oil"             displayType="TOGGLE"/>
+			<Var id="CAloot"            displayName="CA_loot"            displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="CA_all_loot">
+                        <Entry varId="CAloot" value="0"/>
+                    </Option>
+					<Option id="1" displayName="CA_only_herb">
+                        <Entry varId="CAloot" value="1"/>
+                    </Option>
+					<Option id="2" displayName="CA_loot_alt">
+                        <Entry varId="CAloot" value="2"/>
+                    </Option>
+					<Option id="3" displayName="CA_loot_alt_no_herb">
+                        <Entry varId="CAloot" value="3"/>
+                    </Option>
+					<Option id="4" displayName="CA_disabled">
+                        <Entry varId="CAloot" value="4"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CAgrindstone"      displayName="CA_grindstone"      displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="CA_static_default">
+                        <Entry varId="CAgrindstone" value="0"/>
+                    </Option>
+					<Option id="1" displayName="CA_static_alt">
+                        <Entry varId="CAgrindstone" value="1"/>
+                    </Option>
+					<Option id="2" displayName="CA_disabled">
+                        <Entry varId="CAgrindstone" value="2"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="CAworkbench"       displayName="CA_workbench"       displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="CA_static_default">
+                        <Entry varId="CAworkbench" value="0"/>
+                    </Option>
+					<Option id="1" displayName="CA_static_alt">
+                        <Entry varId="CAworkbench" value="1"/>
+                    </Option>
+					<Option id="2" displayName="CA_disabled">
+                        <Entry varId="CAworkbench" value="2"/>
+                    </Option>
+				</OptionsArray>
+			</Var> 
+		</VisibleVars>
+	</Group>
+	<Group id="CAsettings" displayName="Mods.CA.settings">
+		<PresetsArray>
+			<Preset id="0" displayName="default">
+				<Entry varId="CAanimcombat"         value="1.0" /> 
+				<Entry varId="CAautogrind"			value="1.0" />
+				<Entry varId="CAautooil" 			value="1.0" />
+				<Entry varId="CAinv"                value="1.0" />
+				<Entry varId="CAoilcombat" 			value="0.0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="CAanimcombat"		displayName="CA_animcombat" 	 displayType="TOGGLE"/>		
+			<Var id="CAinv"             displayName="CA_inv"             displayType="TOGGLE"/>
+			<Var id="CAoilcombat" displayName="CA_oilcombat" displayType="TOGGLE"/>
+			<Var id="CAautogrind" displayName="CA_autogrind" displayType="TOGGLE"/> 
+			<Var id="CAautooil" displayName="CA_autooil" displayType="TOGGLE"/>
+			<Var id="CAinit" 			displayName="" 					 displayType="TOGGLE"			 visibilityCondition="hideAlways"/>
+			<Var id="CAversion" 		displayName="" 					 displayType="SLIDER;0;2;200"	 visibilityCondition="hideAlways"/>
+		</VisibleVars>
+	</Group>
+	<Group id="CAanimspeed"             displayName="Mods.CA.speed">
+		<PresetsArray>
+			<Preset id="0"              displayName="Default">
+				<Entry varId="CAdrinksp" 	        value="1.0" />
+				<Entry varId="CAeatsp"              value="1.0" />
+				<Entry varId="CAoilsp"              value="1.0" />
+				<Entry varId="CAgrindstonesp"       value="1.0" />
+				<Entry varId="CAworkbenchsp"        value="1.0" />
+				<Entry varId="CAlootstartsp"        value="1.0" />
+				<Entry varId="CAdblootstartsp"      value="1.0" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="CAeatsp"           displayName="CA_eatsp"           displayType="SLIDER;0;2;200"/> 
+			<Var id="CAdrinksp" 	    displayName="CA_drinksp" 		 displayType="SLIDER;0;2;200"/> 
+			<Var id="CAoilsp"           displayName="CA_oilsp"           displayType="SLIDER;0;2;200"/> 
+			<Var id="CAgrindstonesp"    displayName="CA_grindstonesp"    displayType="SLIDER;0;2;200"/> 
+			<Var id="CAworkbenchsp"     displayName="CA_workbenchsp"     displayType="SLIDER;0;2;200"/> 
+			<Var id="CAlootstartsp"     displayName="CA_lootstartsp"     displayType="SLIDER;0;2;200"/> 
+			<Var id="CAdblootstartsp"   displayName="CA_dblootstartsp"   displayType="SLIDER;0;2;200"/> 
+		</VisibleVars>
+	</Group>
+</UserConfig>

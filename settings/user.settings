@@ -207,14 +207,14 @@ InjPImm=false
 [ImmersiveCamPositionsSprint]
 sprintMode=1
 [SCOptionVisuals]
-SignIgniInt=false
+SignIgniInt=true
 BloodSprayMaj=false
 BloodOnlyCrit=false
 BloodSpray=true
 BloodActiveRange=true
 BloodTrail=false
 BloodActive=true
-SignAardInt=false
+SignAardInt=true
 [SCOptionD]
 SpecterDam=1
 PDamB=1
@@ -328,7 +328,7 @@ fhudInteractionButtonMode=3
 fhudHideWSInteractionIcons=true
 fhudTalkBubbleMode=3
 fhudHideMonsterNames=true
-fhudDisableAllInteractionPrompts=true
+fhudDisableAllInteractionPrompts=false
 fhudHideHerbNames=false
 fhudMaxDistanceToShowNames=3
 [IDD_General]
@@ -531,7 +531,7 @@ CAworkbench=0
 CAgrindstone=0
 CAdrink=0
 CAloot=0
-CAoil=true
+CAoil=1.0
 [SCOptionCE4]
 BlockHits4=40
 BlockHits5=90
@@ -635,6 +635,11 @@ CascadeShadowDistanceScale1=3
 EnemyONOFF=false
 tempYEnemy=350
 tempXEnemy=200
+[HorseWhistling]
+IHW_SignPosts=true
+IHW_Camps=true
+IHW_Geralt=3
+IHW_Active=true
 [SCOptionCE5]
 BlockHits4=25
 BlockHits5=95
@@ -921,7 +926,7 @@ Acc1Selection=0
 Acc1Enabled=false
 [SCOptionAnims]
 AnimCombat=1
-AnimLoot=1
+AnimLoot=true
 AnimOil=1
 AnimDrink=1
 AnimEat=1
@@ -993,7 +998,7 @@ Bruxa=false
 Golems=0
 Werewolves=false
 [ThoughtfulRoach]
-ParkingOption=1
+ParkingOption=2
 ToggleFollow=true
 InterruptParking=true
 [MinimapandQuests]
