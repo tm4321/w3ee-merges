@@ -22,19 +22,22 @@
 #### UI
 - [Clock Only](https://www.nexusmods.com/witcher3/mods/1662/?)
 - [Hud Positioning and Scale](https://www.nexusmods.com/witcher3/mods/861?)
-- [Witcher Sense Color Customizer](https://www.nexusmods.com/witcher3/mods/125/?) - Used to remove yellow interaction color
 - [Unseen Monsters](https://www.nexusmods.com/witcher3/mods/646/?)
 
 #### Gameplay
 - [Better Horse Control](https://www.nexusmods.com/witcher3/mods/2000?)
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080/?)
 - [Immersive Cam - Alt Horse Controls](https://www.nexusmods.com/witcher3/mods/689/?)
+- [Immersive Horse Whistling](https://www.nexusmods.com/witcher3/mods/2651/?)
 - [Roach Never Stops](https://www.nexusmods.com/witcher3/mods/2288/?)
+- [Thoughtful Roach](https://www.nexusmods.com/witcher3/mods/1586/?)
 
 #### Custom Tweaks
-- Fixed poisoned blades talent as described by DominusSicarum in the posts
 - Added ability to toggle enemy healthbar while in combat
 - Added game time slider and option to show 24hr clock
+- Fixed poisoned blades talent as described by DominusSicarum in the posts
+- Removed double tap to open horse stash
+- Removed yellow witcher sense colors
 - Show subtitles for foreign languages
 
 ## Installation

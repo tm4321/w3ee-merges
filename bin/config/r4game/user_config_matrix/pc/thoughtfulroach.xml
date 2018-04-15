@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+		<Group id="ThoughtfulRoach" displayName="Mods.thoughtful_roach">
+			<PresetsArray>
+				<Preset id="0" displayName="thoughtful_roach_vanilla">
+					<Entry varId="ParkingOption"	 value="0"/>
+					<Entry varId="InterruptParking"	 value="false"/>
+					<Entry varId="ToggleFollow"	 value="false"/>
+				</Preset>
+				<Preset id="1" displayName="thoughtful_roach_thoughtful">
+					<Entry varId="ParkingOption"	 value="1"/>
+					<Entry varId="InterruptParking"	 value="true"/>
+					<Entry varId="ToggleFollow"	 value="true"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var id="ParkingOption" displayName="thoughtful_roach_parking_option" displayType="OPTIONS" tags="customNames;customDisplayName">
+					<OptionsArray>
+						<Option id="0" displayName="thoughtful_roach_parking_option_immediate"><Entry varId="ParkingOption" value="0"/></Option>
+						<Option id="1" displayName="thoughtful_roach_parking_option_interval_1"><Entry varId="ParkingOption" value="1"/></Option>
+						<Option id="2" displayName="thoughtful_roach_parking_option_interval_2"><Entry varId="ParkingOption" value="2"/></Option>
+						<Option id="3" displayName="thoughtful_roach_parking_option_interval_3"><Entry varId="ParkingOption" value="3"/></Option>
+						<Option id="4" displayName="thoughtful_roach_parking_option_off"><Entry varId="ParkingOption" value="4"/></Option>
+          </OptionsArray>
+				</Var>
+				<Var id="InterruptParking" displayName="thoughtful_roach_interrupt_parking" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+				<Var id="ToggleFollow" displayName="thoughtful_roach_toggle_follow" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+</UserConfig>

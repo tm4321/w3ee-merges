@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+		<Group id="HorseWhistling" displayName="Mods.IHW_IHW">
+			<PresetsArray>
+				<Preset id="0" displayName="IHW_Defaults">
+					<Entry varId="IHW_Active"	 		value="true"/>
+					<Entry varId="IHW_Camps"	 		value="true"/>
+					<Entry varId="IHW_SignPosts"	 	value="true"/>
+					<Entry varId="IHW_Geralt"	 		value="3"/>
+				</Preset>
+				<Preset id="1" displayName="IHW_Vanilla">
+					<Entry varId="IHW_Active"	 		value="false"/>
+					<Entry varId="IHW_Camps"	 		value="false"/>
+					<Entry varId="IHW_SignPosts"	 	value="false"/>
+					<Entry varId="IHW_Geralt"	 		value="0"/>
+				</Preset>				
+			</PresetsArray>
+			<VisibleVars>
+				<Var id="IHW_Active" 			displayName="IHW_Enabled" 					displayType="TOGGLE"/>
+				<Var id="IHW_Camps" 			displayName="IHW_NearCamps" 				displayType="TOGGLE"/>
+				<Var id="IHW_SignPosts" 		displayName="IHW_NearSignPosts" 			displayType="TOGGLE"/>
+				<Var id="IHW_Geralt" 			displayName="IHW_DistanceFromGeralt"  		displayType="OPTIONS">
+					<OptionsArray>
+						<Option id="0" 			displayName="IHW_1000">			<Entry varId="IHW_Geralt" value="0"/></Option>
+						<Option id="1" 			displayName="IHW_2000">			<Entry varId="IHW_Geralt" value="1"/></Option>
+						<Option id="2" 			displayName="IHW_3000">			<Entry varId="IHW_Geralt" value="2"/></Option>
+						<Option id="3" 			displayName="IHW_4000">			<Entry varId="IHW_Geralt" value="3"/></Option>
+						<Option id="4" 			displayName="IHW_5000">			<Entry varId="IHW_Geralt" value="4"/></Option>
+						<Option id="5" 			displayName="IHW_6000">			<Entry varId="IHW_Geralt" value="5"/></Option>
+					</OptionsArray>
+				</Var>
+			</VisibleVars>
+		</Group>		
+</UserConfig>
