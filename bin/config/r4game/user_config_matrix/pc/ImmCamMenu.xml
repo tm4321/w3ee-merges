@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+		<Group id="ImmersiveCamPositionsExploration" displayName="Mods.immersive_cam.cam_settings.cam_exploration">
+			<PresetsArray>
+				<Preset id="0" displayName="vanilla">
+					<Entry varId="expOffset"	 value="0"/>
+					<Entry varId="expDepth" 	 value="0"/>
+					<Entry varId="expHeight" 	 value="0"/>
+					<Entry varId="intDepth"	 	 value="2.8"/>
+					<Entry varId="intOffset" 	 value="0.3"/>
+					<Entry varId="intHeight" 	 value="0.0"/>
+					<Entry varId="expAutoRot"    value="true"/>
+					<Entry varId="noInteriorCamChange"	 value="false"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="expOffset"	 value="0.25"/>
+					<Entry varId="expDepth" 	 value="1.35"/>
+					<Entry varId="expHeight" 	 value="0.65"/>
+					<Entry varId="intDepth"	 	 value="2.0"/>
+					<Entry varId="intOffset" 	 value="0.3"/>
+					<Entry varId="intHeight" 	 value="0.2"/>
+					<Entry varId="expAutoRot" value="false"/>
+					<Entry varId="noInteriorCamChange"	 value="true"/>
+				</Preset>
+				<Preset id="2" displayName="closel">
+					<Entry varId="expOffset"	 value="0.7"/>
+					<Entry varId="expDepth" 	 value="2.15"/>
+					<Entry varId="expHeight" 	 value="0.15"/>
+					<Entry varId="noInteriorCamChange"	 value="true"/>
+				</Preset>
+				<Preset id="3" displayName="closer">
+					<Entry varId="expOffset"	 value="-0.7"/>
+					<Entry varId="expDepth" 	 value="2.15"/>
+					<Entry varId="expHeight" 	 value="0.15"/>
+					<Entry varId="noInteriorCamChange"	 value="true"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="expFOV" displayName="expFOV" displayType="SLIDER;55.0;75.0;20" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="expAutoRot" displayName="expAutoRot" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="noInteriorCamChange" displayName="noInteriorCamChange" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="expOffset" displayName="expOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="expDepth" displayName="expDepth" displayType="SLIDER;-2.0;7.0;900" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="expHeight" displayName="expHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="intOffset" displayName="intOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="intDepth" displayName="intDepth" displayType="SLIDER;-2.0;3.0;500" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="intHeight" displayName="intHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsSprint" displayName="Mods.immersive_cam.cam_settings.cam_sprint">
+			<PresetsArray>
+				<Preset id="0" displayName="immersive_cam">
+					<Entry varId="sprintMode"	 value="0"/>
+				</Preset>
+				<Preset id="1" displayName="vanilla">
+					<Entry varId="sprintMode"	 value="1"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="sprintAutoRot" displayName="sprintAutoRot" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sprintMode" displayName="sprintMode" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="sprintMode1">
+						<Entry varId="sprintMode" value="1"/>
+					</Option>
+					<Option id="1" displayName="sprintMode2">
+						<Entry varId="sprintMode" value="2"/>
+					</Option>
+					<Option id="2" displayName="sprintMode3">
+						<Entry varId="sprintMode" value="3"/>
+					</Option>
+				</OptionsArray>
+				</Var>
+				<Var overrideGroup="ImmersiveCam" id="sprintOffset" displayName="sprintOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sprintDepth" displayName="sprintDepth" displayType="SLIDER;-2.0;8.0;1000" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sprintHeight" displayName="sprintHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsCombat" displayName="Mods.immersive_cam.cam_settings.cam_combat">
+			<PresetsArray>
+				<Preset id="0" displayName="vanilla">
+					<Entry varId="comOffset"	 value="0"/>
+					<Entry varId="comDepth" 	 value="0"/>
+					<Entry varId="comHeight" 	 value="0"/>
+					<Entry varId="hlOffset"	 	 value="0"/>
+					<Entry varId="hlDepth" 	 	 value="0"/>
+					<Entry varId="hlHeight" 	 value="0"/>
+					<Entry varId="comLock"	 value="false"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="comOffset"	 value="0.25"/>
+					<Entry varId="comDepth" 	 value="1.35"/>
+					<Entry varId="comHeight" 	 value="0.65"/>
+					<Entry varId="hlOffset"	 	 value="0.25"/>
+					<Entry varId="hlDepth" 	 	 value="1.35"/>
+					<Entry varId="hlHeight" 	 value="0.65"/>
+					<Entry varId="comLock"	 value="false"/>
+				</Preset>
+				<Preset id="2" displayName="close_combat">
+					<Entry varId="comOffset"	 value="0.3"/>
+					<Entry varId="comDepth" 	 value="2.0"/>
+					<Entry varId="comHeight" 	 value="0.0"/>
+					<Entry varId="hlOffset"	 	 value="0.6"/>
+					<Entry varId="hlDepth" 	 	 value="4.0"/>
+					<Entry varId="hlHeight" 	 value="0.0"/>
+					<Entry varId="comLock"	 value="true"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="comLock" displayName="comLock" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="comOffset" displayName="comOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="comDepth" displayName="comDepth" displayType="SLIDER;-2.0;4.0;600" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="comHeight" displayName="comHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hlOffset" displayName="hlOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hlDepth" displayName="hlDepth" displayType="SLIDER;-2.0;4.0;600" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hlHeight" displayName="hlHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsHorse" displayName="Mods.immersive_cam.cam_settings.cam_horseback">
+			<PresetsArray>
+				<Preset id="0" displayName="vanilla">
+					<Entry varId="hbDistance"	 value="2.4"/>
+					<Entry varId="hbCanterDis" 	 value="4.1"/>
+					<Entry varId="hbGallopDis" 	 value="4.9"/>
+					<Entry varId="hbCombatDis" 	 value="5.4"/>
+					<Entry varId="hbOffset" 	 value="0"/>
+					<Entry varId="hbDepth" 	 	 value="0"/>
+					<Entry varId="hbHeight" 	 value="0"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="hbDistance"	 value="2.5"/>
+					<Entry varId="hbCanterDis" 	 value="2.5"/>
+					<Entry varId="hbGallopDis" 	 value="2.5"/>
+					<Entry varId="hbCombatDis" 	 value="2.8"/>
+					<Entry varId="hbOffset" 	 value="0"/>
+					<Entry varId="hbDepth" 	 	 value="0"/>
+					<Entry varId="hbHeight" 	 value="0"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="hbFOV" displayName="hbFOV" displayType="SLIDER;55.0;75.0;20" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbAutoRot" displayName="hbAutoRot" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="hbAutoRot1">
+						<Entry varId="hbAutoRot" value="2.0"/>
+					</Option>
+					<Option id="1" displayName="hbAutoRot2">
+						<Entry varId="hbAutoRot" value="3.0"/>
+					</Option>
+					<Option id="2" displayName="hbAutoRot3">
+						<Entry varId="hbAutoRot" value="4.0"/>
+					</Option>
+				</OptionsArray>
+				</Var>
+				<Var overrideGroup="ImmersiveCam" id="hbDistance" displayName="hbDistance" displayType="SLIDER;0;6;600" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbCanterDis" displayName="hbCanterDis" displayType="SLIDER;0;6;600" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbGallopDis" displayName="hbGallopDis" displayType="SLIDER;0;6;600" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbCombatDis" displayName="hbCombatDis" displayType="SLIDER;0;6;600" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbOffset" displayName="hbOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbDepth" displayName="hbDepth" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="hbHeight" displayName="hbHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsSailing" displayName="Mods.immersive_cam.cam_settings.cam_sailing">
+			<PresetsArray>
+				<Preset id="0" displayName="vanilla">
+					<Entry varId="sailPitch"	 value="10"/>
+					<Entry varId="sailOffset"	 value="0"/>
+					<Entry varId="sailDepth" 	 value="0"/>
+					<Entry varId="sailHeight"	 value="0"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="sailPitch"	 value="25"/>
+					<Entry varId="sailOffset"	 value="0.2"/>
+					<Entry varId="sailDepth" 	 value="1.90"/>
+					<Entry varId="sailHeight"  value="0.3"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="sailAutoRot" displayName="sailAutoRot" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sailPitch" displayName="sailPitch" displayType="SLIDER;10.0;30.0;4" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sailOffset" displayName="sailOffset" displayType="SLIDER;-1.0;1.0;200" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sailDepth" displayName="sailDepth" displayType="SLIDER;-2.0;4.0;120" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="sailHeight" displayName="sailHeight" displayType="SLIDER;0.0;2.0;200" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsWS" displayName="Mods.immersive_cam.cam_settings.cam_witcher_sense">
+			<PresetsArray>
+				<Preset id="0" displayName="vanilla">
+					<Entry varId="WitcherSenseZoom"	 value="true"/>
+					<Entry varId="eWSOffset" 	 value="0.5"/>
+					<Entry varId="eWSDepth" 	 value="3.0"/>
+					<Entry varId="eWSHeight" 	 value="0.15"/>
+					<Entry varId="iWSOffset" 	 value="0.5"/>
+					<Entry varId="iWSDepth" 	 value="3.2"/>
+					<Entry varId="iWSHeight" 	 value="0"/>
+				</Preset>
+				
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="WitcherSenseZoom"	 value="true"/>
+					<Entry varId="eWSOffset" 	 value="0.25"/>
+					<Entry varId="eWSDepth" 	 value="1.8"/>
+					<Entry varId="eWSHeight" 	 value="0.35"/>
+					<Entry varId="iWSOffset" 	 value="0.3"/>
+					<Entry varId="iWSDepth" 	 value="2.15"/>
+					<Entry varId="iWSHeight" 	 value="0.25"/>
+				</Preset>
+				<Preset id="2" displayName="closel">
+					<Entry varId="WitcherSenseZoom"	 value="true"/>
+					<Entry varId="eWSOffset" 	 value="0.6"/>
+					<Entry varId="eWSDepth" 	 value="2.6"/>
+					<Entry varId="eWSHeight" 	 value="0.2"/>
+					<Entry varId="iWSOffset" 	 value="0.6"/>
+					<Entry varId="iWSDepth" 	 value="2.4"/>
+					<Entry varId="iWSHeight" 	 value="0.2"/>
+				</Preset>
+				<Preset id="3" displayName="closer">
+					<Entry varId="WitcherSenseZoom"	 value="true"/>
+					<Entry varId="eWSOffset" 	 value="-0.6"/>
+					<Entry varId="eWSDepth" 	 value="2.4"/>
+					<Entry varId="eWSHeight" 	 value="0.2"/>
+					<Entry varId="iWSOffset" 	 value="-0.6"/>
+					<Entry varId="iWSDepth" 	 value="2.4"/>
+					<Entry varId="iWSHeight" 	 value="0.2"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="WitcherSenseZoom" displayName="WitcherSenseZoom" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="eWSOffset" displayName="eWSOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="eWSDepth" displayName="eWSDepth" displayType="SLIDER;-2.0;7.0;900" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="eWSHeight" displayName="eWSHeight" displayType="SLIDER;-1.0;2.0;300" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="iWSOffset" displayName="iWSOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="iWSDepth" displayName="iWSDepth" displayType="SLIDER;-2.0;7.0;900" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="iWSHeight" displayName="iWSHeight" displayType="SLIDER;-1.0;2.0;300" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsClue" displayName="Mods.immersive_cam.cam_settings.cam_clue_investigation">
+			<PresetsArray>
+					<Preset id="0" displayName="vanilla">
+					<Entry varId="clueOffset"	 	value="0.7"/>
+					<Entry varId="clueDepth" 	 	value="0.0"/>
+					<Entry varId="clueHeight" 	value="0.0"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="clueOffset"	 	value="0.6"/>
+					<Entry varId="clueDepth" 	 	value="4.0"/>
+					<Entry varId="clueHeight" 	value="-1.5"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="clueOffset" displayName="clueOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="clueDepth" displayName="clueDepth" displayType="SLIDER;-2.0;5.0;700" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="clueHeight" displayName="clueHeight" displayType="SLIDER;-3.0;1.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsAT" displayName="Mods.immersive_cam.cam_settings.cam_aim_throw">
+			<PresetsArray>
+				<Preset id="0" displayName="vanilla">
+					<Entry varId="atRotate"	 value="true"/>
+					<Entry varId="atOffset"	 	value="0.43"/>
+					<Entry varId="atDepth" 	 	value="0.52"/>
+					<Entry varId="atHeight" 	value="0.22"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="atRotate"	 value="false"/>
+					<Entry varId="atOffset"	 	value="0.7"/>
+					<Entry varId="atDepth" 	 	value="-0.6"/>
+					<Entry varId="atHeight" 	value="-0.1"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="atRotate" displayName="atRotate" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="atOffset" displayName="atOffset" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="atDepth" displayName="atDepth" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="atHeight" displayName="atHeight" displayType="SLIDER;-1.0;1.0;200" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCamPositionsFS" displayName="Mods.immersive_cam.cam_settings.cam_igni_firestream">
+			<PresetsArray>
+					<Preset id="0" displayName="vanilla">
+					<Entry varId="fsOffset"	 	value="0.65"/>
+					<Entry varId="fsDepth" 	 	value="1.8"/>
+					<Entry varId="fsHeight" 	value="0.4"/>
+				</Preset>
+				<Preset id="1" displayName="immersive_cam">
+					<Entry varId="fsOffset"	 	value="0.95"/>
+					<Entry varId="fsDepth" 	 	value="0.5"/>
+					<Entry varId="fsHeight" 	value="0"/>
+				</Preset>
+			</PresetsArray>
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="fsOffset" displayName="fsOffset" displayType="SLIDER;0.0;1.0;100" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="fsDepth" displayName="fsDepth" displayType="SLIDER;-2.0;3.0;500" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="fsHeight" displayName="fsHeight" displayType="SLIDER;-1.0;1.0;200" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="SlowMotionCam" displayName="Mods.immersive_cam.slow_mo_combat">
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="CritSloMoCam" displayName="CritSloMoCam" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="criticalHitSlowMoChance" displayName="criticalHitSlowMoChance" displayType="SLIDER;0;100;100" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="dodgeRollSlowMoFactor" displayName="dodgeRollSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="evadeStepSlowMoFactor" displayName="evadeStepSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="aardSlowMoFactor" displayName="aardSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="igniSlowMoFactor" displayName="igniSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="counterAttackSlowMoFactor" displayName="counterAttackSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="criticalHitSlowMoFactor" displayName="criticalHitSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="dismemberSlowMoFactor" displayName="dismemberSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="HT" displayName="Mods.immersive_cam.player_headtracking">
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="Headtracking" displayName="Headtracking" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="extHTDis" displayName="extHTDis" displayType="SLIDER;0.0;6.0;12" tags="customNames;nonLocalized;customDisplayName"/>
+				<Var overrideGroup="ImmersiveCam" id="intHTDis" displayName="intHTDis" displayType="SLIDER;0.0;6.0;12" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+		<Group id="ImmersiveCam" displayName="Mods.immersive_cam.ic_version">
+			<VisibleVars>
+				<Var overrideGroup="ImmersiveCam" id="v42Initialized" displayName="v4Initialized" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			</VisibleVars>
+		</Group>
+</UserConfig>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

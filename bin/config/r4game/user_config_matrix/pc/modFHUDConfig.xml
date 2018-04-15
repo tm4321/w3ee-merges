@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+   
+    <Group id="fhudHUD" displayName="Mods.friendly_hud.fhud_hud">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhudEnableCombatModules" value="false"/>
+				<Entry varId="fhudEnableCombatModulesOnUnsheathe" value="false"/>
+				<Entry varId="fhudEnableWolfModuleOnVitalityChanged" value="true"/>
+				<Entry varId="fhudEnableWolfModuleOnStaminaChanged" value="true"/>
+				<Entry varId="fhudEnableWolfModuleOnVigorChanged" value="true"/>
+				<Entry varId="fhudEnableWitcherSensesModules" value="true"/>
+				<Entry varId="fhudEnableMeditationModules" value="true"/>
+				<Entry varId="fhudEnableRadialMenuModules" value="true"/>
+				<Entry varId="fhudHideJournalUpdates" value="false"/>
+				<Entry varId="fhudFadeOutTimeSeconds" value="3.2"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_vanilla">
+				<Entry varId="fhudEnableCombatModules" value="false"/>
+				<Entry varId="fhudEnableCombatModulesOnUnsheathe" value="false"/>
+				<Entry varId="fhudEnableWolfModuleOnVitalityChanged" value="false"/>
+				<Entry varId="fhudEnableWolfModuleOnStaminaChanged" value="false"/>
+				<Entry varId="fhudEnableWolfModuleOnVigorChanged" value="false"/>
+				<Entry varId="fhudEnableWitcherSensesModules" value="false"/>
+				<Entry varId="fhudEnableMeditationModules" value="false"/>
+				<Entry varId="fhudEnableRadialMenuModules" value="false"/>
+				<Entry varId="fhudHideJournalUpdates" value="false"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="fhudEnableCombatModules" displayName="fhud_enableCombatModules" displayType="TOGGLE"/>
+			<Var id="fhudEnableCombatModulesOnUnsheathe" displayName="fhud_enableCombatModulesOnUnsheathe" displayType="TOGGLE"/>
+			<Var id="fhudEnableWolfModuleOnVitalityChanged" displayName="fhud_enableWolfModuleOnVitalityChanged" displayType="TOGGLE"/>
+			<Var id="fhudEnableWolfModuleOnStaminaChanged" displayName="fhud_enableWolfModuleOnStaminaChanged" displayType="TOGGLE"/>
+			<Var id="fhudEnableWolfModuleOnVigorChanged" displayName="fhud_enableWolfModuleOnVigorChanged" displayType="TOGGLE"/>
+			<Var id="fhudEnableWitcherSensesModules" displayName="fhud_enableWitcherSensesModules" displayType="TOGGLE"/>
+			<Var id="fhudEnableMeditationModules" displayName="fhud_enableMeditationModules" displayType="TOGGLE"/>
+			<Var id="fhudEnableRadialMenuModules" displayName="fhud_enableRadialMenuModules" displayType="TOGGLE"/>
+			<Var id="fhudHideJournalUpdates" displayName="fhud_hideJournalUpdates" displayType="TOGGLE"/>
+            <Var id="fhudFadeOutTimeSeconds" displayName="fhud_fadeOutTimeSeconds" displayType="SLIDER;0;10;100"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudMarkers" displayName="Mods.friendly_hud.fhud_markers">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhud3DMarkersEnabled" value="true"/>
+				<Entry varId="fhudMarkerIconDisplayMode" value="0"/>
+				<Entry varId="fhudMarkerDescriptionDisplayMode" value="0"/>
+				<Entry varId="fhudMarkerDistanceDisplayMode" value="0"/>
+				<Entry varId="fhudMarkerIconType" value="0"/>
+				<Entry varId="fhudMarkerOnScreenOnly" value="false"/>
+				<Entry varId="fhudMarkersIconSizePrc" value="50"/>
+				<Entry varId="fhudMarkersDescriptionTextSize" value="15"/>
+				<Entry varId="fhudMarkersDistanceTextSize" value="15"/>
+				<Entry varId="fhudMarkersAltTextSize" value="15"/>
+				<Entry varId="fhudMarkerMinDistance" value="4"/>
+				<Entry varId="fhudMarkerMaxDistance" value="100"/>
+				<Entry varId="fhudCompassMarkersEnabled" value="false"/>
+				<Entry varId="fhudProject3DMarkersOnCompass" value="true"/>
+				<Entry varId="fhudCompassScreenPosY" value="1.0"/>
+				<Entry varId="fhudMarkersFadeOutDelay" value="3"/>
+				<Entry varId="fhudMarkersShowQuests" value="2"/>
+				<Entry varId="fhudMarkersShowQuestsAll" value="0"/>
+				<Entry varId="fhudMarkersShowUser" value="2"/>
+				<Entry varId="fhudMarkersShowUserAll" value="0"/>
+				<Entry varId="fhudMarkersShowMapLoc" value="0"/>
+				<Entry varId="fhudMarkersShowNPCs" value="0"/>
+				<Entry varId="fhudMarkersShowPOIs" value="0"/>
+				<Entry varId="fhudMarkersShowDisabled" value="1"/>
+				<Entry varId="fhudMarkersShowUndiscovered" value="1"/>
+				<Entry varId="fhudMarkersShowMisc" value="1"/>
+				<Entry varId="fhudMarkersShowHerbs" value="1"/>
+				<Entry varId="fhudMarkersShowEnemies" value="1"/>
+				<Entry varId="fhudMarkersShowDeadEnemies" value="1"/>
+				<Entry varId="fhudMarkersShowWSClues" value="1"/>
+				<Entry varId="fhudMarkerHideActivities" value="true"/>
+				<Entry varId="fhudMarkerShowUndiscoveredRoadsigns" value="false"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_compass">
+				<Entry varId="fhud3DMarkersEnabled" value="true"/>
+				<Entry varId="fhudMarkerIconDisplayMode" value="1"/>
+				<Entry varId="fhudMarkerDescriptionDisplayMode" value="0"/>
+				<Entry varId="fhudMarkerDistanceDisplayMode" value="0"/>
+				<Entry varId="fhudMarkerIconType" value="0"/>
+				<Entry varId="fhudMarkerOnScreenOnly" value="true"/>
+				<Entry varId="fhudMarkersIconSizePrc" value="50"/>
+				<Entry varId="fhudMarkersDescriptionTextSize" value="15"/>
+				<Entry varId="fhudMarkersDistanceTextSize" value="15"/>
+				<Entry varId="fhudMarkersAltTextSize" value="15"/>
+				<Entry varId="fhudMarkerMinDistance" value="4"/>
+				<Entry varId="fhudMarkerMaxDistance" value="100"/>
+				<Entry varId="fhudCompassMarkersEnabled" value="true"/>
+				<Entry varId="fhudMarkerCompassDisplayMode" value="1"/>
+				<Entry varId="fhudProject3DMarkersOnCompass" value="true"/>
+				<Entry varId="fhudCompassScreenPosY" value="1.0"/>
+				<Entry varId="fhudMarkersFadeOutDelay" value="3"/>
+				<Entry varId="fhudMarkersShowQuests" value="2"/>
+				<Entry varId="fhudMarkersShowQuestsAll" value="0"/>
+				<Entry varId="fhudMarkersShowUser" value="2"/>
+				<Entry varId="fhudMarkersShowUserAll" value="0"/>
+				<Entry varId="fhudMarkersShowMapLoc" value="0"/>
+				<Entry varId="fhudMarkersShowNPCs" value="0"/>
+				<Entry varId="fhudMarkersShowPOIs" value="0"/>
+				<Entry varId="fhudMarkersShowDisabled" value="1"/>
+				<Entry varId="fhudMarkersShowUndiscovered" value="1"/>
+				<Entry varId="fhudMarkersShowMisc" value="1"/>
+				<Entry varId="fhudMarkersShowHerbs" value="1"/>
+				<Entry varId="fhudMarkersShowEnemies" value="1"/>
+				<Entry varId="fhudMarkersShowDeadEnemies" value="1"/>
+				<Entry varId="fhudMarkersShowWSClues" value="1"/>
+				<Entry varId="fhudMarkerHideActivities" value="false"/>
+				<Entry varId="fhudMarkerShowUndiscoveredRoadsigns" value="false"/>
+			</Preset>
+			<Preset id="2" displayName="fhud_minimalistic">
+				<Entry varId="fhud3DMarkersEnabled" value="true"/>
+				<Entry varId="fhudMarkerIconDisplayMode" value="0"/>
+				<Entry varId="fhudMarkerDescriptionDisplayMode" value="2"/>
+				<Entry varId="fhudMarkerDistanceDisplayMode" value="2"/>
+				<Entry varId="fhudMarkerIconType" value="2"/>
+				<Entry varId="fhudMarkerOnScreenOnly" value="true"/>
+				<Entry varId="fhudMarkersAltTextSize" value="20"/>
+				<Entry varId="fhudMarkerMinDistance" value="4"/>
+				<Entry varId="fhudMarkerMaxDistance" value="50"/>
+				<Entry varId="fhudCompassMarkersEnabled" value="false"/>
+				<Entry varId="fhudMarkersFadeOutDelay" value="3"/>
+				<Entry varId="fhudMarkersShowQuests" value="2"/>
+				<Entry varId="fhudMarkersShowQuestsAll" value="1"/>
+				<Entry varId="fhudMarkersShowUser" value="2"/>
+				<Entry varId="fhudMarkersShowUserAll" value="1"/>
+				<Entry varId="fhudMarkersShowMapLoc" value="1"/>
+				<Entry varId="fhudMarkersShowNPCs" value="1"/>
+				<Entry varId="fhudMarkersShowPOIs" value="1"/>
+				<Entry varId="fhudMarkersShowDisabled" value="1"/>
+				<Entry varId="fhudMarkersShowUndiscovered" value="1"/>
+				<Entry varId="fhudMarkersShowMisc" value="1"/>
+				<Entry varId="fhudMarkersShowHerbs" value="1"/>
+				<Entry varId="fhudMarkersShowEnemies" value="1"/>
+				<Entry varId="fhudMarkersShowDeadEnemies" value="1"/>
+				<Entry varId="fhudMarkersShowWSClues" value="1"/>
+				<Entry varId="fhudMarkerHideActivities" value="false"/>
+				<Entry varId="fhudMarkerShowUndiscoveredRoadsigns" value="false"/>
+			</Preset>
+			<Preset id="3" displayName="fhud_vanilla">
+				<Entry varId="fhud3DMarkersEnabled" value="false"/>
+				<Entry varId="fhudCompassMarkersEnabled" value="false"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="fhud3DMarkersEnabled" displayName="fhud_3DMarkersEnabled" displayType="TOGGLE"/>
+            <Var id="Virtual_fhudMarkerIconDisplayMode" displayName="fhud_markerIconDisplayMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markersDisplayMode_ws">
+						<Entry varId="fhudMarkerIconDisplayMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markersDisplayMode_always">
+						<Entry varId="fhudMarkerIconDisplayMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markersDisplayMode_never">
+						<Entry varId="fhudMarkerIconDisplayMode" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkerDescriptionDisplayMode" displayName="fhud_markerDescriptionDisplayMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markersDisplayMode_ws">
+						<Entry varId="fhudMarkerDescriptionDisplayMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markersDisplayMode_always">
+						<Entry varId="fhudMarkerDescriptionDisplayMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markersDisplayMode_never">
+						<Entry varId="fhudMarkerDescriptionDisplayMode" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkerDistanceDisplayMode" displayName="fhud_markerDistanceDisplayMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markersDisplayMode_ws">
+						<Entry varId="fhudMarkerDistanceDisplayMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markersDisplayMode_always">
+						<Entry varId="fhudMarkerDistanceDisplayMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markersDisplayMode_never">
+						<Entry varId="fhudMarkerDistanceDisplayMode" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkerIconType" displayName="fhud_markerIconType" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerIconType_icon">
+						<Entry varId="fhudMarkerIconType" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerIconType_icon_bw">
+						<Entry varId="fhudMarkerIconType" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerIconType_text">
+						<Entry varId="fhudMarkerIconType" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerIconType_text_bw">
+						<Entry varId="fhudMarkerIconType" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudMarkerOnScreenOnly" displayName="fhud_markerOnScreenOnly" displayType="TOGGLE"/>
+            <Var id="fhudMarkersIconSizePrc" displayName="fhud_markersIconSizePrc" displayType="SLIDER;0;100;100"/>
+            <Var id="fhudMarkersAltTextSize" displayName="fhud_markersAltTextSize" displayType="SLIDER;0;30;30"/>
+            <Var id="fhudMarkersDescriptionTextSize" displayName="fhud_markersDescriptionTextSize" displayType="SLIDER;0;30;30"/>
+            <Var id="fhudMarkersDistanceTextSize" displayName="fhud_markersDistanceTextSize" displayType="SLIDER;0;30;30"/>
+            <Var id="fhudMarkerMinDistance" displayName="fhud_markerMinDistance" displayType="SLIDER;0;50;50"/>
+            <Var id="fhudMarkerMaxDistance" displayName="fhud_markerMaxDistance" displayType="SLIDER;0;300;300"/>
+			<Var id="fhudCompassMarkersEnabled" displayName="fhud_compassMarkersEnabled" displayType="TOGGLE"/>
+            <Var id="Virtual_fhudMarkerCompassDisplayMode" displayName="fhud_markerCompassDisplayMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markersDisplayMode_ws">
+						<Entry varId="fhudMarkerCompassDisplayMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markersDisplayMode_always">
+						<Entry varId="fhudMarkerCompassDisplayMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markersDisplayMode_never">
+						<Entry varId="fhudMarkerCompassDisplayMode" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudProject3DMarkersOnCompass" displayName="fhud_project3DMarkersOnCompass" displayType="TOGGLE"/>
+			<Var id="fhudCompassScreenPosY" displayName="fhud_compassScreenPosY" displayType="SLIDER;0;1;100"/>
+			<Var id="fhudMarkersFadeOutDelay" displayName="fhud_markersFadeOutDelay" displayType="SLIDER;0;10;100"/>
+            <Var id="Virtual_fhudMarkersShowQuests" displayName="fhud_markersShowQuests" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowQuests" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowQuests" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowQuests" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowQuests" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowQuestsAll" displayName="fhud_markersShowQuestsAll" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowQuestsAll" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowQuestsAll" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowQuestsAll" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowQuestsAll" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowUser" displayName="fhud_markersShowUser" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowUser" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowUser" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowUser" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowUser" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowUserAll" displayName="fhud_markersShowUserAll" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowUserAll" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowUserAll" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowUserAll" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowUserAll" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowMapLoc" displayName="fhud_markersShowMapLoc" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowMapLoc" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowMapLoc" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowMapLoc" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowMapLoc" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowNPCs" displayName="fhud_markersShowNPCs" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowNPCs" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowNPCs" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowNPCs" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowNPCs" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowPOIs" displayName="fhud_markersShowPOIs" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowPOIs" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowPOIs" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowPOIs" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowPOIs" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowDisabled" displayName="fhud_markersShowDisabled" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowDisabled" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowDisabled" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowDisabled" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowDisabled" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowUndiscovered" displayName="fhud_markersShowUndiscovered" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowUndiscovered" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowUndiscovered" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowUndiscovered" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowUndiscovered" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowHerbs" displayName="fhud_markersShowHerbs" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowHerbs" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowHerbs" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowHerbs" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowHerbs" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowEnemies" displayName="fhud_markersShowEnemies" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowEnemies" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowEnemies" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowEnemies" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowEnemies" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowDeadEnemies" displayName="fhud_markersShowDeadEnemies" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowDeadEnemies" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowDeadEnemies" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowDeadEnemies" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowDeadEnemies" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowWSClues" displayName="fhud_markersShowWSClues" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowWSClues" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowWSClues" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowWSClues" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowWSClues" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudMarkersShowMisc" displayName="fhud_markersShowMisc" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_markerVisibility_show">
+						<Entry varId="fhudMarkersShowMisc" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_markerVisibility_hide">
+						<Entry varId="fhudMarkersShowMisc" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_markerVisibility_pin">
+						<Entry varId="fhudMarkersShowMisc" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_markerVisibility_force">
+						<Entry varId="fhudMarkersShowMisc" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudMarkerHideActivities" displayName="fhud_markerHideActivities" displayType="TOGGLE"/>
+			<Var id="fhudMarkerShowUndiscoveredRoadsigns" displayName="fhud_markerShowUndiscoveredRoadsigns" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudQuickItems" displayName="Mods.friendly_hud.fhud_quick_items">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhudEnableItemsInRadialMenu" value="true"/>
+				<Entry varId="fhudDefaultDisplayMode" value="0"/>
+				<Entry varId="fhudCycleThroughBuffs" value="true"/>
+				<Entry varId="fhudEnableWASD" value="false"/>
+				<Entry varId="fhudApplyOilToDrawnSword" value="true"/>
+				<Entry varId="fhudRadialMenuTimescale" value="0.05"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_vanilla">
+				<Entry varId="fhudEnableItemsInRadialMenu" value="false"/>
+				<Entry varId="fhudDefaultDisplayMode" value="0"/>
+				<Entry varId="fhudCycleThroughBuffs" value="true"/>
+				<Entry varId="fhudEnableWASD" value="false"/>
+				<Entry varId="fhudApplyOilToDrawnSword" value="false"/>
+				<Entry varId="fhudRadialMenuTimescale" value="0.1"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="fhudEnableItemsInRadialMenu" displayName="fhud_enableItemsInRadialMenu" displayType="TOGGLE"/>
+            <Var id="Virtual_fhudDefaultDisplayMode" displayName="fhud_defaultDisplayMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_displayMode_potions">
+						<Entry varId="fhudDefaultDisplayMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_displayMode_bombs">
+						<Entry varId="fhudDefaultDisplayMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_displayMode_oils">
+						<Entry varId="fhudDefaultDisplayMode" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_displayMode_buffs">
+						<Entry varId="fhudDefaultDisplayMode" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudCycleThroughBuffs" displayName="fhud_cycleThroughBuffs" displayType="TOGGLE"/>
+			<Var id="fhudEnableWASD" displayName="fhud_enableWASD" displayType="TOGGLE"/>
+			<Var id="fhudApplyOilToDrawnSword" displayName="fhud_applyOilToDrawnSword" displayType="TOGGLE"/>
+            <Var id="fhudRadialMenuTimescale" displayName="fhud_radialMenuTimescale" displayType="SLIDER;0;1;100"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudMap" displayName="Mods.friendly_hud.fhud_map">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhudMapUnlimitedZoom" value="true"/>
+				<Entry varId="fhudMapZoomMinCoef" value="2.5"/>
+				<Entry varId="fhudMapZoomMaxCoef" value="0.5"/>
+				<Entry varId="fhudMinimapZoomExterior" value="0.5"/>
+				<Entry varId="fhudMinimapZoomInterior" value="1"/>
+				<Entry varId="fhudMinimapZoomBoat" value="0.5"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_vanilla">
+				<Entry varId="fhudMapUnlimitedZoom" value="false"/>
+				<Entry varId="fhudMapZoomMinCoef" value="1"/>
+				<Entry varId="fhudMapZoomMaxCoef" value="1"/>
+				<Entry varId="fhudMinimapZoomExterior" value="1"/>
+				<Entry varId="fhudMinimapZoomInterior" value="2"/>
+				<Entry varId="fhudMinimapZoomBoat" value="0.5"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="fhudMapUnlimitedZoom" displayName="fhud_mapUnlimitedZoom" displayType="TOGGLE"/>
+            <Var id="fhudMapZoomMinCoef" displayName="fhud_mapZoomMinCoef" displayType="SLIDER;0;5;500"/>
+            <Var id="fhudMapZoomMaxCoef" displayName="fhud_mapZoomMaxCoef" displayType="SLIDER;0;5;500"/>
+            <Var id="fhudMinimapZoomExterior" displayName="fhud_minimapZoomExterior" displayType="SLIDER;0;5;500"/>
+            <Var id="fhudMinimapZoomInterior" displayName="fhud_minimapZoomInterior" displayType="SLIDER;0;5;500"/>
+            <Var id="fhudMinimapZoomBoat" displayName="fhud_minimapZoomBoat" displayType="SLIDER;0;5;500"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudInventory" displayName="Mods.friendly_hud.fhud_inventory">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhudDefaultInventoryTab" value="0"/>
+				<Entry varId="fhudResetNewItemsIngredients" value="true"/>
+				<Entry varId="fhudResetNewItemsQuest" value="true"/>
+				<Entry varId="fhudResetNewItemsOthers" value="true"/>
+				<Entry varId="fhudResetNewItemsEdibles" value="true"/>
+				<Entry varId="fhudResetNewItemsRoach" value="true"/>
+				<Entry varId="fhudResetNewItemsAlchemy" value="true"/>
+				<Entry varId="fhudResetNewItemsEquipment" value="false"/>
+				<Entry varId="fhudShowTrueItemPrice" value="true"/>
+				<Entry varId="fhudShowStashItemQuantity" value="true"/>
+				<Entry varId="fhudShowRecyclingParts" value="true"/>
+				<Entry varId="fhudShowItemCountWhenCrafting" value="true"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_vanilla">
+				<Entry varId="fhudDefaultInventoryTab" value="0"/>
+				<Entry varId="fhudResetNewItemsIngredients" value="false"/>
+				<Entry varId="fhudResetNewItemsQuest" value="false"/>
+				<Entry varId="fhudResetNewItemsOthers" value="false"/>
+				<Entry varId="fhudResetNewItemsEdibles" value="false"/>
+				<Entry varId="fhudResetNewItemsRoach" value="false"/>
+				<Entry varId="fhudResetNewItemsAlchemy" value="false"/>
+				<Entry varId="fhudResetNewItemsEquipment" value="false"/>
+				<Entry varId="fhudShowTrueItemPrice" value="false"/>
+				<Entry varId="fhudShowStashItemQuantity" value="false"/>
+				<Entry varId="fhudShowRecyclingParts" value="false"/>
+				<Entry varId="fhudShowItemCountWhenCrafting" value="false"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+            <Var id="Virtual_fhudDefaultInventoryTab" displayName="fhud_defaultInventoryTab" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_defaultInventoryTab_Equipment">
+						<Entry varId="fhudDefaultInventoryTab" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_defaultInventoryTab_Alchemy">
+						<Entry varId="fhudDefaultInventoryTab" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_defaultInventoryTab_Edibles">
+						<Entry varId="fhudDefaultInventoryTab" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_defaultInventoryTab_Quest">
+						<Entry varId="fhudDefaultInventoryTab" value="3"/>
+					</Option>
+					<Option id="4" displayName="fhud_defaultInventoryTab_Ingredients">
+						<Entry varId="fhudDefaultInventoryTab" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudShowTrueItemPrice" displayName="fhud_showTrueItemPrice" displayType="TOGGLE"/>
+			<Var id="fhudShowStashItemQuantity" displayName="fhud_stashItemQuantity" displayType="TOGGLE"/>
+			<Var id="fhudShowRecyclingParts" displayName="fhud_recyclingParts" displayType="TOGGLE"/>
+			<Var id="fhudShowItemCountWhenCrafting" displayName="fhud_itemCountWhenCrafting" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsIngredients" displayName="fhud_resetNewItemsIngredients" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsQuest" displayName="fhud_resetNewItemsQuest" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsOthers" displayName="fhud_resetNewItemsOthers" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsEdibles" displayName="fhud_resetNewItemsEdibles" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsRoach" displayName="fhud_resetNewItemsRoach" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsAlchemy" displayName="fhud_resetNewItemsAlchemy" displayType="TOGGLE"/>
+			<Var id="fhudResetNewItemsEquipment" displayName="fhud_resetNewItemsEquipment" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudInteractions" displayName="Mods.friendly_hud.fhud_interactions">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhudDisableAllInteractionPrompts" value="false"/>
+				<Entry varId="fhudTalkBubbleMode" value="3"/>
+				<Entry varId="fhudTalkButtonMode" value="2"/>
+				<Entry varId="fhudInteractionButtonMode" value="2"/>
+				<Entry varId="fhudHideWSInteractionIcons" value="false"/>
+				<Entry varId="fhudMaxDistanceToShowNames" value="3"/>
+				<Entry varId="fhudHideAnimalNames" value="true"/>
+				<Entry varId="fhudHideHerbNames" value="false"/>
+				<Entry varId="fhudHideNPCQuestMarkers" value="true"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_vanilla">
+				<Entry varId="fhudDisableAllInteractionPrompts" value="false"/>
+				<Entry varId="fhudTalkBubbleMode" value="0"/>
+				<Entry varId="fhudTalkButtonMode" value="0"/>
+				<Entry varId="fhudInteractionButtonMode" value="0"/>
+				<Entry varId="fhudHideWSInteractionIcons" value="false"/>
+				<Entry varId="fhudMaxDistanceToShowNames" value="0"/>
+				<Entry varId="fhudHideAnimalNames" value="false"/>
+				<Entry varId="fhudHideHerbNames" value="false"/>
+				<Entry varId="fhudHideNPCQuestMarkers" value="false"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="fhudDisableAllInteractionPrompts" displayName="fhud_disableAllInteractionPrompts" displayType="TOGGLE"/>
+            <Var id="Virtual_fhudTalkBubbleMode" displayName="fhud_talkBubbleMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_interactionMode_All">
+						<Entry varId="fhudTalkBubbleMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_interactionMode_Icon">
+						<Entry varId="fhudTalkBubbleMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_interactionMode_Text">
+						<Entry varId="fhudTalkBubbleMode" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_interactionMode_None">
+						<Entry varId="fhudTalkBubbleMode" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudTalkButtonMode" displayName="fhud_talkButtonMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_interactionMode_All">
+						<Entry varId="fhudTalkButtonMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_interactionMode_Icon">
+						<Entry varId="fhudTalkButtonMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_interactionMode_Text">
+						<Entry varId="fhudTalkButtonMode" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_interactionMode_None">
+						<Entry varId="fhudTalkButtonMode" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="Virtual_fhudInteractionButtonMode" displayName="fhud_interactionButtonMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_interactionMode_All">
+						<Entry varId="fhudInteractionButtonMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_interactionMode_Icon">
+						<Entry varId="fhudInteractionButtonMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_interactionMode_Text">
+						<Entry varId="fhudInteractionButtonMode" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_interactionMode_None">
+						<Entry varId="fhudInteractionButtonMode" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudHideWSInteractionIcons" displayName="fhud_hideWSInteractionIcons" displayType="TOGGLE"/>
+            <Var id="fhudMaxDistanceToShowNames" displayName="fhud_maxDistanceToShowNames" displayType="SLIDER;0;10;10"/>
+			<Var id="fhudHideAnimalNames" displayName="fhud_hideAnimalNames" displayType="TOGGLE"/>
+			<Var id="fhudHideHerbNames" displayName="fhud_hideHerbNames" displayType="TOGGLE"/>
+			<Var id="fhudHideNPCQuestMarkers" displayName="fhud_hideNPCQuestMarkers" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudMainMenu" displayName="Mods.friendly_hud.fhud_mainMenu">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_vanilla">
+				<Entry varId="fhudMainMenuMode" value="3"/>
+				<Entry varId="fhudHideDLC" value="true"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_goty">
+				<Entry varId="fhudMainMenuMode" value="1"/>
+				<Entry varId="fhudHideDLC" value="true"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+            <Var id="Virtual_fhudMainMenuMode" displayName="fhud_mainMenuMode" displayType="OPTIONS" >
+				<OptionsArray>
+					<Option id="0" displayName="fhud_mainMenuMode_default">
+						<Entry varId="fhudMainMenuMode" value="0"/>
+					</Option>
+					<Option id="1" displayName="fhud_mainMenuMode_random">
+						<Entry varId="fhudMainMenuMode" value="1"/>
+					</Option>
+					<Option id="2" displayName="fhud_mainMenuMode_base">
+						<Entry varId="fhudMainMenuMode" value="2"/>
+					</Option>
+					<Option id="3" displayName="fhud_mainMenuMode_hos">
+						<Entry varId="fhudMainMenuMode" value="3"/>
+					</Option>
+					<Option id="4" displayName="fhud_mainMenuMode_baw">
+						<Entry varId="fhudMainMenuMode" value="4"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="fhudHideDLC" displayName="fhud_hideDLC" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+	
+    <Group id="fhudMisc" displayName="Mods.friendly_hud.fhud_misc">
+		<PresetsArray>
+			<Preset id="0" displayName="fhud_defaults">
+				<Entry varId="fhudDoNotShowDamage" value="true"/>
+				<Entry varId="fhudSilentJournalUpdates" value="false"/>
+			</Preset>
+			<Preset id="1" displayName="fhud_vanilla">
+				<Entry varId="fhudDoNotShowDamage" value="false"/>
+				<Entry varId="fhudSilentJournalUpdates" value="false"/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="fhudDoNotShowDamage" displayName="fhud_doNotShowDamage" displayType="TOGGLE"/>
+			<Var id="fhudSilentJournalUpdates" displayName="fhud_silentJournalUpdates" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+	
+</UserConfig>

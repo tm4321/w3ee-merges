@@ -1,0 +1,5 @@
+[Combat]
+IK_MiddleMouse=(Action=EnemyHealthBarToggle)
+
+[Combat_Replacer_Ciri]
+IK_MiddleMouse=(Action=EnemyHealthBarToggle)

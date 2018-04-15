@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+
+	<!-- Edit Mode -->
+    <Group id="EditMode" displayName="Mods.HPAS_ModName.HPAS_EditMode">
+		 <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultOffsets">
+	
+				<Entry varId="OffsetPos"				    value="5.00"/>
+				<Entry varId="OffsetPosMod"				    value="1.00"/>
+				<Entry varId="OffsetPosMod2"				value="50.00"/>
+				
+				<Entry varId="OffsetScale"				    value="0.05"/>
+				<Entry varId="OffsetScaleMod"				value="0.01"/>
+				<Entry varId="OffsetScaleMod2"				value="0.25"/>
+				
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+
+            <Var id="Edit" displayName="HPAS_EditMode" displayType="TOGGLE" visibilityCondition="hideAlways"/> 
+			
+			<Var id="Save" displayName="HPAS_SaveOnChange" displayType="TOGGLE"/>    
+			
+			<Var id="OffsetPos" displayName="HPAS_OffsetPos" displayType="SLIDER;1;200;199"/>
+			<Var id="OffsetPosMod" displayName="HPAS_OffsetPosMod" displayType="SLIDER;1;200;199"/>
+			<Var id="OffsetPosMod2" displayName="HPAS_OffsetPosMod2" displayType="SLIDER;1;200;199"/>
+
+			<Var id="OffsetScale" displayName="HPAS_OffsetScale" displayType="SLIDER;0.01;0.5;49"/>
+		    <Var id="OffsetScaleMod" displayName="HPAS_OffsetScaleMod" displayType="SLIDER;0.01;0.5;49"/>
+		    <Var id="OffsetScaleMod2" displayName="HPAS_OffsetScaleMod2" displayType="SLIDER;0.01;0.5;49"/>
+
+        </VisibleVars>
+    </Group>
+
+	<!-- All -->
+    <Group id="All" displayName="Mods.HPAS_ModName.HPAS_All">
+        <PresetsArray>
+			<Preset id="0" displayName="HPAS_Default">
+	
+				<Entry varId="isModOn"				        value="true"/>
+				
+				<Entry varId="tempXBuffs"				    value="75"/>
+				<Entry varId="tempYBuffs"				    value="331"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+				<Entry varId="tempXBuffsRM"				    value="27"/>
+				<Entry varId="tempYBuffsRM"				    value="335"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+				
+				<Entry varId="tempXWolfHead"				value="50"/>
+				<Entry varId="tempYWolfHead"				value="365"/>
+				<Entry varId="scaleWolfHead" 				value="1.0"/>
+				
+				<Entry varId="tempXMinimap2"				value="375"/>
+				<Entry varId="tempYMinimap2"				value="344"/>
+				<Entry varId="scaleMinimap2" 				value="1.0"/>
+				<Entry varId="tempXQuests"				    value="375"/>
+				<Entry varId="tempYQuests"				    value="273"/>
+				<Entry varId="scaleQuests" 				    value="1.0"/>
+				
+				<Entry varId="tempXItemInfo"				value="38"/>
+				<Entry varId="tempYItemInfo"				value="64"/>
+				<Entry varId="scaleItemInfo" 				value="1.0"/>
+				<Entry varId="tempXDamagedItems"		    value="38"/>
+				<Entry varId="tempYDamagedItems"			value="240"/>
+				<Entry varId="scaleDamagedItems" 			value="1.0"/>
+				
+				<Entry varId="tempXControlsFeedback"		value="351.5"/>
+				<Entry varId="tempYControlsFeedback"		value="41"/>
+				<Entry varId="scaleControlsFeedback" 		value="0.75"/>
+				<Entry varId="tempXConsole"				    value="49.5"/>
+				<Entry varId="tempYConsole"				    value="149"/>
+				<Entry varId="scaleConsole" 				value="1.0"/>
+				
+				<Entry varId="tempXHorseStaminaBar"			value="200"/>
+				<Entry varId="tempYHorseStaminaBar"			value="34"/>
+				<Entry varId="scaleHorseStaminaBar" 		value="1.0"/>
+				<Entry varId="tempXHorsePanicBar"		    value="200"/>
+				<Entry varId="tempYHorsePanicBar"			value="51"/>
+				<Entry varId="scaleHorsePanicBar" 			value="1.0"/>
+				
+				<Entry varId="tempXOxygenBar"				value="200"/>
+				<Entry varId="tempYOxygenBar"				value="371.5"/>
+				<Entry varId="scaleOxygenBar" 				value="1.0"/>
+				<Entry varId="tempXBoatHealth"				value="35"/>
+				<Entry varId="tempYBoatHealth"				value="301"/>
+				<Entry varId="scaleBoatHealth" 				value="1.0"/>
+				
+				<Entry varId="tempXBoss"					value="200"/>
+				<Entry varId="tempYBoss"					value="381.5"/>
+				<Entry varId="scaleBoss" 					value="1.0"/>
+				<Entry varId="tempXComp"					value="45"/>
+				<Entry varId="tempYComp"					value="269"/>
+				<Entry varId="scaleComp" 					value="1.0"/>
+				
+				<Entry varId="tempXEnemy" 					value="200"/>
+				<Entry varId="tempYEnemy" 					value="350"/>
+				
+			</Preset>
+			<Preset id="1" displayName="HPAS_Cornered">
+	
+				<Entry varId="isModOn"				        value="true"/>
+				
+				<Entry varId="tempXBuffs"				    value="70"/>
+				<Entry varId="tempYBuffs"				    value="10"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+				<Entry varId="tempXBuffsRM"				    value="71"/>
+				<Entry varId="tempYBuffsRM"				    value="22"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+				
+				<Entry varId="tempXWolfHead" 				value="43"/>
+				<Entry varId="tempYWolfHead" 				value="379"/>
+				<Entry varId="scaleWolfHead" 				value="1.0"/>
+				
+				<Entry varId="tempXMinimap2"				value="382"/>
+				<Entry varId="tempYMinimap2"				value="353"/>
+				<Entry varId="scaleMinimap2" 				value="1.05"/>
+				<Entry varId="tempXQuests"				    value="377"/>
+				<Entry varId="tempYQuests"				    value="285"/>
+				<Entry varId="scaleQuests" 				    value="1.0"/>
+				
+				<Entry varId="tempXItemInfo"				value="23"/>
+				<Entry varId="tempYItemInfo"				value="33"/>
+				<Entry varId="scaleItemInfo" 				value="1.0"/>
+				<Entry varId="tempXDamagedItems"		    value="7"/>
+				<Entry varId="tempYDamagedItems"			value="340"/>
+				<Entry varId="scaleDamagedItems" 			value="0.75"/>
+				
+				<Entry varId="tempXControlsFeedback"		value="382"/>
+				<Entry varId="tempYControlsFeedback"		value="22"/>
+				<Entry varId="scaleControlsFeedback" 		value="0.75"/>
+				<Entry varId="tempXConsole"				    value="21"/>
+				<Entry varId="tempYConsole"				    value="200"/>
+				<Entry varId="scaleConsole" 				value="1.05"/>
+				
+				<Entry varId="tempXHorseStaminaBar"			value="200"/>
+				<Entry varId="tempYHorseStaminaBar"			value="9"/>
+				<Entry varId="scaleHorseStaminaBar" 		value="0.95"/>
+				<Entry varId="tempXHorsePanicBar"		    value="197.5"/>
+				<Entry varId="tempYHorsePanicBar"			value="23"/>
+				<Entry varId="scaleHorsePanicBar" 			value="0.95"/>
+				
+				<Entry varId="tempXOxygenBar"				value="200"/>
+				<Entry varId="tempYOxygenBar"				value="393"/>
+				<Entry varId="scaleOxygenBar" 				value="0.9"/>
+				<Entry varId="tempXBoatHealth"				value="9"/>
+				<Entry varId="tempYBoatHealth"				value="300"/>
+				<Entry varId="scaleBoatHealth" 				value="0.75"/>
+				
+				<Entry varId="tempXBoss" 					value="200"/>
+				<Entry varId="tempYBoss" 					value="391"/>
+				<Entry varId="scaleBoss" 					value="0.9"/>
+				<Entry varId="tempXComp" 					value="130"/>
+				<Entry varId="tempYComp" 					value="387"/>
+				<Entry varId="scaleComp" 					value="0.9"/>
+				
+				<Entry varId="tempXEnemy" 					value="200"/>
+				<Entry varId="tempYEnemy" 					value="350"/>
+				
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>          
+			
+			<Var id="isModOn" displayName="HPAS_ModONOFF" displayType="TOGGLE"/> 
+			
+			<Var overrideGroup="Global" id="scale" displayName="HPAS_Scale" displayType="SLIDER;0.5;1.5;100"/>		
+            <Var overrideGroup="Global" id="opacity" displayName="HPAS_Opacity" displayType="SLIDER;0.01;1.0;99"/>	
+			
+			<Var overrideGroup="Buffs" id="tempXBuffs" displayName="HPAS_BuffsHorizontal" displayType="SLIDER;0;400;400"/>
+            <Var overrideGroup="Buffs" id="tempYBuffs" displayName="HPAS_BuffsVertical" displayType="SLIDER;0;400;400"/>
+            <Var overrideGroup="Buffs" id="tempXBuffsRM" displayName="HPAS_BuffsRMHorizontal" displayType="SLIDER;0;400;400"/>		
+            <Var overrideGroup="Buffs" id="tempYBuffsRM" displayName="HPAS_BuffsRMVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="Buffs" id="scaleBuffs" displayName="HPAS_BuffsScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="WolfMedallion" id="tempXWolfHead" displayName="HPAS_WolfMedallionHorizontal" displayType="SLIDER;0;400;400"/>	
+            <Var overrideGroup="WolfMedallion" id="tempYWolfHead" displayName="HPAS_WolfMedallionVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="WolfMedallion" id="scaleWolfHead" displayName="HPAS_WolfMedallionScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="MinimapandQuests" id="tempXMinimap2" displayName="HPAS_MinimapHorizontal" displayType="SLIDER;0;400;400"/>		
+            <Var overrideGroup="MinimapandQuests" id="tempYMinimap2" displayName="HPAS_MinimapVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="MinimapandQuests" id="scaleMinimap2" displayName="HPAS_MinimapScale" displayType="SLIDER;0.5;1.5;100"/>
+			<Var overrideGroup="MinimapandQuests" id="tempXQuests" displayName="HPAS_QuestsHorizontal" displayType="SLIDER;0;400;400"/>	
+            <Var overrideGroup="MinimapandQuests" id="tempYQuests" displayName="HPAS_QuestsVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="MinimapandQuests" id="scaleQuests" displayName="HPAS_QuestsScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="ItemInfo" id="tempXItemInfo" displayName="HPAS_ItemsHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="ItemInfo" id="tempYItemInfo" displayName="HPAS_ItemsVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="ItemInfo" id="scaleItemInfo" displayName="HPAS_ItemsScale" displayType="SLIDER;0.5;1.5;100"/>
+			<Var overrideGroup="ItemInfo" id="tempXDamagedItems" displayName="HPAS_DamagedHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="ItemInfo" id="tempYDamagedItems" displayName="HPAS_DamagedVertical" displayType="SLIDER;0;400;400"/> 
+			<Var overrideGroup="ItemInfo" id="scaleDamagedItems" displayName="HPAS_DamagedScale" displayType="SLIDER;0.5;1.5;100"/>
+	
+			<Var overrideGroup="ControlsandConsole" id="tempXControlsFeedback" displayName="HPAS_ControlsHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="ControlsandConsole" id="tempYControlsFeedback" displayName="HPAS_ControlsVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="ControlsandConsole" id="scaleControlsFeedback" displayName="HPAS_ControlsScale" displayType="SLIDER;0.5;1.5;100"/>
+			<Var overrideGroup="ControlsandConsole" id="tempXConsole" displayName="HPAS_ActionLogHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="ControlsandConsole" id="tempYConsole" displayName="HPAS_ActionLogVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="ControlsandConsole" id="scaleConsole" displayName="HPAS_ActionLogScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="Horse" id="tempXHorseStaminaBar" displayName="HPAS_StaminaHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="Horse" id="tempYHorseStaminaBar" displayName="HPAS_StaminaVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="Horse" id="scaleHorseStaminaBar" displayName="HPAS_StaminaScale" displayType="SLIDER;0.5;1.5;100"/>
+			<Var overrideGroup="Horse" id="tempXHorsePanicBar" displayName="HPAS_FearHorizontal" displayType="SLIDER;0;400;400"/>										
+            <Var overrideGroup="Horse" id="tempYHorsePanicBar" displayName="HPAS_FearVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="Horse" id="scaleHorsePanicBar" displayName="HPAS_FearScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="OxygenandBoat" id="tempXOxygenBar" displayName="HPAS_OxygenHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="OxygenandBoat" id="tempYOxygenBar" displayName="HPAS_OxygenVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="OxygenandBoat" id="scaleOxygenBar" displayName="HPAS_OxygenScale" displayType="SLIDER;0.5;1.5;100"/>
+			<Var overrideGroup="OxygenandBoat" id="tempXBoatHealth" displayName="HPAS_BoatHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="OxygenandBoat" id="tempYBoatHealth" displayName="HPAS_BoatVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="OxygenandBoat" id="scaleBoatHealth" displayName="HPAS_BoatScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="BossandComp" id="tempXBoss" displayName="HPAS_BossHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="BossandComp" id="tempYBoss" displayName="HPAS_BossVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="BossandComp" id="scaleBoss" displayName="HPAS_BossScale" displayType="SLIDER;0.5;1.5;100"/>
+			<Var overrideGroup="BossandComp" id="tempXComp" displayName="HPAS_CompHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="BossandComp" id="tempYComp" displayName="HPAS_CompVertical" displayType="SLIDER;0;400;400"/>
+			<Var overrideGroup="BossandComp" id="scaleComp" displayName="HPAS_CompScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			<Var overrideGroup="Enemy" id="tempXEnemy" displayName="HPAS_EnemyHorizontal" displayType="SLIDER;0;400;400"/>					
+            <Var overrideGroup="Enemy" id="tempYEnemy" displayName="HPAS_EnemyVertical" displayType="SLIDER;0;400;400"/>
+		   
+        </VisibleVars>
+    </Group> 
+
+    <!-- Global -->
+    <Group id="Global" displayName="Mods.HPAS_ModName.HPAS_Global" visibilityCondition="hideAlways">
+        <PresetsArray>
+            <Preset id="0" displayName="HPAS_Default">
+			
+				<Entry varId="scale"				        value="1.0"/>
+				<Entry varId="opacity"				        value="1.0"/>
+				
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+
+            <Var id="scale" displayName="HPAS_Scale" displayType="SLIDER;0.5;1.5;100"/>		
+            <Var id="opacity" displayName="HPAS_Opacity" displayType="SLIDER;0.01;1.0;99"/>	
+		   
+        </VisibleVars>
+    </Group>
+
+	<!-- Buffs / Buffs in Radial Menu -->
+    <Group id="Buffs" displayName="Mods.HPAS_ModName.HPAS_Buffs">
+        <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultBuffs">
+			
+				<Entry varId="tempXBuffs"				    value="75"/>
+				<Entry varId="tempYBuffs"				    value="331"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+	
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredBuffs">
+			
+				<Entry varId="tempXBuffs"				    value="70"/>
+				<Entry varId="tempYBuffs"				    value="10"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+				
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultBuffsRM">
+ 
+				<Entry varId="tempXBuffsRM"				    value="27"/>
+				<Entry varId="tempYBuffsRM"				    value="335"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>
+				
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredBuffsRM">
+							
+				<Entry varId="tempXBuffsRM"				    value="71"/>
+				<Entry varId="tempYBuffsRM"				    value="22"/>
+				<Entry varId="scaleBuffs" 				    value="1.0"/>				
+								
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+           
+		    <Var id="BuffsMinimal" displayName="HPAS_BuffsMinimal" displayType="OPTIONS">
+				<OptionsArray>
+					<Option id="0" displayName="HPAS_OutsideRadial">
+						<Entry varId="BuffsMinimal" value="0"/>
+					</Option>
+					<Option id="1" displayName="HPAS_InsideRadial">
+						<Entry varId="BuffsMinimal" value="1"/>
+					</Option>
+					<Option id="2" displayName="HPAS_Both">
+						<Entry varId="BuffsMinimal" value="2"/>
+					</Option>
+					<Option id="3" displayName="HPAS_Neither">
+						<Entry varId="BuffsMinimal" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			
+			<Var id="tempXBuffs" displayName="HPAS_BuffsHorizontal" displayType="SLIDER;0;400;400"/>
+ 
+            <Var id="tempYBuffs" displayName="HPAS_BuffsVertical" displayType="SLIDER;0;400;400"/>
+
+            <Var id="tempXBuffsRM" displayName="HPAS_BuffsRMHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYBuffsRM" displayName="HPAS_BuffsRMVertical" displayType="SLIDER;0;400;400"/>
+			
+			<Var id="scaleBuffs" displayName="HPAS_BuffsScale" displayType="SLIDER;0.5;1.5;100"/>
+				    
+        </VisibleVars>
+    </Group>
+	
+	<!-- Wolf Medallion -->
+    <Group id="WolfMedallion" displayName="Mods.HPAS_ModName.HPAS_WolfMedallion">
+        <PresetsArray>
+            <Preset id="0" displayName="HPAS_Default">
+			
+				<Entry varId="tempXWolfHead"				value="50"/>
+				<Entry varId="tempYWolfHead"				value="365"/>
+				<Entry varId="scaleWolfHead" 				value="1.0"/>
+				
+			</Preset>
+			<Preset id="1" displayName="HPAS_Cornered">
+			
+				<Entry varId="tempXWolfHead" 				value="43"/>
+				<Entry varId="tempYWolfHead" 				value="379"/>
+				<Entry varId="scaleWolfHead" 				value="1.0"/>
+								
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+
+            <Var id="tempXWolfHead" displayName="HPAS_WolfMedallionHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYWolfHead" displayName="HPAS_WolfMedallionVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleWolfHead" displayName="HPAS_WolfMedallionScale" displayType="SLIDER;0.5;1.5;100"/>		
+           
+        </VisibleVars>
+    </Group>
+	
+	<!-- Minimap and Quests -->
+    <Group id="MinimapandQuests" displayName="Mods.HPAS_ModName.HPAS_MinimapandActiveQuests">
+	    <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultMinimap">
+			
+				<Entry varId="tempXMinimap2"				value="375"/>
+				<Entry varId="tempYMinimap2"				value="344"/>
+				<Entry varId="scaleMinimap2" 				value="1.0"/>				
+	
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredMinimap">
+			
+				<Entry varId="tempXMinimap2"				value="382"/>
+				<Entry varId="tempYMinimap2"				value="353"/>
+				<Entry varId="scaleMinimap2" 				value="1.05"/>						
+								
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultQuests">
+							
+				<Entry varId="tempXQuests"				    value="375"/>
+				<Entry varId="tempYQuests"				    value="273"/>
+				<Entry varId="scaleQuests" 				    value="1.0"/>
+								
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredQuests">
+							
+				<Entry varId="tempXQuests"				    value="377"/>
+				<Entry varId="tempYQuests"				    value="285"/>
+				<Entry varId="scaleQuests" 				    value="1.0"/>
+								
+			</Preset>
+        </PresetsArray>
+		
+        <VisibleVars>
+
+            <Var id="tempXMinimap2" displayName="HPAS_MinimapHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYMinimap2" displayName="HPAS_MinimapVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleMinimap2" displayName="HPAS_MinimapScale" displayType="SLIDER;0.5;1.5;100"/>	
+			
+						
+            <Var id="tempXQuests" displayName="HPAS_QuestsHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYQuests" displayName="HPAS_QuestsVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleQuests" displayName="HPAS_QuestsScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+        </VisibleVars>
+    </Group>
+	
+	<!-- Item Info and Damaged Items -->
+    <Group id="ItemInfo" displayName="Mods.HPAS_ModName.HPAS_ItemInfo">
+        <PresetsArray>            				
+			<Preset id="0" displayName="HPAS_DefaultItems">
+
+				<Entry varId="tempXItemInfo"				value="38"/>
+				<Entry varId="tempYItemInfo"				value="64"/>
+				<Entry varId="scaleItemInfo" 				value="1.0"/>
+				
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredItems">
+							
+				<Entry varId="tempXItemInfo"				value="23"/>
+				<Entry varId="tempYItemInfo"				value="33"/>
+				<Entry varId="scaleItemInfo" 				value="1.0"/>				
+								
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultDamaged">
+							
+				<Entry varId="tempXDamagedItems"		    value="38"/>
+				<Entry varId="tempYDamagedItems"			value="240"/>
+				<Entry varId="scaleDamagedItems" 			value="1.0"/>
+				
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredDamaged">
+							
+				<Entry varId="tempXDamagedItems"		    value="7"/>
+				<Entry varId="tempYDamagedItems"			value="340"/>
+				<Entry varId="scaleDamagedItems" 			value="0.75"/>
+								
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+		   
+            <Var id="tempXItemInfo" displayName="HPAS_ItemsHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYItemInfo" displayName="HPAS_ItemsVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleItemInfo" displayName="HPAS_ItemsScale" displayType="SLIDER;0.5;1.5;100"/>	
+			
+					
+			<Var id="tempXDamagedItems" displayName="HPAS_DamagedHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYDamagedItems" displayName="HPAS_DamagedVertical" displayType="SLIDER;0;400;400"/>	
+					
+			<Var id="scaleDamagedItems" displayName="HPAS_DamagedScale" displayType="SLIDER;0.5;1.5;100"/>		
+            
+        </VisibleVars>
+    </Group> 
+	
+	<!-- Control Hints and Action Log -->
+    <Group id="ControlsandConsole" displayName="Mods.HPAS_ModName.HPAS_ControlHintsandActionLog">
+	    <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultControls">
+			
+				<Entry varId="tempXControlsFeedback"		value="351.5"/>
+				<Entry varId="tempYControlsFeedback"		value="41"/>
+				<Entry varId="scaleControlsFeedback" 		value="0.75"/>				
+				
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredControls">
+			
+				<Entry varId="tempXControlsFeedback"		value="382"/>
+				<Entry varId="tempYControlsFeedback"		value="22"/>
+				<Entry varId="scaleControlsFeedback" 		value="0.75"/>				
+								
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultActionLog">
+							
+				<Entry varId="tempXConsole"				    value="49.5"/>
+				<Entry varId="tempYConsole"				    value="149"/>
+				<Entry varId="scaleConsole" 				value="1.0"/>
+				
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredActionLog">
+							
+				<Entry varId="tempXConsole"				    value="21"/>
+				<Entry varId="tempYConsole"				    value="200"/>
+				<Entry varId="scaleConsole" 				value="1.05"/>
+								
+			</Preset>
+        </PresetsArray>
+	
+        <VisibleVars>
+	
+            <Var id="tempXControlsFeedback" displayName="HPAS_ControlsHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYControlsFeedback" displayName="HPAS_ControlsVertical" displayType="SLIDER;0;400;400"/>
+			
+			<Var id="scaleControlsFeedback" displayName="HPAS_ControlsScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+			
+			<Var id="tempXConsole" displayName="HPAS_ActionLogHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYConsole" displayName="HPAS_ActionLogVertical" displayType="SLIDER;0;400;400"/>
+			
+			<Var id="scaleConsole" displayName="HPAS_ActionLogScale" displayType="SLIDER;0.5;1.5;100"/>
+            
+        </VisibleVars>
+    </Group>
+	
+	<!-- Horse Stamina and Fear Bar -->
+	<Group id="Horse" displayName="Mods.HPAS_ModName.HPAS_HorseStaminaandFearBar">
+	    <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultStamina">
+			
+				<Entry varId="tempXHorseStaminaBar"			value="200"/>
+				<Entry varId="tempYHorseStaminaBar"			value="34"/>
+				<Entry varId="scaleHorseStaminaBar" 		value="1.0"/>
+			
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredStamina">
+			
+				<Entry varId="tempXHorseStaminaBar"			value="200"/>
+				<Entry varId="tempYHorseStaminaBar"			value="9"/>
+				<Entry varId="scaleHorseStaminaBar" 		value="0.95"/>
+								
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultFear">
+
+				<Entry varId="tempXHorsePanicBar"		    value="200"/>
+				<Entry varId="tempYHorsePanicBar"			value="51"/>
+				<Entry varId="scaleHorsePanicBar" 			value="1.0"/>
+				
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredFear">
+							
+				<Entry varId="tempXHorsePanicBar"		    value="197.5"/>
+				<Entry varId="tempYHorsePanicBar"			value="23"/>
+				<Entry varId="scaleHorsePanicBar" 			value="0.95"/>
+								
+			</Preset>
+        </PresetsArray>
+	
+        <VisibleVars>
+      	  
+            <Var id="tempXHorseStaminaBar" displayName="HPAS_StaminaHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYHorseStaminaBar" displayName="HPAS_StaminaVertical" displayType="SLIDER;0;400;400"/>	
+
+			<Var id="scaleHorseStaminaBar" displayName="HPAS_StaminaScale" displayType="SLIDER;0.5;1.5;100"/>
+			
+					
+            <Var id="tempXHorsePanicBar" displayName="HPAS_FearHorizontal" displayType="SLIDER;0;400;400"/>
+										
+            <Var id="tempYHorsePanicBar" displayName="HPAS_FearVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleHorsePanicBar" displayName="HPAS_FearScale" displayType="SLIDER;0.5;1.5;100"/>		
+										
+        </VisibleVars>
+    </Group>
+	
+	<!-- Oxygen Bar and Boat Health -->
+	<Group id="OxygenandBoat" displayName="Mods.HPAS_ModName.HPAS_Other.HPAS_OxygenBarandBoatHealth">
+	    <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultOxygen">
+			
+				<Entry varId="tempXOxygenBar"				value="200"/>
+				<Entry varId="tempYOxygenBar"				value="371.5"/>
+				<Entry varId="scaleOxygenBar" 				value="1.0"/>				
+				
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredOxygen">
+			
+				<Entry varId="tempXOxygenBar"				value="200"/>
+				<Entry varId="tempYOxygenBar"				value="393"/>
+				<Entry varId="scaleOxygenBar" 				value="0.9"/>				
+								
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultBoat">
+							
+				<Entry varId="tempXBoatHealth"				value="35"/>
+				<Entry varId="tempYBoatHealth"				value="301"/>
+				<Entry varId="scaleBoatHealth" 				value="1.0"/>
+				
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredBoat">
+							
+				<Entry varId="tempXBoatHealth"				value="9"/>
+				<Entry varId="tempYBoatHealth"				value="300"/>
+				<Entry varId="scaleBoatHealth" 				value="0.75"/>
+								
+			</Preset>			
+        </PresetsArray> 
+	 
+        <VisibleVars>
+      					
+            <Var id="tempXOxygenBar" displayName="HPAS_OxygenHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYOxygenBar" displayName="HPAS_OxygenVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleOxygenBar" displayName="HPAS_OxygenScale" displayType="SLIDER;0.5;1.5;100"/>	
+			
+			
+			<Var id="tempXBoatHealth" displayName="HPAS_BoatHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYBoatHealth" displayName="HPAS_BoatVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleBoatHealth" displayName="HPAS_BoatScale" displayType="SLIDER;0.5;1.5;100"/>				
+
+        </VisibleVars>
+    </Group> 
+	
+	<!-- Boss Health Bar and Companion Portrait -->
+	<Group id="BossandComp" displayName="Mods.HPAS_ModName.HPAS_Other.HPAS_BossandComp">
+        <PresetsArray>
+            <Preset id="0" displayName="HPAS_DefaultBoss">
+			
+				<Entry varId="tempXBoss"					value="200"/>
+				<Entry varId="tempYBoss"					value="381.5"/>
+				<Entry varId="scaleBoss" 					value="1.0"/>
+				
+			</Preset>
+			<Preset id="1" displayName="HPAS_CorneredBoss">
+			
+				<Entry varId="tempXBoss" 					value="200"/>
+				<Entry varId="tempYBoss" 					value="391"/>
+				<Entry varId="scaleBoss" 					value="0.9"/>
+								
+			</Preset>
+			<Preset id="2" displayName="HPAS_DefaultComp">
+			
+				<Entry varId="tempXComp"					value="45"/>
+				<Entry varId="tempYComp"					value="269"/>
+				<Entry varId="scaleComp" 					value="1.0"/>
+				
+			</Preset>
+			<Preset id="3" displayName="HPAS_CorneredComp">
+			
+				<Entry varId="tempXComp" 					value="130"/>
+				<Entry varId="tempYComp" 					value="387"/>
+				<Entry varId="scaleComp" 					value="0.9"/>
+								
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+
+            <Var id="tempXBoss" displayName="HPAS_BossHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYBoss" displayName="HPAS_BossVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleBoss" displayName="HPAS_BossScale" displayType="SLIDER;0.5;1.5;100"/>	
+			
+
+			<Var id="tempXComp" displayName="HPAS_CompHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYComp" displayName="HPAS_CompVertical" displayType="SLIDER;0;400;400"/>
+					
+			<Var id="scaleComp" displayName="HPAS_CompScale" displayType="SLIDER;0.5;1.5;100"/>		
+           
+        </VisibleVars>	
+    </Group>
+	
+	<!-- Enemy Health Bar -->
+	<Group id="Enemy" displayName="Mods.HPAS_ModName.HPAS_Other.HPAS_Enemy">
+        <PresetsArray>
+			<Preset id="0" displayName="HPAS_Enemy">
+			
+				<Entry varId="tempXEnemy" 					value="200"/>
+				<Entry varId="tempYEnemy" 					value="350"/>
+								
+			</Preset>
+        </PresetsArray>
+		
+		<VisibleVars>
+
+            <Var id="EnemyONOFF" displayName="HPAS_EnemyONOFF" displayType="TOGGLE"/>
+			
+			<Var id="tempXEnemy" displayName="HPAS_EnemyHorizontal" displayType="SLIDER;0;400;400"/>
+					
+            <Var id="tempYEnemy" displayName="HPAS_EnemyVertical" displayType="SLIDER;0;400;400"/>	
+			
+		</VisibleVars>
+    </Group>
+	
+</UserConfig>    

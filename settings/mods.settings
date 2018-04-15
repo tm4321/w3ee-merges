@@ -1,0 +1,15 @@
+[mod0000_MergedFiles]
+Enabled=1
+Priority=0
+
+[mod0000_XMLTweaks]
+Enabled=1
+Priority=0
+
+[mod0000_MergedPack]
+Enabled=1
+Priority=1
+
+[modW3EE]
+Enabled=1
+Priority=10
