@@ -26,7 +26,10 @@
 - [Unseen Monsters](https://www.nexusmods.com/witcher3/mods/646/?)
 
 #### Gameplay
+- [Better Horse Control](https://www.nexusmods.com/witcher3/mods/2000?)
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080/?)
+- [Immersive Cam - Alt Horse Controls](https://www.nexusmods.com/witcher3/mods/689/?)
+- [Roach Never Stops](https://www.nexusmods.com/witcher3/mods/2288/?)
 
 #### Custom Tweaks
 - Fixed poisoned blades talent as described by DominusSicarum in the posts
