@@ -30,6 +30,9 @@
 - [Complete Animations](https://www.nexusmods.com/witcher3/mods/2632/?)
 - [Immersive Cam - Alt Horse Controls](https://www.nexusmods.com/witcher3/mods/689/?)
 - [Immersive Horse Whistling](https://www.nexusmods.com/witcher3/mods/2651/?)
+- [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921/?)
+- [Long Journey Extended](https://www.nexusmods.com/witcher3/mods/1630/?)
+- [No GPS](https://www.nexusmods.com/witcher3/mods/1562/?) - Tweaked to my liking
 - [Roach Never Stops](https://www.nexusmods.com/witcher3/mods/2288/?)
 - [Thoughtful Roach](https://www.nexusmods.com/witcher3/mods/1586/?)
 
@@ -37,7 +40,9 @@
 - Added ability to toggle enemy healthbar while in combat
 - Added game time slider and option to show 24hr clock
 - Fixed poisoned blades talent as described by DominusSicarum in the posts
+- Made map centered on player if opened from sign post
 - Removed double tap to open horse stash
+- Removed horse, herb, stash, notice boards, whetstones, armor tables, boats and POIs from map
 - Removed yellow witcher sense colors
 - Show subtitles for foreign languages
 
