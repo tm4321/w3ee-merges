@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    	
+	<Group id="IceBreathSettings" displayName="Mods.IB_Settings">
+        <VisibleVars>
+		    <Var id="ConditionSelection" displayName="Condition_Selection" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="Cold_Places">
+                        <Entry varId="ConditionSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="Cold_Weathers">
+                        <Entry varId="ConditionSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="Forced">
+                        <Entry varId="ConditionSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="Disabled">
+                        <Entry varId="ConditionSelection" value="3"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+		</VisibleVars>
+    </Group>
+	
+</UserConfig>

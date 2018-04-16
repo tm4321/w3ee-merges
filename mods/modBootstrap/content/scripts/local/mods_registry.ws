@@ -11,6 +11,7 @@ class CModRegistry extends CModFactory {
         //add(modCreate_ExampleMod());
         //add(modCreate_ExampleEntityMod());
         //add(modCreate_UiExampleMod());
+        add(modCreate_VolumetricCloudsMod());
     }
 }
 // ----------------------------------------------------------------------------

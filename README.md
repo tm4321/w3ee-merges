@@ -25,6 +25,8 @@
 
 #### Visuals & Effects
 - [AMM](https://www.nexusmods.com/witcher3/mods/780?)
+- [Skellige Ice Breath](https://www.nexusmods.com/witcher3/mods/1257/?)
+- [Volumetric clouds over Skellige](https://www.nexusmods.com/witcher3/mods/1302/?)
 
 #### Gameplay
 - [Better Horse Control](https://www.nexusmods.com/witcher3/mods/2000?)
