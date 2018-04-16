@@ -25,6 +25,7 @@
 
 #### Visuals & Effects
 - [AMM](https://www.nexusmods.com/witcher3/mods/780?)
+- [Fog and DOF Tweaker](https://www.nexusmods.com/witcher3/mods/2609?)
 - [Skellige Ice Breath](https://www.nexusmods.com/witcher3/mods/1257/?)
 - [Volumetric clouds over Skellige](https://www.nexusmods.com/witcher3/mods/1302/?)
 
@@ -62,8 +63,37 @@
 ## Recommended mods
 These mods are not included in this repository since they do not require any script merges with W3EE. [Mod Merger](https://www.nexusmods.com/witcher3/mods/1931/?) will be required to prevent mod limit issue.
 
+#### Bug Fixes & Tweaks
+- [Abandoned Sites Time Lapse](https://www.nexusmods.com/witcher3/mods/2635/?)
+- [Better Icons](https://www.nexusmods.com/witcher3/mods/1701/?)
+- [Cyclops Eye Texture Fix](https://www.nexusmods.com/witcher3/mods/746?)
+- [Familiar Music Replacement](https://www.nexusmods.com/witcher3/mods/1922?)
+- [Fix For Avalach Lab Music](https://www.nexusmods.com/witcher3/mods/2165/?)
+- [Nitpicker's Patch - Old Armor Textures](https://www.nexusmods.com/witcher3/mods/2117/?)
+
 #### Characters & Equipment
+- [Combo Hood Removal](https://www.nexusmods.com/witcher3/mods/2514?)
+- [Eredin VGX Armor](https://www.nexusmods.com/witcher3/mods/1319/?)
+- [Eredin VGX Mask](https://www.nexusmods.com/witcher3/mods/2077/?)
+- [Lore-friendly Witchers - Full](https://www.nexusmods.com/witcher3/mods/390/?)
+- [Lore Friendly Ciri - Short scar](https://www.nexusmods.com/witcher3/mods/685/?)
+- [New Djinn Face](https://www.nexusmods.com/witcher3/mods/554/?)
 - [Original Witcher Armor Sets Colors - All in One](https://www.nexusmods.com/witcher3/mods/1536/?) - Don't merge
+- [TW2 Triss (Outfit)](https://www.nexusmods.com/witcher3/mods/2223/?) - Don't merge
+- [Witcher 2 Triss - lore friendly (Head)](https://www.nexusmods.com/witcher3/mods/2748/?) - Don't merge
+
+#### Effects
+- [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594/?)
+- [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366/?)
+- [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347/?)
+- [The Aard](https://www.nexusmods.com/witcher3/mods/2346/?) - Remove buffers0.bundle if merging
+
+#### Environment & Lightning
+- [Autumn Flora Enhancement - Autumn Yellow](https://www.nexusmods.com/witcher3/mods/942/?)
+- [HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021/?)
+- [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770/?)
+- [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836/?)
+- [Wiedzmin Lighting Mod](https://www.nexusmods.com/witcher3/mods/2358/?)
 
 ## Credits
 All credits go to CD Project Red and the original mod authors
