@@ -37,7 +37,7 @@ SvscabSelection=6
 SvscabEnabled=true
 HideSvscab=true
 SvSwordSelection=49
-SvSwordEnabled=true
+SvSwordEnabled=false
 [SCOptionPrepMed]
 PrepTalents=false
 PrepHTimb=1
@@ -105,7 +105,6 @@ HorsePanicBarModule=false
 ConsoleModule=false
 MiminapPoiQuestionMarks=false
 WolfMedalion=false
-EnemyFocusModule=false
 EnemyHitEffects=false
 HorseStaminaBarModule=false
 MinimapTracksWaypoints=false
@@ -207,14 +206,14 @@ InjPImm=false
 [ImmersiveCamPositionsSprint]
 sprintMode=1
 [SCOptionVisuals]
-SignIgniInt=true
-BloodSprayMaj=false
-BloodOnlyCrit=false
-BloodSpray=true
-BloodActiveRange=true
-BloodTrail=false
-BloodActive=true
-SignAardInt=true
+SignIgniInt=0
+BloodSprayMaj=0
+BloodOnlyCrit=0
+BloodSpray=1
+BloodActiveRange=1
+BloodTrail=0
+BloodActive=1
+SignAardInt=0
 [SCOptionD]
 SpecterDam=1
 PDamB=1
@@ -509,7 +508,7 @@ StamDam=10
 CCheck=1
 CTHH=1
 CCheckA=0
-CTHSH=2
+CTHSH=1
 CTH=0
 CTMH=0
 BleedDur=3
@@ -568,7 +567,7 @@ FadeOutSpinnerTime=1
 NoninteractiveEndCooldown=1
 [AMMStSwords]
 HideStscab=true
-StSwordEnabled=true
+StSwordEnabled=false
 StscabSelection=2
 StscabEnabled=true
 StSwordSelection=17

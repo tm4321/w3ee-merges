@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!-- None of these variables are even seen in the UI -->
+<UserConfig>
+	<Group id="Hidden" displayName="hidden">
+		<VisibleVars>
+			<Var id="HasSetup" displayName="hasSetup" displayType="TOGGLE"/>
+			<Var id="uiVerticalFrameScale" displayName="uiVerticalFrameScale" displayType="SLIDER:0:1:1000000"/>
+			<Var id="uiHorizontalFrameScale" displayName="uiHorizontalFrameScale" displayType="SLIDER:0:1:1000000"/>
+			<Var id="LockControlScheme" displayName="LockControlScheme" displayType="SLIDER:0:1:2" />
+            <Var id="HasSeenDLCMessage" displayName="HasSeenDLCMessage" displayType="TOGGLE" />
+            <Var id="HasSeenEP1WelcomeMessage" displayName="HasSeenEP1WelcomeMessage" displayType="TOGGLE" />
+            <Var id="HasSeenEP2WelcomeMessage" displayName="HasSeenEP2WelcomeMessage" displayType="TOGGLE" />
+            <Var id="HasSeenGotyWelcomeMessage" displayName="HasSeenGotyWelcomeMessage" displayType="TOGGLE" />
+            <Var id="WorldMapPreviewMode" displayName="WorldMapPreviewMode" displayType="TOGGLE" />
+            <Var id="NorthAmericanVersion" displayName="NorthAmericanVersion" displayType="TOGGLE" />
+		
+		<!-- [AMM] -->
+			<Var id="DidFirstRun" displayName="Did First Run" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AutohideEnabled" displayName="0780_AutohideWeapons" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			<Var id="StswEnabled" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabled" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabled" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ArmorEnabled" displayName="Show Equiped Armor" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HeadEnabled" displayName="Show Head - <u>This only works when body is hidden<u>" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabled" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabled" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabled" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabled" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabled" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabled" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabled" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabled" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabled" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories1GearEnabled" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabled" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabled" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabled" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabled" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabled" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabled" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabled" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabled" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabled" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabled" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabled" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabled" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabled" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabled" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabled" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabled" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+
+			<Var id="CChestEnabled" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabled" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabled" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabled" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	
+			<Var id="HideSvscab" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabled" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabled" displayName="Enable Custom Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			
+			<Var id="HideStscab" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabled" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabled" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	
+	
+	<!-- [Favourites1] -->
+			<Var id="HideSaddleF1" displayName="Hide Equipped Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>            			
+			<Var id="HideBagsF1" displayName="Hide Equipped Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideBlindersF1" displayName="Hide Equipped Champrons" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTailF1" displayName="Hide Real Tail" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHairF1" displayName="Hide Real Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTrophyF1" displayName="Hide Equipped Trophy" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideReinsF1" displayName="Hide Equipped Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHarnessF1" displayName="Hide Equipped Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+            <Var id="HorseEnabledF1" displayName="Enable Horse" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HorseFXEnabledF1" displayName="Enable Devil FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HorseSelectionF1" displayName="Horse Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+						
+            <Var id="HairsEnabledF1" displayName="Enable Custom Hairs" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HairsSelectionF1" displayName="Hairs Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+        
+            <Var id="TailsEnabledF1" displayName="Enable Custom Tails" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TailsSelectionF1" displayName="Tails Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="SaddleEnabledF1" displayName="Enable Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="SaddleSelectionF1" displayName="Saddle Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+       
+            <Var id="BlindersEnabledF1" displayName="Enable Champron" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BlindersSelectionF1" displayName="Blinders Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BagsEnabledF1" displayName="Enable Custom Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BagsSelectionF1" displayName="Bags Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+          
+            <Var id="TrophiesEnabledF1" displayName="Enable Custom Trophies" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TrophiesSelectionF1" displayName="Trophies Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsEnabledF1" displayName="Enable Custom Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsSelectionF1" displayName="Reins Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+           
+            <Var id="HarnessEnabledF1" displayName="Enable Custom Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HarnessSelectionF1" displayName="Harness Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc1EnabledF1" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc1SelectionF1" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+            <Var id="Acc2EnabledF1" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc2SelectionF1" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc3EnabledF1" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc3SelectionF1" displayName="Accessories 3 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc4EnabledF1" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc4SelectionF1" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc5EnabledF1" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc5SelectionF1" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			
+			<Var id="StswEnabledF1" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabledF1" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabledF1" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HeadEnabledF1" displayName="Show Head - This only works when body is hidden" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabledF1" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabledF1" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabledF1" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabledF1" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabledF1" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabledF1" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabledF1" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabledF1" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabledF1" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories1GearEnabledF1" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabledF1" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabledF1" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabledF1" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabledF1" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabledF1" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabledF1" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabledF1" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabledF1" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabledF1" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabledF1" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabledF1" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabledF1" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabledF1" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabledF1" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabledF1" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabledF1" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CChestEnabledF1" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabledF1" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabledF1" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabledF1" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+			<Var id="HideSvscabF1" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabledF1" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabledF1" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HideStscabF1" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabledF1" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabledF1" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableMarkF1" displayName="Enable Mark" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableTattooF1" displayName="Enable Tattoo" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="HairSelectionF1" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="AltHairSelectionF1" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="BeardSelectionF1" displayName="Beard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="HeadGearSelectionF1" displayName="Head Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="FaceGearSelectionF1" displayName="Face Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+            <Var id="ToxSelectionF1" displayName="Toxicity Level" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+			<Var id="CapeSelectionF1" displayName="Cape Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="ShouldersGearSelectionF1" displayName="Shoulders Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="ArmsSelectionF1" displayName="Arms Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="Accessories1GearSelectionF1" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories2GearSelectionF1" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories3GearSelectionF1" displayName="Accessories 3 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories4GearSelectionF1" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories5GearSelectionF1" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearSelectionF1" displayName="Accessories 6 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories7GearSelectionF1" displayName="Accessories 7 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories8GearSelectionF1" displayName="Accessories 8 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories9GearSelectionF1" displayName="Accessories 9 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories10GearSelectionF1" displayName="Accessories 10 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			<Var id="ChestSelectionF1" displayName="Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="GlovesSelectionF1" displayName="Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="LegsSelectionF1" displayName="Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BootsSelectionF1" displayName="Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="CChestSelectionF1" displayName="Common Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="CGlovesSelectionF1" displayName="Common Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CLegsSelectionF1" displayName="Common Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CBootsSelectionF1" displayName="Common Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="FullBodySelectionF1" displayName="Full Body Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="StscabSelectionF1" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordSelectionF1" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="SvscabSelectionF1" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordSelectionF1" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+			<!-- [Favourites1] -->	
+			
+			<!-- [Favourites2] -->
+			<Var id="HideSaddleF2" displayName="Hide Equipped Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>            			
+			<Var id="HideBagsF2" displayName="Hide Equipped Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideBlindersF2" displayName="Hide Equipped Champrons" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTailF2" displayName="Hide Real Tail" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHairF2" displayName="Hide Real Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTrophyF2" displayName="Hide Equipped Trophy" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideReinsF2" displayName="Hide Equipped Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHarnessF2" displayName="Hide Equipped Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+            <Var id="HorseEnabledF2" displayName="Enable Horse" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HorseFXEnabledF2" displayName="Enable Devil FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HorseSelectionF2" displayName="Horse Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+						
+            <Var id="HairsEnabledF2" displayName="Enable Custom Hairs" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HairsSelectionF2" displayName="Hairs Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+        
+            <Var id="TailsEnabledF2" displayName="Enable Custom Tails" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TailsSelectionF2" displayName="Tails Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="SaddleEnabledF2" displayName="Enable Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="SaddleSelectionF2" displayName="Saddle Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+       
+            <Var id="BlindersEnabledF2" displayName="Enable Champron" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BlindersSelectionF2" displayName="Blinders Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BagsEnabledF2" displayName="Enable Custom Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BagsSelectionF2" displayName="Bags Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+          
+            <Var id="TrophiesEnabledF2" displayName="Enable Custom Trophies" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TrophiesSelectionF2" displayName="Trophies Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsEnabledF2" displayName="Enable Custom Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsSelectionF2" displayName="Reins Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+           
+            <Var id="HarnessEnabledF2" displayName="Enable Custom Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HarnessSelectionF2" displayName="Harness Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc1EnabledF2" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc1SelectionF2" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+            <Var id="Acc2EnabledF2" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc2SelectionF2" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc3EnabledF2" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc3SelectionF2" displayName="Accessories 3 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc4EnabledF2" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc4SelectionF2" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc5EnabledF2" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc5SelectionF2" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			
+			<Var id="StswEnabledF2" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabledF2" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabledF2" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HeadEnabledF2" displayName="Show Head - This only works when body is hidden" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabledF2" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabledF2" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabledF2" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabledF2" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabledF2" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabledF2" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabledF2" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabledF2" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabledF2" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories1GearEnabledF2" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabledF2" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabledF2" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabledF2" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabledF2" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabledF2" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabledF2" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabledF2" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabledF2" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabledF2" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabledF2" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabledF2" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabledF2" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabledF2" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabledF2" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabledF2" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabledF2" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CChestEnabledF2" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabledF2" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabledF2" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabledF2" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+			<Var id="HideSvscabF2" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabledF2" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabledF2" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HideStscabF2" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabledF2" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabledF2" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableMarkF2" displayName="Enable Mark" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableTattooF2" displayName="Enable Tattoo" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="HairSelectionF2" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="AltHairSelectionF2" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="BeardSelectionF2" displayName="Beard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="HeadGearSelectionF2" displayName="Head Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="FaceGearSelectionF2" displayName="Face Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+            <Var id="ToxSelectionF2" displayName="Toxicity Level" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+			<Var id="CapeSelectionF2" displayName="Cape Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="ShouldersGearSelectionF2" displayName="Shoulders Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="ArmsSelectionF2" displayName="Arms Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="Accessories1GearSelectionF2" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories2GearSelectionF2" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories3GearSelectionF2" displayName="Accessories 3 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories4GearSelectionF2" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories5GearSelectionF2" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearSelectionF2" displayName="Accessories 6 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories7GearSelectionF2" displayName="Accessories 7 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories8GearSelectionF2" displayName="Accessories 8 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories9GearSelectionF2" displayName="Accessories 9 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories10GearSelectionF2" displayName="Accessories 10 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			<Var id="ChestSelectionF2" displayName="Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="GlovesSelectionF2" displayName="Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="LegsSelectionF2" displayName="Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BootsSelectionF2" displayName="Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="CChestSelectionF2" displayName="Common Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="CGlovesSelectionF2" displayName="Common Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CLegsSelectionF2" displayName="Common Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CBootsSelectionF2" displayName="Common Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="FullBodySelectionF2" displayName="Full Body Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="StscabSelectionF2" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordSelectionF2" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="SvscabSelectionF2" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordSelectionF2" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+			<!-- [Favourites2] -->	
+			
+			<!-- [Favourites3] -->
+			<Var id="HideSaddleF3" displayName="Hide Equipped Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>            			
+			<Var id="HideBagsF3" displayName="Hide Equipped Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideBlindersF3" displayName="Hide Equipped Champrons" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTailF3" displayName="Hide Real Tail" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHairF3" displayName="Hide Real Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTrophyF3" displayName="Hide Equipped Trophy" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideReinsF3" displayName="Hide Equipped Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHarnessF3" displayName="Hide Equipped Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+            <Var id="HorseEnabledF3" displayName="Enable Horse" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HorseFXEnabledF3" displayName="Enable Devil FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HorseSelectionF3" displayName="Horse Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+						
+            <Var id="HairsEnabledF3" displayName="Enable Custom Hairs" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HairsSelectionF3" displayName="Hairs Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+        
+            <Var id="TailsEnabledF3" displayName="Enable Custom Tails" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TailsSelectionF3" displayName="Tails Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="SaddleEnabledF3" displayName="Enable Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="SaddleSelectionF3" displayName="Saddle Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+       
+            <Var id="BlindersEnabledF3" displayName="Enable Champron" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BlindersSelectionF3" displayName="Blinders Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BagsEnabledF3" displayName="Enable Custom Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BagsSelectionF3" displayName="Bags Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+          
+            <Var id="TrophiesEnabledF3" displayName="Enable Custom Trophies" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TrophiesSelectionF3" displayName="Trophies Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsEnabledF3" displayName="Enable Custom Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsSelectionF3" displayName="Reins Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+           
+            <Var id="HarnessEnabledF3" displayName="Enable Custom Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HarnessSelectionF3" displayName="Harness Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc1EnabledF3" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc1SelectionF3" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+            <Var id="Acc2EnabledF3" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc2SelectionF3" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc3EnabledF3" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc3SelectionF3" displayName="Accessories 3 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc4EnabledF3" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc4SelectionF3" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc5EnabledF3" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc5SelectionF3" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			
+			<Var id="StswEnabledF3" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabledF3" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabledF3" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HeadEnabledF3" displayName="Show Head - This only works when body is hidden" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabledF3" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabledF3" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabledF3" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabledF3" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabledF3" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabledF3" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabledF3" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabledF3" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabledF3" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories1GearEnabledF3" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabledF3" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabledF3" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabledF3" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabledF3" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabledF3" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabledF3" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabledF3" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabledF3" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabledF3" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabledF3" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabledF3" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabledF3" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabledF3" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabledF3" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabledF3" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabledF3" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CChestEnabledF3" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabledF3" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabledF3" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabledF3" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+			<Var id="HideSvscabF3" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabledF3" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabledF3" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HideStscabF3" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabledF3" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabledF3" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableMarkF3" displayName="Enable Mark" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableTattooF3" displayName="Enable Tattoo" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="HairSelectionF3" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="AltHairSelectionF3" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="BeardSelectionF3" displayName="Beard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="HeadGearSelectionF3" displayName="Head Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="FaceGearSelectionF3" displayName="Face Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+            <Var id="ToxSelectionF3" displayName="Toxicity Level" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+			<Var id="CapeSelectionF3" displayName="Cape Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="ShouldersGearSelectionF3" displayName="Shoulders Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="ArmsSelectionF3" displayName="Arms Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="Accessories1GearSelectionF3" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories2GearSelectionF3" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories3GearSelectionF3" displayName="Accessories 3 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories4GearSelectionF3" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories5GearSelectionF3" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearSelectionF3" displayName="Accessories 6 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories7GearSelectionF3" displayName="Accessories 7 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories8GearSelectionF3" displayName="Accessories 8 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories9GearSelectionF3" displayName="Accessories 9 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories10GearSelectionF3" displayName="Accessories 10 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			<Var id="ChestSelectionF3" displayName="Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="GlovesSelectionF3" displayName="Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="LegsSelectionF3" displayName="Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BootsSelectionF3" displayName="Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="CChestSelectionF3" displayName="Common Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="CGlovesSelectionF3" displayName="Common Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CLegsSelectionF3" displayName="Common Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CBootsSelectionF3" displayName="Common Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="FullBodySelectionF3" displayName="Full Body Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="StscabSelectionF3" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordSelectionF3" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="SvscabSelectionF3" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordSelectionF3" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+			<!-- [Favourites3] -->	
+			
+			<!-- [Favourites4] -->
+			<Var id="HideSaddleF4" displayName="Hide Equipped Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>            			
+			<Var id="HideBagsF4" displayName="Hide Equipped Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideBlindersF4" displayName="Hide Equipped Champrons" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTailF4" displayName="Hide Real Tail" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHairF4" displayName="Hide Real Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTrophyF4" displayName="Hide Equipped Trophy" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideReinsF4" displayName="Hide Equipped Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHarnessF4" displayName="Hide Equipped Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+            <Var id="HorseEnabledF4" displayName="Enable Horse" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HorseFXEnabledF4" displayName="Enable Devil FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HorseSelectionF4" displayName="Horse Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+						
+            <Var id="HairsEnabledF4" displayName="Enable Custom Hairs" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HairsSelectionF4" displayName="Hairs Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+        
+            <Var id="TailsEnabledF4" displayName="Enable Custom Tails" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TailsSelectionF4" displayName="Tails Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="SaddleEnabledF4" displayName="Enable Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="SaddleSelectionF4" displayName="Saddle Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+       
+            <Var id="BlindersEnabledF4" displayName="Enable Champron" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BlindersSelectionF4" displayName="Blinders Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BagsEnabledF4" displayName="Enable Custom Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BagsSelectionF4" displayName="Bags Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+          
+            <Var id="TrophiesEnabledF4" displayName="Enable Custom Trophies" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TrophiesSelectionF4" displayName="Trophies Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsEnabledF4" displayName="Enable Custom Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsSelectionF4" displayName="Reins Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+           
+            <Var id="HarnessEnabledF4" displayName="Enable Custom Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HarnessSelectionF4" displayName="Harness Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc1EnabledF4" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc1SelectionF4" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+            <Var id="Acc2EnabledF4" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc2SelectionF4" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc3EnabledF4" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc3SelectionF4" displayName="Accessories 3 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc4EnabledF4" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc4SelectionF4" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc5EnabledF4" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc5SelectionF4" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			
+			<Var id="StswEnabledF4" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabledF4" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabledF4" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HeadEnabledF4" displayName="Show Head - This only works when body is hidden" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabledF4" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabledF4" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabledF4" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabledF4" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabledF4" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabledF4" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabledF4" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabledF4" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabledF4" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories1GearEnabledF4" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabledF4" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabledF4" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabledF4" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabledF4" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabledF4" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabledF4" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabledF4" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabledF4" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabledF4" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabledF4" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabledF4" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabledF4" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabledF4" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabledF4" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabledF4" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabledF4" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CChestEnabledF4" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabledF4" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabledF4" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabledF4" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+			<Var id="HideSvscabF4" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabledF4" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabledF4" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HideStscabF4" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabledF4" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabledF4" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableMarkF4" displayName="Enable Mark" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableTattooF4" displayName="Enable Tattoo" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="HairSelectionF4" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="AltHairSelectionF4" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="BeardSelectionF4" displayName="Beard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="HeadGearSelectionF4" displayName="Head Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="FaceGearSelectionF4" displayName="Face Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+            <Var id="ToxSelectionF4" displayName="Toxicity Level" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+			<Var id="CapeSelectionF4" displayName="Cape Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="ShouldersGearSelectionF4" displayName="Shoulders Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="ArmsSelectionF4" displayName="Arms Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="Accessories1GearSelectionF4" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories2GearSelectionF4" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories3GearSelectionF4" displayName="Accessories 3 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories4GearSelectionF4" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories5GearSelectionF4" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearSelectionF4" displayName="Accessories 6 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories7GearSelectionF4" displayName="Accessories 7 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories8GearSelectionF4" displayName="Accessories 8 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories9GearSelectionF4" displayName="Accessories 9 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories10GearSelectionF4" displayName="Accessories 10 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			<Var id="ChestSelectionF4" displayName="Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="GlovesSelectionF4" displayName="Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="LegsSelectionF4" displayName="Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BootsSelectionF4" displayName="Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="CChestSelectionF4" displayName="Common Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="CGlovesSelectionF4" displayName="Common Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CLegsSelectionF4" displayName="Common Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CBootsSelectionF4" displayName="Common Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="FullBodySelectionF4" displayName="Full Body Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="StscabSelectionF4" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordSelectionF4" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="SvscabSelectionF4" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordSelectionF4" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+			<!-- [Favourites4] -->	
+			
+			<!-- [Favourites5] -->
+			<Var id="HideSaddleF5" displayName="Hide Equipped Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>            			
+			<Var id="HideBagsF5" displayName="Hide Equipped Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideBlindersF5" displayName="Hide Equipped Champrons" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTailF5" displayName="Hide Real Tail" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHairF5" displayName="Hide Real Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTrophyF5" displayName="Hide Equipped Trophy" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideReinsF5" displayName="Hide Equipped Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHarnessF5" displayName="Hide Equipped Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+            <Var id="HorseEnabledF5" displayName="Enable Horse" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HorseFXEnabledF5" displayName="Enable Devil FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HorseSelectionF5" displayName="Horse Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+						
+            <Var id="HairsEnabledF5" displayName="Enable Custom Hairs" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HairsSelectionF5" displayName="Hairs Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+        
+            <Var id="TailsEnabledF5" displayName="Enable Custom Tails" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TailsSelectionF5" displayName="Tails Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="SaddleEnabledF5" displayName="Enable Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="SaddleSelectionF5" displayName="Saddle Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+       
+            <Var id="BlindersEnabledF5" displayName="Enable Champron" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BlindersSelectionF5" displayName="Blinders Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BagsEnabledF5" displayName="Enable Custom Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BagsSelectionF5" displayName="Bags Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+          
+            <Var id="TrophiesEnabledF5" displayName="Enable Custom Trophies" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TrophiesSelectionF5" displayName="Trophies Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsEnabledF5" displayName="Enable Custom Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsSelectionF5" displayName="Reins Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+           
+            <Var id="HarnessEnabledF5" displayName="Enable Custom Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HarnessSelectionF5" displayName="Harness Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc1EnabledF5" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc1SelectionF5" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+            <Var id="Acc2EnabledF5" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc2SelectionF5" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc3EnabledF5" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc3SelectionF5" displayName="Accessories 3 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc4EnabledF5" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc4SelectionF5" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc5EnabledF5" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc5SelectionF5" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			
+			<Var id="StswEnabledF5" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabledF5" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabledF5" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HeadEnabledF5" displayName="Show Head - This only works when body is hidden" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabledF5" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabledF5" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabledF5" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabledF5" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabledF5" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabledF5" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabledF5" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabledF5" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabledF5" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories1GearEnabledF5" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabledF5" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabledF5" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabledF5" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabledF5" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabledF5" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabledF5" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabledF5" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabledF5" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabledF5" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabledF5" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabledF5" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabledF5" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabledF5" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabledF5" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabledF5" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabledF5" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CChestEnabledF5" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabledF5" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabledF5" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabledF5" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+			<Var id="HideSvscabF5" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabledF5" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabledF5" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HideStscabF5" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabledF5" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabledF5" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableMarkF5" displayName="Enable Mark" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableTattooF5" displayName="Enable Tattoo" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="HairSelectionF5" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="AltHairSelectionF5" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="BeardSelectionF5" displayName="Beard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="HeadGearSelectionF5" displayName="Head Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="FaceGearSelectionF5" displayName="Face Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+            <Var id="ToxSelectionF5" displayName="Toxicity Level" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+			<Var id="CapeSelectionF5" displayName="Cape Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="ShouldersGearSelectionF5" displayName="Shoulders Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="ArmsSelectionF5" displayName="Arms Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="Accessories1GearSelectionF5" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories2GearSelectionF5" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories3GearSelectionF5" displayName="Accessories 3 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories4GearSelectionF5" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories5GearSelectionF5" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearSelectionF5" displayName="Accessories 6 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories7GearSelectionF5" displayName="Accessories 7 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories8GearSelectionF5" displayName="Accessories 8 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories9GearSelectionF5" displayName="Accessories 9 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories10GearSelectionF5" displayName="Accessories 10 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			<Var id="ChestSelectionF5" displayName="Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="GlovesSelectionF5" displayName="Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="LegsSelectionF5" displayName="Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BootsSelectionF5" displayName="Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="CChestSelectionF5" displayName="Common Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="CGlovesSelectionF5" displayName="Common Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CLegsSelectionF5" displayName="Common Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CBootsSelectionF5" displayName="Common Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="FullBodySelectionF5" displayName="Full Body Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="StscabSelectionF5" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordSelectionF5" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="SvscabSelectionF5" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordSelectionF5" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+			<!-- [Favourites5] -->	
+			
+			<!-- [Favourites6] -->
+			<Var id="HideSaddleF6" displayName="Hide Equipped Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>            			
+			<Var id="HideBagsF6" displayName="Hide Equipped Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideBlindersF6" displayName="Hide Equipped Champrons" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTailF6" displayName="Hide Real Tail" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHairF6" displayName="Hide Real Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideTrophyF6" displayName="Hide Equipped Trophy" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideReinsF6" displayName="Hide Equipped Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HideHarnessF6" displayName="Hide Equipped Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+            <Var id="HorseEnabledF6" displayName="Enable Horse" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HorseFXEnabledF6" displayName="Enable Devil FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HorseSelectionF6" displayName="Horse Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+						
+            <Var id="HairsEnabledF6" displayName="Enable Custom Hairs" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HairsSelectionF6" displayName="Hairs Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+        
+            <Var id="TailsEnabledF6" displayName="Enable Custom Tails" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TailsSelectionF6" displayName="Tails Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="SaddleEnabledF6" displayName="Enable Saddle" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="SaddleSelectionF6" displayName="Saddle Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+       
+            <Var id="BlindersEnabledF6" displayName="Enable Champron" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BlindersSelectionF6" displayName="Blinders Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BagsEnabledF6" displayName="Enable Custom Bags" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="BagsSelectionF6" displayName="Bags Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+          
+            <Var id="TrophiesEnabledF6" displayName="Enable Custom Trophies" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="TrophiesSelectionF6" displayName="Trophies Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsEnabledF6" displayName="Enable Custom Reins" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="ReinsSelectionF6" displayName="Reins Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+           
+            <Var id="HarnessEnabledF6" displayName="Enable Custom Harness" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="HarnessSelectionF6" displayName="Harness Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc1EnabledF6" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc1SelectionF6" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+            <Var id="Acc2EnabledF6" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc2SelectionF6" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc3EnabledF6" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc3SelectionF6" displayName="Accessories 3 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc4EnabledF6" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc4SelectionF6" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+            <Var id="Acc5EnabledF6" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Acc5SelectionF6" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			
+			<Var id="StswEnabledF6" displayName="Show Equipped Steel Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvswEnabledF6" displayName="Show Equipped Silver Sword" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CrossbowEnabledF6" displayName="Show Equiped Crossbow" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="HeadEnabledF6" displayName="Show Head - This only works when body is hidden" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>			
+			<Var id="BodyEnabledF6" displayName="Show Body" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ToxEnabledF6" displayName="Enable Toxicity FX" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HairEnabledF6" displayName="Enable Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="AltHairEnabledF6" displayName="Enable Alternative Hair" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BeardRefreshEnabledF6" displayName="Beard Refresh Enabled" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="HeadGearEnabledF6" displayName="Enable Head Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FaceGearEnabledF6" displayName="Enable Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BanditMaskEnabledF6" displayName="Enable Bandit Mask - This will disable Beard Refreshing and Face Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="FullBodyEnabledF6" displayName="Enable Full Body Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories1GearEnabledF6" displayName="Enable Accessories 1" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories2GearEnabledF6" displayName="Enable Accessories 2" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories3GearEnabledF6" displayName="Enable Accessories 3" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories4GearEnabledF6" displayName="Enable Accessories 4" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories5GearEnabledF6" displayName="Enable Accessories 5" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearEnabledF6" displayName="Enable Accessories 6" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories7GearEnabledF6" displayName="Enable Accessories 7" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories8GearEnabledF6" displayName="Enable Accessories 8" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories9GearEnabledF6" displayName="Enable Accessories 9" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="Accessories10GearEnabledF6" displayName="Enable Accessories 10" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CapeEnabledF6" displayName="Enable Cape/Cloak" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ShouldersGearEnabledF6" displayName="Enable Shoulders Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="ArmsEnabledF6" displayName="Enable Arms Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="ChestEnabledF6" displayName="Enable Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="GlovesEnabledF6" displayName="Enable Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="LegsEnabledF6" displayName="Enable Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="BootsEnabledF6" displayName="Enable Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="CChestEnabledF6" displayName="Enable Common Chest Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CGlovesEnabledF6" displayName="Enable Common Gloves Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CLegsEnabledF6" displayName="Enable Common Legs Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+	        <Var id="CBootsEnabledF6" displayName="Enable Common Boots Gear" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>	
+			<Var id="HideSvscabF6" displayName="Hide Equipped Silver Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvscabEnabledF6" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordEnabledF6" displayName="Enable Custom Silver Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="HideStscabF6" displayName="Hide Equipped Steel Scabbard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StscabEnabledF6" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordEnabledF6" displayName="Enable Custom Steel Sword Sccabard" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableMarkF6" displayName="Enable Mark" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="EnableTattooF6" displayName="Enable Tattoo" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="HairSelectionF6" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="AltHairSelectionF6" displayName="" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+				
+			<Var id="BeardSelectionF6" displayName="Beard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="HeadGearSelectionF6" displayName="Head Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="FaceGearSelectionF6" displayName="Face Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+            <Var id="ToxSelectionF6" displayName="Toxicity Level" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+             
+			<Var id="CapeSelectionF6" displayName="Cape Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="ShouldersGearSelectionF6" displayName="Shoulders Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="ArmsSelectionF6" displayName="Arms Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="Accessories1GearSelectionF6" displayName="Accessories 1 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories2GearSelectionF6" displayName="Accessories 2 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories3GearSelectionF6" displayName="Accessories 3 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories4GearSelectionF6" displayName="Accessories 4 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories5GearSelectionF6" displayName="Accessories 5 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories6GearSelectionF6" displayName="Accessories 6 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories7GearSelectionF6" displayName="Accessories 7 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories8GearSelectionF6" displayName="Accessories 8 Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            <Var id="Accessories9GearSelectionF6" displayName="Accessories 9 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="Accessories10GearSelectionF6" displayName="Accessories 10 Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+            
+			<Var id="ChestSelectionF6" displayName="Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="GlovesSelectionF6" displayName="Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="LegsSelectionF6" displayName="Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="BootsSelectionF6" displayName="Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="CChestSelectionF6" displayName="Common Chest Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+            <Var id="CGlovesSelectionF6" displayName="Common Gloves Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CLegsSelectionF6" displayName="Common Legs Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+            <Var id="CBootsSelectionF6" displayName="Common Boots Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+                
+			<Var id="FullBodySelectionF6" displayName="Full Body Gear Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="StscabSelectionF6" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="StSwordSelectionF6" displayName="Steel Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+               
+			<Var id="SvscabSelectionF6" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+			<Var id="SvSwordSelectionF6" displayName="Silver Sword Scabbard Options" displayType="OPTIONS" tags="customNames;nonLocalized;customDisplayName"/>
+              
+			<!-- [Favourites6] -->	
+			
+			<!-- [AMM] -->
+
+		</VisibleVars>
+	</Group>
+</UserConfig>

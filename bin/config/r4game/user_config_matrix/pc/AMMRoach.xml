@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    	
+	<Group id="AMMRoachToggles" displayName="Mods.RoachAppearances.Toggles">
+        <VisibleVars>
+            
+		<!--	<Var id="BlockRoachRefresh" displayName="0780_BlockRoachRefresh" displayType="TOGGLE" tags="customNames;customDisplayName"/>-->
+			
+			<Var id="HideSaddle" displayName="0780_HideEquippedSaddle" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            			
+			<Var id="HideBags" displayName="0780_HideEquippedBags" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+			<Var id="HideBlinders" displayName="0780_HideEquippedChamprons" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+			<Var id="HideTail" displayName="0780_HideRealTail" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+			<Var id="HideHair" displayName="0780_HideRealHair" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+			<Var id="HideTrophy" displayName="0780_HideEquippedTrophy" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+			<Var id="HideReins" displayName="0780_HideEquippedReins" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+			<Var id="HideHarness" displayName="0780_HideEquippedHarness" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+    </Group>
+	
+	<Group id="AMMRoachHorse" displayName="Mods.RoachAppearances.HorseHairs">
+        <VisibleVars>
+            <!-- Horse TRUE/FALSE -->
+            <Var id="HorseEnabled" displayName="0780_EnableHorse" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Horse OPTION -->
+            <Var id="HorseSelection" displayName="0780_HorseOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_BrownHorse">
+                        <Entry varId="HorseSelection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_LightBrownHorse">
+                        <Entry varId="HorseSelection" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="0780_BlackHorseDarkPurple">
+                        <Entry varId="HorseSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_DevilHorseBlack">
+                        <Entry varId="HorseSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_WhiteHorse">
+                        <Entry varId="HorseSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_WildSkelligeHorse">
+                        <Entry varId="HorseSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_WildHuntHorse">
+                        <Entry varId="HorseSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_ZombieHorse">
+                        <Entry varId="HorseSelection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_RuinDarkSiders">
+                        <Entry varId="HorseSelection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_FeraBay">
+                        <Entry varId="HorseSelection" value="9"/>
+                    </Option>
+					<Option id="10" displayName="0780_FeraBayChestnut">
+                        <Entry varId="HorseSelection" value="10"/>
+                    </Option>
+					<Option id="11" displayName="0780_FeraBayDun">
+                        <Entry varId="HorseSelection" value="11"/>
+                    </Option>	
+					<Option id="12" displayName="0780_FeraBaySabino">
+                        <Entry varId="HorseSelection" value="12"/>
+                    </Option>	
+					<Option id="13" displayName="0780_FeraBayKiger">
+                        <Entry varId="HorseSelection" value="13"/>
+                    </Option>	
+					<Option id="14" displayName="0780_FeraBlack">
+                        <Entry varId="HorseSelection" value="14"/>
+                    </Option>	
+					<Option id="15" displayName="0780_FeraBlackNWhite">
+                        <Entry varId="HorseSelection" value="15"/>
+                    </Option>	
+					<Option id="16" displayName="0780_FeraLiverChestnut">
+                        <Entry varId="HorseSelection" value="16"/>
+                    </Option>	
+					<Option id="17" displayName="0780_FeraBuckskin">
+                        <Entry varId="HorseSelection" value="17"/>
+                    </Option>	
+					<Option id="18" displayName="0780_FeraBuckskinSooty">
+                        <Entry varId="HorseSelection" value="18"/>
+                    </Option>	
+					<Option id="19" displayName="0780_FeraCream">
+                        <Entry varId="HorseSelection" value="19"/>
+                    </Option>	
+					<Option id="20" displayName="0780_FeraCremello">
+                        <Entry varId="HorseSelection" value="20"/>
+                    </Option>	
+					<Option id="21" displayName="0780_FeraGoldAkhalTeke">
+                        <Entry varId="HorseSelection" value="21"/>
+                    </Option>	
+					<Option id="22" displayName="0780_FeraSilverAkhalTeke">
+                        <Entry varId="HorseSelection" value="22"/>
+                    </Option>
+					<Option id="23" displayName="0780_FeraGray">
+                        <Entry varId="HorseSelection" value="23"/>
+                    </Option>
+					<Option id="24" displayName="0780_FeraGrayDark">
+                        <Entry varId="HorseSelection" value="24"/>
+                    </Option>
+					<Option id="25" displayName="0780_FeraGrulla">
+                        <Entry varId="HorseSelection" value="25"/>
+                    </Option>
+					<Option id="26" displayName="0780_FeraHalflinger">
+                        <Entry varId="HorseSelection" value="26"/>
+                    </Option>
+					<Option id="27" displayName="0780_FeraRoanBlue">
+                        <Entry varId="HorseSelection" value="27"/>
+                    </Option>
+					<Option id="28" displayName="0780_FeraRoanChocolate">
+                        <Entry varId="HorseSelection" value="28"/>
+                    </Option>
+					<Option id="29" displayName="0780_FeraRoanRed">
+                        <Entry varId="HorseSelection" value="29"/>
+                    </Option>
+					<Option id="30" displayName="0780_FeraRoanStrawberry">
+                        <Entry varId="HorseSelection" value="30"/>
+                    </Option>
+					<Option id="31" displayName="0780_FeraSorrel">
+                        <Entry varId="HorseSelection" value="31"/>
+                    </Option>
+					<Option id="32" displayName="0780_FeraWhite">
+                        <Entry varId="HorseSelection" value="32"/>
+                    </Option>
+					<Option id="33" displayName="0780_Appaloosa">
+                        <Entry varId="HorseSelection" value="33"/>
+                    </Option>
+					<Option id="34" displayName="0780_AppaloosaSplash">
+                        <Entry varId="HorseSelection" value="34"/>
+                    </Option>
+					<Option id="35" displayName="0780_Pintaloosa">
+                        <Entry varId="HorseSelection" value="35"/>
+                    </Option>
+					<Option id="36" displayName="0780_DappleBlue">
+                        <Entry varId="HorseSelection" value="36"/>
+                    </Option>
+					<Option id="37" displayName="0780_DappleBuckskin">
+                        <Entry varId="HorseSelection" value="37"/>
+                    </Option>
+					<Option id="38" displayName="0780_DappleCream">
+                        <Entry varId="HorseSelection" value="38"/>
+                    </Option>
+					<Option id="39" displayName="0780_DappleGray">
+                        <Entry varId="HorseSelection" value="39"/>
+                    </Option>
+					<Option id="40" displayName="0780_DappleWhite">
+                        <Entry varId="HorseSelection" value="40"/>
+                    </Option>
+					<Option id="41" displayName="0780_DappleReverse">
+                        <Entry varId="HorseSelection" value="41"/>
+                    </Option>
+					<Option id="42" displayName="0780_PintoBlack">
+                        <Entry varId="HorseSelection" value="42"/>
+                    </Option>
+					<Option id="43" displayName="0780_PintoBuckskin">
+                        <Entry varId="HorseSelection" value="43"/>
+                    </Option>
+					<Option id="44" displayName="0780_PintoDarkBrown">
+                        <Entry varId="HorseSelection" value="44"/>
+                    </Option>
+					<Option id="45" displayName="0780_PintoGray">
+                        <Entry varId="HorseSelection" value="45"/>
+                    </Option>
+					<Option id="46" displayName="0780_PintoLightBrown">
+                        <Entry varId="HorseSelection" value="46"/>
+                    </Option>
+					<Option id="47" displayName="0780_WhiteUnicorn">
+                        <Entry varId="HorseSelection" value="47"/>
+                    </Option>
+					<Option id="48" displayName="0780_PinkUnicorn">
+                        <Entry varId="HorseSelection" value="48"/>
+                    </Option>
+					<Option id="49" displayName="0780_Nightmare">
+                        <Entry varId="HorseSelection" value="49"/>
+                    </Option>
+					
+					
+				</OptionsArray>
+			</Var>
+			
+			 <!-- Hairs TRUE/FALSE -->
+            <Var id="HairsEnabled" displayName="0780_EnableCustomHairs" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Hairs OPTION -->
+            <Var id="HairsSelection" displayName="0780_HairsOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_DefaultHair">
+                        <Entry varId="HairsSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="0780_Hair2Simple">
+                        <Entry varId="HairsSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_Hair3Simple">
+                        <Entry varId="HairsSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_NilfgaardHair">
+                        <Entry varId="HairsSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_SkelligeHair">
+                        <Entry varId="HairsSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_RuinHair">
+                        <Entry varId="HairsSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_BlondHair">
+                        <Entry varId="HairsSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_White">
+                        <Entry varId="HairsSelection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_Silver">
+                        <Entry varId="HairsSelection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_Gray">
+                        <Entry varId="HairsSelection" value="9"/>
+                    </Option>
+					<Option id="10" displayName="0780_GrayBlue">
+                        <Entry varId="HairsSelection" value="10"/>
+                    </Option>
+					<Option id="11" displayName="0780_Black">
+                        <Entry varId="HairsSelection" value="11"/>
+                    </Option>
+					<Option id="12" displayName="0780_DarkBlue">
+                        <Entry varId="HairsSelection" value="12"/>
+                    </Option>
+					<Option id="13" displayName="0780_Blue">
+                        <Entry varId="HairsSelection" value="13"/>
+                    </Option>
+					<Option id="14" displayName="0780_LightBlue">
+                        <Entry varId="HairsSelection" value="14"/>
+                    </Option>
+					<Option id="15" displayName="0780_PaleGreen">
+                        <Entry varId="HairsSelection" value="15"/>
+                    </Option>
+					<Option id="16" displayName="0780_Green">
+                        <Entry varId="HairsSelection" value="16"/>
+                    </Option>
+					<Option id="17" displayName="0780_DarkGreen">
+                        <Entry varId="HairsSelection" value="17"/>
+                    </Option>
+					<Option id="18" displayName="0780_Turquoise">
+                        <Entry varId="HairsSelection" value="18"/>
+                    </Option>
+					<Option id="19" displayName="0780_DarkPurple">
+                        <Entry varId="HairsSelection" value="19"/>
+                    </Option>
+					<Option id="20" displayName="0780_Purple">
+                        <Entry varId="HairsSelection" value="20"/>
+                    </Option>
+					<Option id="21" displayName="0780_Pink">
+                        <Entry varId="HairsSelection" value="21"/>
+                    </Option>
+					<Option id="22" displayName="0780_Peacock">
+                        <Entry varId="HairsSelection" value="22"/>
+                    </Option>
+					<Option id="23" displayName="0780_DarkBrown">
+                        <Entry varId="HairsSelection" value="23"/>
+                    </Option>
+					<Option id="24" displayName="0780_Brown">
+                        <Entry varId="HairsSelection" value="24"/>
+                    </Option>
+					<Option id="25" displayName="0780_LightBrown">
+                        <Entry varId="HairsSelection" value="25"/>
+                    </Option>
+					<Option id="26" displayName="0780_Flaxen">
+                        <Entry varId="HairsSelection" value="26"/>
+                    </Option>
+					<Option id="27" displayName="0780_Cream">
+                        <Entry varId="HairsSelection" value="27"/>
+                    </Option>
+					<Option id="28" displayName="0780_NaturalRed">
+                        <Entry varId="HairsSelection" value="28"/>
+                    </Option>
+					<Option id="29" displayName="0780_Red">
+                        <Entry varId="HairsSelection" value="29"/>
+                    </Option>
+					<Option id="30" displayName="0780_DarkRed">
+                        <Entry varId="HairsSelection" value="30"/>
+                    </Option>
+					<Option id="31" displayName="0780_Ombre">
+                        <Entry varId="HairsSelection" value="31"/>
+                    </Option>
+					<Option id="32" displayName="0780_Yellow">
+                        <Entry varId="HairsSelection" value="32"/>
+                    </Option>
+					<Option id="33" displayName="0780_DarkGold">
+                        <Entry varId="HairsSelection" value="33"/>
+                    </Option>
+					<Option id="34" displayName="0780_BlacknWhite">
+                        <Entry varId="HairsSelection" value="34"/>
+                    </Option>
+					<Option id="35" displayName="0780_Wood">
+                        <Entry varId="HairsSelection" value="35"/>
+                    </Option>
+					<Option id="36" displayName="0780_PinkTips">
+                        <Entry varId="HairsSelection" value="36"/>
+                    </Option>
+					<Option id="37" displayName="0780_KnightHair1">
+                        <Entry varId="HairsSelection" value="37"/>
+                    </Option>	
+					<Option id="38" displayName="0780_KnightHair2">
+                        <Entry varId="HairsSelection" value="38"/>
+                    </Option>	
+					<Option id="39" displayName="0780_KnightHair3">
+                        <Entry varId="HairsSelection" value="39"/>
+                    </Option>	
+					<Option id="40" displayName="0780_HairEP2">
+                        <Entry varId="HairsSelection" value="40"/>
+                    </Option>
+					<Option id="41" displayName="0780_UnicornHair">
+                        <Entry varId="HairsSelection" value="41"/>
+                    </Option>
+					<Option id="42" displayName="0780_NightmareHair">
+                        <Entry varId="HairsSelection" value="42"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			<!-- Tails TRUE/FALSE -->
+            <Var id="TailsEnabled" displayName="0780_EnableCustomTails" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Tails OPTION -->
+            <Var id="TailsSelection" displayName="0780_TailsOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_BrownTail">
+                        <Entry varId="TailsSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="0780_HairyTail">
+                        <Entry varId="TailsSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_RuinTail">
+                        <Entry varId="TailsSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_BlondTail">
+                        <Entry varId="TailsSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_BlackTail">
+                        <Entry varId="TailsSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_WhiteTail">
+                        <Entry varId="TailsSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_SilverTail">
+                        <Entry varId="TailsSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_GrayTail">
+                        <Entry varId="TailsSelection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_GrayBlueTail">
+                        <Entry varId="TailsSelection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_BlueTail">
+                        <Entry varId="TailsSelection" value="9"/>
+                    </Option>
+					<Option id="10" displayName="0780_LightBlueTail">
+                        <Entry varId="TailsSelection" value="10"/>
+                    </Option>
+					<Option id="11" displayName="0780_DarkBlueTail">
+                        <Entry varId="TailsSelection" value="11"/>
+                    </Option>
+					<Option id="12" displayName="0780_LightGreenTail">
+                        <Entry varId="TailsSelection" value="12"/>
+                    </Option>
+					<Option id="13" displayName="0780_TurquoiseTail">
+                        <Entry varId="TailsSelection" value="13"/>
+                    </Option>
+					<Option id="14" displayName="0780_PinkTail">
+                        <Entry varId="TailsSelection" value="14"/>
+                    </Option>
+					<Option id="15" displayName="0780_PurpleTail">
+                        <Entry varId="TailsSelection" value="15"/>
+                    </Option>
+					<Option id="16" displayName="0780_GreenTail">
+                        <Entry varId="TailsSelection" value="16"/>
+                    </Option>
+					<Option id="17" displayName="0780_GoldTail">
+                        <Entry varId="TailsSelection" value="17"/>
+                    </Option>
+					<Option id="18" displayName="0780_FeraBrownTail">
+                        <Entry varId="TailsSelection" value="18"/>
+                    </Option>
+					<Option id="19" displayName="0780_LightBrownTail">
+                        <Entry varId="TailsSelection" value="19"/>
+                    </Option>
+					<Option id="20" displayName="0780_FlaxenTail">
+                        <Entry varId="TailsSelection" value="20"/>
+                    </Option>
+					<Option id="21" displayName="0780_CreamTail">
+                        <Entry varId="TailsSelection" value="21"/>
+                    </Option>
+					<Option id="22" displayName="0780_RedTail">
+                        <Entry varId="TailsSelection" value="22"/>
+                    </Option>
+					<Option id="23" displayName="0780_DarkRedTail">
+                        <Entry varId="TailsSelection" value="23"/>
+                    </Option>
+					<Option id="24" displayName="0780_KnightTail1">
+                        <Entry varId="TailsSelection" value="24"/>
+                    </Option>
+					<Option id="25" displayName="0780_KnightTail2">
+                        <Entry varId="TailsSelection" value="25"/>
+                    </Option>
+					<Option id="26" displayName="0780_UnicornTail">
+                        <Entry varId="TailsSelection" value="26"/>
+                    </Option>
+					<Option id="27" displayName="0780_NightmareTail">
+                        <Entry varId="TailsSelection" value="27"/>
+                    </Option>
+										
+				</OptionsArray>
+			</Var>
+			
+		</VisibleVars>
+    </Group>
+	
+	<Group id="AMMRoachSaddle" displayName="Mods.RoachAppearances.SaddlesChamprons">
+        <VisibleVars>
+            <!-- Saddle TRUE/FALSE -->
+            <Var id="SaddleEnabled" displayName="0780_EnableSaddle" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Saddle OPTION -->
+            <Var id="SaddleSelection" displayName="0780_SaddleOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_SaddlePled">
+                        <Entry varId="SaddleSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="0780_SaddleS01lvl1">
+                        <Entry varId="SaddleSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_SaddleS01lvl2">
+                        <Entry varId="SaddleSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_SaddleS01lvl3">
+                        <Entry varId="SaddleSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_SaddleS01lvl4">
+                        <Entry varId="SaddleSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_SaddleS02lvl1">
+                        <Entry varId="SaddleSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_SaddleS02lvl2">
+                        <Entry varId="SaddleSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_SaddleS02lvl3">
+                        <Entry varId="SaddleSelection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_SaddleS02lvl4">
+                        <Entry varId="SaddleSelection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_SaddleS03lvl1">
+                        <Entry varId="SaddleSelection" value="9"/>
+                    </Option>
+					<Option id="10" displayName="0780_SaddleS03lvl2">
+                        <Entry varId="SaddleSelection" value="10"/>
+                    </Option>
+					<Option id="11" displayName="0780_SaddleS03lvl3">
+                        <Entry varId="SaddleSelection" value="11"/>
+                    </Option>
+					<Option id="12" displayName="0780_SaddleS03lvl4">
+                        <Entry varId="SaddleSelection" value="12"/>
+                    </Option>
+					<Option id="13" displayName="0780_SaddleS04lvl3">
+                        <Entry varId="SaddleSelection" value="13"/>
+                    </Option>
+					<Option id="14" displayName="0780_SaddleRacing">
+                        <Entry varId="SaddleSelection" value="14"/>
+                    </Option>
+					<Option id="15" displayName="0780_SaddleNovigradS01">
+                        <Entry varId="SaddleSelection" value="15"/>
+                    </Option>
+					<Option id="16" displayName="0780_SaddleNovigradS02">
+                        <Entry varId="SaddleSelection" value="16"/>
+                    </Option>
+					<Option id="17" displayName="0780_SaddleNovigradS03">
+                        <Entry varId="SaddleSelection" value="17"/>
+                    </Option>
+					<Option id="18" displayName="0780_SaddleNovigradS04">
+                        <Entry varId="SaddleSelection" value="18"/>
+                    </Option>
+					<Option id="19" displayName="0780_SaddleTemerian">
+                        <Entry varId="SaddleSelection" value="19"/>
+                    </Option>
+					<Option id="20" displayName="0780_SaddleNilfgaard">
+                        <Entry varId="SaddleSelection" value="20"/>
+                    </Option>
+					<Option id="21" displayName="0780_SaddleSkellige">
+                        <Entry varId="SaddleSelection" value="21"/>
+                    </Option>
+					<Option id="22" displayName="0780_SaddleWildHunt">
+                        <Entry varId="SaddleSelection" value="22"/>
+                    </Option>
+					<Option id="23" displayName="0780_SaddleOfir">
+                        <Entry varId="SaddleSelection" value="23"/>
+                    </Option>
+					<Option id="24" displayName="0780_SaddleDemonic">
+                        <Entry varId="SaddleSelection" value="24"/>
+                    </Option>
+					<Option id="25" displayName="0780_KnightSaddle1">
+                        <Entry varId="SaddleSelection" value="25"/>
+                    </Option>
+					<Option id="26" displayName="0780_KnightSaddle2">
+                        <Entry varId="SaddleSelection" value="26"/>
+                    </Option>
+					<Option id="27" displayName="0780_KnightSaddle2Cutscene">
+                        <Entry varId="SaddleSelection" value="27"/>
+                    </Option>
+					<Option id="28" displayName="0780_KnightSaddle3">
+                        <Entry varId="SaddleSelection" value="28"/>
+                    </Option>
+					<Option id="29" displayName="0780_SaddleToussaint1">
+                        <Entry varId="SaddleSelection" value="29"/>
+                    </Option>
+					<Option id="30" displayName="0780_SaddleToussaint2">
+                        <Entry varId="SaddleSelection" value="30"/>
+                    </Option>
+					<Option id="31" displayName="0780_SaddleToussaint3">
+                        <Entry varId="SaddleSelection" value="31"/>
+                    </Option>
+					<Option id="32" displayName="0780_SaddleToussaint4">
+                        <Entry varId="SaddleSelection" value="32"/>
+                    </Option>
+					<Option id="33" displayName="0780_SaddleToussaint5">
+                        <Entry varId="SaddleSelection" value="33"/>
+                    </Option>
+					<Option id="34" displayName="0780_SaddleToussaint6">
+                        <Entry varId="SaddleSelection" value="34"/>
+                    </Option>
+					<Option id="35" displayName="0780_SaddleGeraltofRivia">
+                        <Entry varId="SaddleSelection" value="35"/>
+                    </Option>
+					<Option id="36" displayName="0780_SaddleRavixofFourhorn">
+                        <Entry varId="SaddleSelection" value="36"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			
+			 <!-- Blinders TRUE/FALSE -->
+            <Var id="BlindersEnabled" displayName="0780_EnableChampron" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Blinders OPTION -->
+            <Var id="BlindersSelection" displayName="0780_BlindersOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_Champronlvl1">
+                        <Entry varId="BlindersSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="0780_Champronlvl2">
+                        <Entry varId="BlindersSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_Champronlvl3">
+                        <Entry varId="BlindersSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_WildHuntChampron">
+                        <Entry varId="BlindersSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_TemerianChampron">
+                        <Entry varId="BlindersSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_NilfgaardChampron">
+                        <Entry varId="BlindersSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_SkelligeChampron">
+                        <Entry varId="BlindersSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_OfirChampron">
+                        <Entry varId="BlindersSelection" value="7"/>
+					</Option>
+					<Option id="8" displayName="0780_ToussaintChamprom1">
+                        <Entry varId="BlindersSelection" value="8"/>
+					</Option>
+					<Option id="9" displayName="0780_ToussaintChamprom2">
+                        <Entry varId="BlindersSelection" value="9"/>
+					</Option>
+					<Option id="10" displayName="0780_ToussaintChamprom3">
+                        <Entry varId="BlindersSelection" value="10"/>
+					</Option>
+					<Option id="11" displayName="0780_ToussaintChamprom4">
+                        <Entry varId="BlindersSelection" value="11"/>
+					</Option>
+					<Option id="12" displayName="0780_ToussaintChamprom5">
+                        <Entry varId="BlindersSelection" value="12"/>
+					</Option>
+					<Option id="13" displayName="0780_ToussaintChamprom6">
+                        <Entry varId="BlindersSelection" value="13"/>
+					</Option>
+					<Option id="14" displayName="0780_ToussaintChamprom7">
+                        <Entry varId="BlindersSelection" value="14"/>
+					</Option>
+					<Option id="15" displayName="0780_ToussaintChamprom8">
+                        <Entry varId="BlindersSelection" value="15"/>
+					</Option>
+					<Option id="16" displayName="0780_ToussaintChamprom9">
+                        <Entry varId="BlindersSelection" value="16"/>
+					</Option>
+					<Option id="17" displayName="0780_ToussaintChamprom10">
+                        <Entry varId="BlindersSelection" value="17"/>
+					</Option>
+					<Option id="18" displayName="0780_ToussaintChamprom11">
+                        <Entry varId="BlindersSelection" value="18"/>
+					</Option>
+					<Option id="19" displayName="0780_ToussaintChamprom12">
+                        <Entry varId="BlindersSelection" value="19"/>
+					</Option>
+					<Option id="20" displayName="0780_ToussaintChamprom13">
+                        <Entry varId="BlindersSelection" value="20"/>
+					</Option>
+					<Option id="21" displayName="0780_ToussaintChamprom14">
+                        <Entry varId="BlindersSelection" value="21"/>
+					</Option>
+					<Option id="22" displayName="0780_ToussaintChamprom15">
+                        <Entry varId="BlindersSelection" value="22"/>
+					</Option>
+					<Option id="23" displayName="0780_ToussaintChamprom16">
+                        <Entry varId="BlindersSelection" value="23"/>
+					</Option>
+					<Option id="24" displayName="0780_ToussaintChamprom17">
+                        <Entry varId="BlindersSelection" value="24"/>
+					</Option>
+					<Option id="25" displayName="0780_ToussaintChamprom18">
+                        <Entry varId="BlindersSelection" value="25"/>
+					</Option>
+					<Option id="26" displayName="0780_ToussaintChamprom19">
+                        <Entry varId="BlindersSelection" value="26"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			
+     
+        </VisibleVars>
+    </Group>
+	
+	<Group id="AMMRoachBags" displayName="Mods.RoachAppearances.BagsTrophies">
+        <VisibleVars>
+        	<!-- Bags TRUE/FALSE -->
+            <Var id="BagsEnabled" displayName="0780_EnableCustomBags" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Bags OPTION -->
+            <Var id="BagsSelection" displayName="0780_BagsOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_Bagslvl1">
+                        <Entry varId="BagsSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="0780_Bagslvl2">
+                        <Entry varId="BagsSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_Bagslvl3">
+                        <Entry varId="BagsSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_TemerianBags">
+                        <Entry varId="BagsSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_NilfgaardBags">
+                        <Entry varId="BagsSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_SkelligeBags">
+                        <Entry varId="BagsSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_OfirBags">
+                        <Entry varId="BagsSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_ToussaintBags">
+                        <Entry varId="BagsSelection" value="7"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			<!-- Trophies TRUE/FALSE -->
+            <Var id="TrophiesEnabled" displayName="0780_EnableCustomTrophies" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Trophies OPTION -->
+            <Var id="TrophiesSelection" displayName="0780_TrophiesOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_UniversalClean">
+                        <Entry varId="TrophiesSelection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_UniversalBloddy">
+                        <Entry varId="TrophiesSelection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_Bies">
+                        <Entry varId="TrophiesSelection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_CaveTroll">
+                        <Entry varId="TrophiesSelection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_Cockatris">
+                        <Entry varId="TrophiesSelection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_Czart">
+                        <Entry varId="TrophiesSelection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_Ekima">
+                        <Entry varId="TrophiesSelection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_Forktail">
+                        <Entry varId="TrophiesSelection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_Gryphon">
+                        <Entry varId="TrophiesSelection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_GryphonMh">
+                        <Entry varId="TrophiesSelection" value="9"/>
+                    </Option>
+					<Option id="10" displayName="0780_Katakan">
+                        <Entry varId="TrophiesSelection" value="10"/>
+                    </Option>
+					<Option id="11" displayName="0780_Lessun">
+                        <Entry varId="TrophiesSelection" value="11"/>
+                    </Option>
+					<Option id="12" displayName="0780_Wyvern">
+                        <Entry varId="TrophiesSelection" value="12"/>
+                    </Option>
+					<Option id="13" displayName="0780_Pig">
+                        <Entry varId="TrophiesSelection" value="13"/>
+                    </Option>
+					<Option id="14" displayName="0780_Sharley">
+                        <Entry varId="TrophiesSelection" value="14"/>
+                    </Option>
+					
+					
+				</OptionsArray>
+			</Var>
+			
+		</VisibleVars>
+    </Group>
+	
+	<Group id="AMMRoachReins" displayName="Mods.RoachAppearances.ReinsHarness">
+        <VisibleVars>
+        	<!-- Reins TRUE/FALSE -->
+            <Var id="ReinsEnabled" displayName="0780_EnableCustomReins" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Reins OPTION -->
+            <Var id="ReinsSelection" displayName="0780_ReinsOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_UniversalReins">
+                        <Entry varId="ReinsSelection" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="0780_SkelligeReins">
+                        <Entry varId="ReinsSelection" value="1"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			<!-- Harness TRUE/FALSE -->
+            <Var id="HarnessEnabled" displayName="0780_EnableCustomHarness" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Harness OPTION -->
+            <Var id="HarnessSelection" displayName="0780_HarnessOptions" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="0780_DefaultHarness">
+                        <Entry varId="HarnessSelection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_BackgroundHarness">
+                        <Entry varId="HarnessSelection" value="1"/>
+                    </Option>
+										
+				</OptionsArray>
+			</Var>
+			
+		</VisibleVars>
+    </Group>
+	
+	<Group id="AMMRoachAcc" displayName="Mods.RoachAppearances.Accessories">
+        <VisibleVars>
+           
+		   <!-- Acc1 TRUE/FALSE -->
+            <Var id="Acc1Enabled" displayName="0780_EnableAccessories1" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Acc1 OPTION -->
+            <Var id="Acc1Selection" displayName="0780_Accessories1Options" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                   
+                    <Option id="0" displayName="0780_CartGear">
+                        <Entry varId="Acc1Selection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_LeatherBags">
+                        <Entry varId="Acc1Selection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_SingleBag">
+                        <Entry varId="Acc1Selection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_CarpetFront">
+                        <Entry varId="Acc1Selection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_CarpetBack">
+                        <Entry varId="Acc1Selection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_CarpetBackBended">
+                        <Entry varId="Acc1Selection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_WildHuntRearArmor">
+                        <Entry varId="Acc1Selection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_SaddleCloth1">
+                        <Entry varId="Acc1Selection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_SaddleCloth2">
+                        <Entry varId="Acc1Selection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_SaddleCloth3">
+                        <Entry varId="Acc1Selection" value="9"/>
+                    </Option>
+					<Option id="10" displayName="0780_WhiteUnicornHorn">
+                        <Entry varId="Acc1Selection" value="10"/>
+                    </Option>
+					<Option id="11" displayName="0780_PinkUnicornHorn">
+                        <Entry varId="Acc1Selection" value="11"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			 <!-- Acc2 TRUE/FALSE -->
+            <Var id="Acc2Enabled" displayName="0780_EnableAccessories2" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Acc2 OPTION -->
+            <Var id="Acc2Selection" displayName="0780_Accessories2Options" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                   
+                    <Option id="0" displayName="0780_CartGear">
+                        <Entry varId="Acc2Selection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_LeatherBags">
+                        <Entry varId="Acc2Selection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_SingleBag">
+                        <Entry varId="Acc2Selection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_CarpetFront">
+                        <Entry varId="Acc2Selection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_CarpetBack">
+                        <Entry varId="Acc2Selection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_CarpetBackBended">
+                        <Entry varId="Acc2Selection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_WildHuntRearArmor">
+                        <Entry varId="Acc2Selection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_SaddleCloth1">
+                        <Entry varId="Acc2Selection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_SaddleCloth2">
+                        <Entry varId="Acc2Selection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_SaddleCloth3">
+                        <Entry varId="Acc2Selection" value="9"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			<!-- Acc3 TRUE/FALSE -->
+            <Var id="Acc3Enabled" displayName="0780_EnableAccessories3" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Acc3 OPTION -->
+            <Var id="Acc3Selection" displayName="0780_Accessories3Options" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                   
+                    <Option id="0" displayName="0780_CartGear">
+                        <Entry varId="Acc3Selection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_LeatherBags">
+                        <Entry varId="Acc3Selection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_SingleBag">
+                        <Entry varId="Acc3Selection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_CarpetFront">
+                        <Entry varId="Acc3Selection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_CarpetBack">
+                        <Entry varId="Acc3Selection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_CarpetBackBended">
+                        <Entry varId="Acc3Selection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_WildHuntRearArmor">
+                        <Entry varId="Acc3Selection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_SaddleCloth1">
+                        <Entry varId="Acc3Selection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_SaddleCloth2">
+                        <Entry varId="Acc3Selection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_SaddleCloth3">
+                        <Entry varId="Acc3Selection" value="9"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			<!-- Acc4 TRUE/FALSE -->
+            <Var id="Acc4Enabled" displayName="0780_EnableAccessories4" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Acc4 OPTION -->
+            <Var id="Acc4Selection" displayName="0780_Accessories4Options" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                   
+                    <Option id="0" displayName="0780_CartGear">
+                        <Entry varId="Acc4Selection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_LeatherBags">
+                        <Entry varId="Acc4Selection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_SingleBag">
+                        <Entry varId="Acc4Selection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_CarpetFront">
+                        <Entry varId="Acc4Selection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_CarpetBack">
+                        <Entry varId="Acc4Selection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_CarpetBackBended">
+                        <Entry varId="Acc4Selection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_WildHuntRearArmor">
+                        <Entry varId="Acc4Selection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_SaddleCloth1">
+                        <Entry varId="Acc4Selection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_SaddleCloth2">
+                        <Entry varId="Acc4Selection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_SaddleCloth3">
+                        <Entry varId="Acc4Selection" value="9"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+			
+			<!-- Acc5 TRUE/FALSE -->
+            <Var id="Acc5Enabled" displayName="0780_EnableAccessories5" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+            
+			<!-- Acc5 OPTION -->
+            <Var id="Acc5Selection" displayName="0780_Accessories5Options" displayType="OPTIONS" tags="customNames;customDisplayName">
+                <OptionsArray>
+                   
+                    <Option id="0" displayName="0780_CartGear">
+                        <Entry varId="Acc5Selection" value="0"/>
+                    </Option>
+					<Option id="1" displayName="0780_LeatherBags">
+                        <Entry varId="Acc5Selection" value="1"/>
+                    </Option>
+					<Option id="2" displayName="0780_SingleBag">
+                        <Entry varId="Acc5Selection" value="2"/>
+                    </Option>
+					<Option id="3" displayName="0780_CarpetFront">
+                        <Entry varId="Acc5Selection" value="3"/>
+                    </Option>
+					<Option id="4" displayName="0780_CarpetBack">
+                        <Entry varId="Acc5Selection" value="4"/>
+                    </Option>
+					<Option id="5" displayName="0780_CarpetBackBended">
+                        <Entry varId="Acc5Selection" value="5"/>
+                    </Option>
+					<Option id="6" displayName="0780_WildHuntRearArmor">
+                        <Entry varId="Acc5Selection" value="6"/>
+                    </Option>
+					<Option id="7" displayName="0780_SaddleCloth1">
+                        <Entry varId="Acc5Selection" value="7"/>
+                    </Option>
+					<Option id="8" displayName="0780_SaddleCloth2">
+                        <Entry varId="Acc5Selection" value="8"/>
+                    </Option>
+					<Option id="9" displayName="0780_SaddleCloth3">
+                        <Entry varId="Acc5Selection" value="9"/>
+                    </Option>
+					
+				</OptionsArray>
+			</Var>
+		   
+		</VisibleVars>
+    </Group>
+	
+	<Group id="AMMRoachFX" displayName="Mods.RoachAppearances.FX">
+        <VisibleVars>
+            <!-- Devil FX -->
+			<Var id="HorseFXEnabled" displayName="0780_EnableDevilFX" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			<Var id="RuinFXEnabled" displayName="0780_EnableRuinFireHooves" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			<Var id="IceFXEnabled" displayName="0780_EnableIceFX" displayType="TOGGLE" tags="customNames;customDisplayName"/>
+			
+		</VisibleVars>
+    </Group>
+	
+</UserConfig>

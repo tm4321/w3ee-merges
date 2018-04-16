@@ -155,6 +155,10 @@
 		    <Var builder="Input" id="PanelGlossary"				displayName="glossary"							displayType="INPUTPC" actions="PanelGlossary" tags="locked"/>
 			<Var builder="Input" id="PanelGwintDeckEditor"		displayName="gwint_deck"						displayType="INPUTPC" actions="PanelGwintDeckEditor" tags="locked"/>
 			
+			<!-- [AMM] -->
+			<Var builder="Input" id="AMMHeadCape"				displayName="Head Gear/Cape Toggle"				displayType="INPUTPC" actions="AMMHeadCape"/>
+			<Var builder="Input" id="RefreshAP"					displayName="Refresh Appearance"				displayType="INPUTPC" actions="RefreshAP"/>
+			<!-- [AMM] -->
 		</VisibleVars>
 	</Group>
 </UserConfig>
