@@ -38,6 +38,7 @@
 - [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921/?)
 - [Long Journey Extended](https://www.nexusmods.com/witcher3/mods/1630/?)
 - [No GPS](https://www.nexusmods.com/witcher3/mods/1562/?) - Tweaked to my liking
+- [Random Encounters](https://www.nexusmods.com/witcher3/mods/785/?) - Tweaked to my liking
 - [Roach Never Stops](https://www.nexusmods.com/witcher3/mods/2288/?)
 - [Thoughtful Roach](https://www.nexusmods.com/witcher3/mods/1586/?)
 
@@ -85,6 +86,7 @@ These mods are not included in this repository since they do not require any scr
 #### Effects
 - [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594/?)
 - [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366/?)
+- [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853?)
 - [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347/?)
 - [The Aard](https://www.nexusmods.com/witcher3/mods/2346/?) - Remove buffers0.bundle if merging
 
