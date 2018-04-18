@@ -8,22 +8,10 @@
     <sets>
         <set index="1">
             <dpad index="1">
-                <dpadbutton index="8">
+                <dpadbutton index="2">
                     <slots>
                         <slot>
-                            <code>0x1000037</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="4">
-                    <slots>
-                        <slot>
-                            <code>300</code>
-                            <mode>hold</mode>
-                        </slot>
-                        <slot>
-                            <code>0x1000036</code>
+                            <code>0x5d</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -40,10 +28,22 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-                <dpadbutton index="2">
+                <dpadbutton index="8">
                     <slots>
                         <slot>
-                            <code>0x1000038</code>
+                            <code>0x5b</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>300</code>
+                            <mode>hold</mode>
+                        </slot>
+                        <slot>
+                            <code>0x1000036</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -192,18 +192,6 @@
         </set>
         <set index="2">
             <dpad index="1">
-                <dpadbutton index="4">
-                    <slots>
-                        <slot>
-                            <code>300</code>
-                            <mode>hold</mode>
-                        </slot>
-                        <slot>
-                            <code>0x59</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
                 <dpadbutton index="1">
                     <slots>
                         <slot>
@@ -212,6 +200,18 @@
                         </slot>
                         <slot>
                             <code>0x54</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>300</code>
+                            <mode>hold</mode>
+                        </slot>
+                        <slot>
+                            <code>0x59</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -282,18 +282,10 @@
         </set>
         <set index="3">
             <dpad index="1">
-                <dpadbutton index="8">
+                <dpadbutton index="2">
                     <slots>
                         <slot>
-                            <code>0x1000012</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="4">
-                    <slots>
-                        <slot>
-                            <code>0x1000015</code>
+                            <code>0x1000014</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -306,10 +298,18 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-                <dpadbutton index="2">
+                <dpadbutton index="8">
                     <slots>
                         <slot>
-                            <code>0x1000014</code>
+                            <code>0x1000012</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>0x1000015</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
