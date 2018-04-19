@@ -94,6 +94,7 @@ These mods are not included in this repository since they do not require any scr
 - [Autumn Flora Enhancement - Autumn Yellow](https://www.nexusmods.com/witcher3/mods/942/?)
 - [HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021/?)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770/?)
+- [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - WLM version
 - [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836/?)
 - [Wiedzmin Lighting Mod](https://www.nexusmods.com/witcher3/mods/2358/?)
 

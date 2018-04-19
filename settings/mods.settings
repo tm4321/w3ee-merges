@@ -6,6 +6,10 @@ Priority=0
 Enabled=1
 Priority=1
 
+[modBetterWind_WLM_Phoenix]
+Enabled=1
+Priority=5
+
 [modmorelight_Phoenix]
 Enabled=1
 Priority=5
