@@ -1,20 +1,20 @@
-[mod0000_MergedFiles]
-Enabled=1
-Priority=0
-
-[mod0000_MergedPack]
+[modBetterWind_WLM_Phoenix]
 Enabled=1
 Priority=1
 
-[modBetterWind_WLM_Phoenix]
-Enabled=1
-Priority=5
-
 [modmorelight_Phoenix]
 Enabled=1
-Priority=5
+Priority=1
 
 [modNoDirtyLensEffect]
+Enabled=1
+Priority=1
+
+[modWLM_PhoenixIII]
+Enabled=1
+Priority=2
+
+[mod0000_MergedPack]
 Enabled=1
 Priority=5
 
@@ -31,10 +31,6 @@ Enabled=1
 Priority=21
 
 [modNitpickerOldArmors]
-Enabled=1
-Priority=100
-
-[modWLM_PhoenixIII]
 Enabled=1
 Priority=100
 

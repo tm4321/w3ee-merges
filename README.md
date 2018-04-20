@@ -25,7 +25,6 @@
 
 #### Visuals & Effects
 - [AMM](https://www.nexusmods.com/witcher3/mods/780?)
-- [Fog and DOF Tweaker](https://www.nexusmods.com/witcher3/mods/2609?)
 - [Skellige Ice Breath](https://www.nexusmods.com/witcher3/mods/1257/?)
 - [Volumetric clouds over Skellige](https://www.nexusmods.com/witcher3/mods/1302/?)
 
