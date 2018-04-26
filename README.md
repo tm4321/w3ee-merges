@@ -84,13 +84,13 @@ These mods are not included in this repository since they do not require any scr
 
 #### Effects
 - [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594/?)
+- [Better FX](https://www.nexusmods.com/witcher3/mods/2425?) - No signs except Igni
 - [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366/?)
 - [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853?)
 - [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347/?)
 - [The Aard](https://www.nexusmods.com/witcher3/mods/2346/?) - Remove buffers0.bundle if merging
 
 #### Environment & Lightning
-- [Autumn Flora Enhancement - Autumn Yellow](https://www.nexusmods.com/witcher3/mods/942/?)
 - [HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021/?)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770/?)
 - [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - WLM version

@@ -10,6 +10,10 @@ Priority=1
 Enabled=1
 Priority=1
 
+[modNoScreenWaterDrops]
+Enabled=1
+Priority=1
+
 [modWLM_PhoenixIII]
 Enabled=1
 Priority=2
