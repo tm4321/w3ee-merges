@@ -66,7 +66,6 @@ These mods are not included in this repository since they do not require any scr
 #### Bug Fixes & Tweaks
 - [Abandoned Sites Time Lapse](https://www.nexusmods.com/witcher3/mods/2635/?)
 - [Better Icons](https://www.nexusmods.com/witcher3/mods/1701/?)
-- [Cyclops Eye Texture Fix](https://www.nexusmods.com/witcher3/mods/746?)
 - [Familiar Music Replacement](https://www.nexusmods.com/witcher3/mods/1922?)
 - [Fix For Avalach Lab Music](https://www.nexusmods.com/witcher3/mods/2165/?)
 - [Nitpicker's Patch - Old Armor Textures](https://www.nexusmods.com/witcher3/mods/2117/?)
@@ -77,23 +76,28 @@ These mods are not included in this repository since they do not require any scr
 - [Eredin VGX Mask](https://www.nexusmods.com/witcher3/mods/2077/?)
 - [Lore-friendly Witchers - Full](https://www.nexusmods.com/witcher3/mods/390/?)
 - [Lore Friendly Ciri - Short scar](https://www.nexusmods.com/witcher3/mods/685/?)
+- [Monsters recolored](https://www.nexusmods.com/witcher3/mods/2487?)
 - [New Djinn Face](https://www.nexusmods.com/witcher3/mods/554/?)
 - [Original Witcher Armor Sets Colors - All in One](https://www.nexusmods.com/witcher3/mods/1536/?) - Don't merge
+- [PEEPERS](https://www.nexusmods.com/witcher3/mods/1974?) - No witchers and Triss blue eyes
+- [Triss Auburn Hair](https://www.nexusmods.com/witcher3/mods/688?)
 - [TW2 Triss (Outfit)](https://www.nexusmods.com/witcher3/mods/2223/?) - Don't merge
-- [Witcher 2 Triss - lore friendly (Head)](https://www.nexusmods.com/witcher3/mods/2748/?) - Don't merge
 
 #### Effects
 - [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594/?)
 - [Better FX](https://www.nexusmods.com/witcher3/mods/2425?) - No signs except Igni
+- [BLOOD](https://www.nexusmods.com/witcher3/mods/900?)
 - [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366/?)
 - [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853?)
 - [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347/?)
 - [The Aard](https://www.nexusmods.com/witcher3/mods/2346/?) - Remove buffers0.bundle if merging
 
 #### Environment & Lightning
+- [CLOUDS](https://www.nexusmods.com/witcher3/mods/2169?)
 - [HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021/?)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770/?)
 - [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - WLM version
+- [Realistic Contrast Texture](https://www.nexusmods.com/witcher3/mods/1505/?) - Dont merge
 - [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836/?)
 - [Wiedzmin Lighting Mod](https://www.nexusmods.com/witcher3/mods/2358/?)
 

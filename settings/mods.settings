@@ -41,3 +41,7 @@ Priority=100
 [modHDReworkedProject]
 Enabled=1
 Priority=101
+
+[modRTCElite]
+Enabled=1
+Priority=102
