@@ -33,6 +33,7 @@
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080/?)
 - [Complete Animations](https://www.nexusmods.com/witcher3/mods/2632/?)
 - [Immersive Cam - Alt Horse Controls](https://www.nexusmods.com/witcher3/mods/689/?)
+- [Immersive Cam - Immersive AI](https://www.nexusmods.com/witcher3/mods/689/?)
 - [Immersive Horse Whistling](https://www.nexusmods.com/witcher3/mods/2651/?)
 - [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921/?)
 - [Long Journey Extended](https://www.nexusmods.com/witcher3/mods/1630/?)
