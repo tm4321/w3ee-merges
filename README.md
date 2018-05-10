@@ -2,7 +2,7 @@
   <img src="./.github/banner.png" />
 
   <h3 align="center">
-    W3EE v3.26 Merges
+    W3EE v3.30 Merges
   </h3>
 </p>
 
@@ -15,7 +15,7 @@
 - [Debug Console](https://www.nexusmods.com/witcher3/mods/1555/?)
 - [Bootstrap](https://www.nexusmods.com/witcher3/mods/2109/?)
 - [Shared Imports](https://www.nexusmods.com/witcher3/mods/2110/?)
-- [W3EE v3.26](https://www.nexusmods.com/witcher3/mods/2521/?)
+- [W3EE v3.30](https://www.nexusmods.com/witcher3/mods/2521/?)
 - [W3EE - All Quest Objectives](https://www.nexusmods.com/witcher3/mods/2521/?)
 - [W3EE - Immersive Cam](https://www.nexusmods.com/witcher3/mods/2521/?)
 
