@@ -45,7 +45,6 @@
 #### Custom Tweaks
 - Added ability to toggle enemy healthbar while in combat
 - Added game time slider and option to show 24hr clock
-- Fixed poisoned blades talent as described by DominusSicarum in the posts
 - Made map centered on player if opened from sign post
 - Removed double tap to open horse stash
 - Removed horse, herb, stash, notice boards, whetstones, armor tables, boats and POIs from map
@@ -60,6 +59,7 @@
 #### Optional gamepad setup
 4. Download [Antimicro](https://github.com/AntiMicro/antimicro)
 5. Copy my input.settings and antimicro/profile
+6. Study the [controller layout](https://github.com/tmentink/w3ee-merges/blob/master/CONTROLLER.md)
 
 ## Recommended mods
 These mods are not included in this repository since they do not require any script merges with W3EE. [Mod Merger](https://www.nexusmods.com/witcher3/mods/1931/?) will be required to prevent mod limit issue.
