@@ -19,10 +19,6 @@
 - [W3EE - All Quest Objectives](https://www.nexusmods.com/witcher3/mods/2521/?)
 - [W3EE - Immersive Cam](https://www.nexusmods.com/witcher3/mods/2521/?)
 
-#### UI
-- [Clock Only](https://www.nexusmods.com/witcher3/mods/1662/?)
-- [Hud Positioning and Scale](https://www.nexusmods.com/witcher3/mods/861?)
-
 #### Visuals & Effects
 - [AMM](https://www.nexusmods.com/witcher3/mods/780?)
 - [Skellige Ice Breath](https://www.nexusmods.com/witcher3/mods/1257/?)
@@ -32,6 +28,7 @@
 - [Better Horse Control](https://www.nexusmods.com/witcher3/mods/2000?)
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080/?)
 - [Complete Animations](https://www.nexusmods.com/witcher3/mods/2632/?)
+- [Hud Positioning and Scale](https://www.nexusmods.com/witcher3/mods/861?)
 - [Immersive Cam - Alt Horse Controls](https://www.nexusmods.com/witcher3/mods/689/?)
 - [Immersive Cam - Immersive AI](https://www.nexusmods.com/witcher3/mods/689/?)
 - [Immersive Horse Whistling](https://www.nexusmods.com/witcher3/mods/2651/?)
@@ -95,7 +92,6 @@ These mods are not included in this repository since they do not require any scr
 
 #### Environment & Lightning
 - [CLOUDS](https://www.nexusmods.com/witcher3/mods/2169?)
-- [HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021/?)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770/?)
 - [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - WLM version
 - [Realistic Contrast Texture](https://www.nexusmods.com/witcher3/mods/1505/?) - Dont merge
