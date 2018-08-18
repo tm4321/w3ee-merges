@@ -35,6 +35,7 @@
 - [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921/?)
 - [Long Journey Extended](https://www.nexusmods.com/witcher3/mods/1630/?)
 - [No GPS](https://www.nexusmods.com/witcher3/mods/1562/?) - Tweaked to my liking
+- [No Indignant NPCs](https://www.nexusmods.com/witcher3/mods/3190/?)
 - [Random Encounters](https://www.nexusmods.com/witcher3/mods/785/?) - Tweaked to my liking
 - [Roach Never Stops](https://www.nexusmods.com/witcher3/mods/2288/?)
 - [Thoughtful Roach](https://www.nexusmods.com/witcher3/mods/1586/?)
@@ -93,10 +94,11 @@ These mods are not included in this repository since they do not require any scr
 #### Environment & Lightning
 - [CLOUDS](https://www.nexusmods.com/witcher3/mods/2169?)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770/?)
-- [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - WLM version
+- [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - Phoenix version
+- [Next Generation LOD](https://www.nexusmods.com/witcher3/mods/3193/?)
 - [Realistic Contrast Texture](https://www.nexusmods.com/witcher3/mods/1505/?) - Dont merge
 - [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836/?)
-- [Wiedzmin Lighting Mod](https://www.nexusmods.com/witcher3/mods/2358/?)
+- [Phoenix Lighting Mod](https://www.nexusmods.com/witcher3/mods/3170/?)
 
 ## Credits
 All credits go to CD Project Red and the original mod authors
