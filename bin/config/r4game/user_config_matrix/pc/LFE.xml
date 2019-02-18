@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <UserConfig>
-       <Group id="LFEcat" displayName="Mods.LFE.cat">
+       <Group id="LFEcat" displayName="Mods.W3EE_w3ee.W3EE_addons.LFE.cat">
 		<PresetsArray>
 			<Preset id="0" displayName="Default">
-				<Entry varId="LFEcatSteel" 			value="1.0"	/>
+				<Entry varId="LFEcatSteel" 			value="1.0" />
 				<Entry varId="LFEcatSilver" 		value="1.0" />
-				<Entry varId="LFEcatBow" 			value="1.0"	/>
-				<Entry varId="LFEcatBolt" 			value="1.0"	/>
-				<Entry varId="LFEcatArmor"	 		value="1.0"	/>
-				<Entry varId="LFEcatPants" 			value="1.0"	/>
-				<Entry varId="LFEcatBoots" 			value="1.0"	/>
-				<Entry varId="LFEcatGloves" 		value="1.0"	/>
-				<Entry varId="LFEcatTrophy" 		value="0.5"	/>
-				<Entry varId="LFEcatHorseBag"		value="1.0"	/>
-				<Entry varId="LFEcatFood" 			value="0.25"/>
-				<Entry varId="LFEcatPotion" 		value="0.0"	/>
-				<Entry varId="LFEcatBomb" 			value="0.0"	/>
-				<Entry varId="LFEcatUse" 			value="1.0"	/>
-				<Entry varId="LFEcatDye" 			value="1.0"	/>
-				<Entry varId="LFEcatTool" 			value="1.0"	/>
-				<Entry varId="LFEcatOil" 			value="0.0"	/>
-				<Entry varId="LFEcatMisc" 			value="0.2"	/>
-				<Entry varId="LFEcatJunk" 			value="0.1"	/>
-				<Entry varId="LFEcatBook" 			value="0.5"	/>
-				<Entry varId="LFEcatUpgrade" 		value="1.0"	/>
-				<Entry varId="LFEcatCraft" 			value="1.0"	/>
-				<Entry varId="LFEcatAlchemy" 		value="0.35" />
+				<Entry varId="LFEcatBow" 			value="1.0" />
+				<Entry varId="LFEcatBolt" 			value="1.0" />
+				<Entry varId="LFEcatArmor" 			value="1.0" />
+				<Entry varId="LFEcatPants" 			value="1.0" />
+				<Entry varId="LFEcatBoots" 			value="1.0" />
+				<Entry varId="LFEcatGloves" 		value="1.0" />
+				<Entry varId="LFEcatTrophy" 		value="1.0" />
+				<Entry varId="LFEcatHorseBag"		value="1.0" />
+				<Entry varId="LFEcatFood" 			value="1.0" />
+				<Entry varId="LFEcatPotion" 		value="0.0" />
+				<Entry varId="LFEcatBomb" 			value="0.0" />
+				<Entry varId="LFEcatUse" 			value="1.0" />
+				<Entry varId="LFEcatDye" 			value="1.0" />
+				<Entry varId="LFEcatTool" 			value="1.0" />
+				<Entry varId="LFEcatOil" 			value="0.0" />
+				<Entry varId="LFEcatMisc" 			value="1.0" />
+				<Entry varId="LFEcatJunk" 			value="1.0" />
+				<Entry varId="LFEcatBook" 			value="1.0" />
+				<Entry varId="LFEcatUpgrade" 		value="1.0" />
+				<Entry varId="LFEcatCraft" 			value="1.0" />
+				<Entry varId="LFEcatAlchemy" 		value="1.0" />
 				<Entry varId="LFEcatDiagram" 		value="1.0" />
 			</Preset>
 			<Preset id="1" displayName="Vanilla">
@@ -82,7 +82,7 @@
 			<Var id="LFEcatDiagram"		displayName="LFE_catDiagram"	displayType="SLIDER;0.0;5.0;500"/>
 		</VisibleVars>
     </Group>
-	<Group id="LFEq" displayName="Mods.LFE.quality">
+	<Group id="LFEq" displayName="Mods.W3EE_w3ee.W3EE_addons.LFE.quality">
 		<PresetsArray>
 			<Preset id="0" displayName="Default">
 				<Entry varId="LFEqCommon" 	   		value="1.0" />
@@ -107,11 +107,11 @@
 			<Var id="LFEqWitcher" 		displayName="LFE_qWitcher"		displayType="SLIDER;0.0;5.0;500"/>
 		</VisibleVars>
 	</Group>
-	<Group id="LFEsb" displayName="Mods.LFE.sellbuy">
+	<Group id="LFEsb" displayName="Mods.W3EE_w3ee.W3EE_addons.LFE.sellbuy">
 		<PresetsArray>
 			<Preset id="0" displayName="Default">
-				<Entry varId="LFEsbSell" 			value="0.5"/>
-				<Entry varId="LFEsbBuy" 			value="1.0"/>
+				<Entry varId="LFEsbSell" 			value="0.2" />
+				<Entry varId="LFEsbBuy" 			value="1.0" />
 			</Preset>
 			<Preset id="1" displayName="Vanilla">
 				<Entry varId="LFEsbSell" 			value="1.0" />
@@ -123,13 +123,13 @@
 			<Var id="LFEsbBuy" 			displayName="LFE_sbBuy"			displayType="SLIDER;0.0;5.0;500"/>
 		</VisibleVars>
 	</Group>
-	<Group id="LFEdur" displayName="Mods.LFE.dur">
+	<Group id="LFEdur" displayName="Mods.W3EE_w3ee.W3EE_addons.LFE.dur">
 		<PresetsArray>
 			<Preset id="0" displayName="Default">
-				<Entry varId="LFEdur50" 	        value="0.0" />
-				<Entry varId="LFEdur75" 	        value="0.75" />
-				<Entry varId="LFEdur90" 	        value="0.9" />
-				<Entry varId="LFEdur100" 	        value="0.95" />
+				<Entry varId="LFEdur50" 	        value="0.2" />
+				<Entry varId="LFEdur75" 	        value="0.6" />
+				<Entry varId="LFEdur90" 	        value="0.8" />
+				<Entry varId="LFEdur100" 	        value="0.9" />
 			</Preset>
 			<Preset id="1" displayName="Vanilla">
 				<Entry varId="LFEdur50" 	        value="1.0" />
@@ -145,15 +145,15 @@
 			<Var id="LFEdur100" 		displayName="LFE_dur100"		displayType="SLIDER;0.0;5.0;500"/>
 		</VisibleVars>
 	</Group>
-	<Group id="LFEmisc" displayName="Mods.LFE.misc">
+	<Group id="LFEmisc" displayName="Mods.W3EE_w3ee.W3EE_addons.LFE.misc">
 		<PresetsArray>
 			<Preset id="0" displayName="Default">
 				<Entry varId="LFEgold" 	      		value="1.0" />
 				<Entry varId="LFEcraftPrice" 	    value="1.0" />
-				<Entry varId="LFEdialog" 	   		value="0.3" />
-				<Entry varId="LFErepair" 	  		value="1.0" />
-				<Entry varId="LFEremup" 	  	  	value="1.0" />
-				<Entry varId="LFEdiss" 	   			value="1.0" />
+				<Entry varId="LFEdialog" 	   		value="0.2" />
+				<Entry varId="LFErepair" 	      	value="1.0" />
+				<Entry varId="LFEremup" 	    	value="1.0" />
+				<Entry varId="LFEdiss" 	   			value="0.5" />
 			</Preset>
 			<Preset id="1" displayName="Vanilla">
 				<Entry varId="LFEgold" 	      		value="1.0" />

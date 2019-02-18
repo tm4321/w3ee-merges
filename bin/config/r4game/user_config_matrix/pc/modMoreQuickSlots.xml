@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    <Group id="MoreQuickSlots" displayName="Mods.W3EE_w3ee.W3EE_addons.mqs_more_quick_slots.mqs_common">
+        <VisibleVars>
+            <Var id="Virtual_MaxEquippedConsumables" displayName="mqs_max_equipped_consumables" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_maxc_vanilla">
+                        <Entry varId="MaxEquippedConsumables" value="0" />
+                    </Option>
+                    <Option id="1" displayName="mqs_maxc_one_set">
+                        <Entry varId="MaxEquippedConsumables" value="1" />
+                    </Option>
+                    <Option id="2" displayName="mqs_maxc_two_sets_fixed_std">
+                        <Entry varId="MaxEquippedConsumables" value="2" />
+                    </Option>
+                    <Option id="3" displayName="mqs_maxc_two_sets">
+                        <Entry varId="MaxEquippedConsumables" value="3" />
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_MaxEquippedBombs" displayName="mqs_max_equipped_bombs" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_maxb_one_set">
+                        <Entry varId="MaxEquippedBombs" value="0" />
+                    </Option>
+                    <Option id="1" displayName="mqs_maxb_two_sets_fixed_std">
+                        <Entry varId="MaxEquippedBombs" value="1" />
+                    </Option>
+                    <Option id="2" displayName="mqs_maxb_two_sets">
+                        <Entry varId="MaxEquippedBombs" value="2" />
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="RestoreFirstSetOnMenuClose" displayName="mqs_restore_first_set_on_menu_close" displayType="TOGGLE"/>
+            <Var id="NewPotionSlotsXOffsetOnHUD" displayName="mqs_new_potion_slots_x_offset_on_hud" displayType="SLIDER;-100;300;400"/>
+            <Var id="QuickAccessInputFeedbackPanelYOffset" displayName="mqs_quick_access_input_feedback_panel_y_offset" displayType="SLIDER;-250;150;400"/>
+            <Var id="QuickAccessInnerBackgroundOpacity" displayName="mqs_quick_access_inner_background_opacity" displayType="SLIDER;0;100;100"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="QuickInventory" displayName="Mods.W3EE_w3ee.W3EE_addons.mqs_more_quick_slots.mqs_quick_inventory">
+        <VisibleVars>
+            <Var id="Virtual_ShowEquippedItems" displayName="mqs_quick_inventory_show_equipped_items" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_isei_hide">
+                        <Entry varId="ShowEquippedItems" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_isei_show_dimmed">
+                        <Entry varId="ShowEquippedItems" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_isei_show">
+                        <Entry varId="ShowEquippedItems" value="2"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_PotionsSortOrder" displayName="mqs_quick_inventory_potions_sort_order" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_iiso_by_name">
+                        <Entry varId="PotionsSortOrder" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_iiso_by_base_name">
+                        <Entry varId="PotionsSortOrder" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_iiso_by_quality_and_name">
+                        <Entry varId="PotionsSortOrder" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_iiso_by_quality_and_base_name">
+                        <Entry varId="PotionsSortOrder" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_OilsSortOrder" displayName="mqs_quick_inventory_oils_sort_order" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_iiso_by_name">
+                        <Entry varId="OilsSortOrder" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_iiso_by_base_name">
+                        <Entry varId="OilsSortOrder" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_iiso_by_quality_and_name">
+                        <Entry varId="OilsSortOrder" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_iiso_by_quality_and_base_name">
+                        <Entry varId="OilsSortOrder" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="SortBooksByName" displayName="mqs_quick_inventory_sort_books_by_name" displayType="TOGGLE"/>
+
+            <Var id="ShowNewestItems" displayName="mqs_quick_inventory_show_newest_items" displayType="TOGGLE"/>
+            <Var id="ShowElapsedTimeForNewestItems" displayName="mqs_quick_inventory_show_elapsed_time_for_newest_items" displayType="TOGGLE"/>
+            <Var id="ResetNewestItemsOnLoad" displayName="mqs_quick_inventory_reset_newest_items_on_load" displayType="TOGGLE"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="MoreQuickSlotsKeyboard" displayName="Mods.W3EE_w3ee.W3EE_addons.mqs_more_quick_slots.mqs_keyboard">
+        <VisibleVars>
+            <Var id="Virtual_SelectedItemOnQuickAccessOpen" displayName="mqs_selected_item_on_quick_access_open" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_qasi_default"> 
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_qasi_equipped_sign">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_qasi_equipped_item">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_qasi_last_selected">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="3"/>
+                    </Option>
+                    <Option id="4" displayName="mqs_qasi_last_yrden">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="4"/>
+                    </Option>
+                    <Option id="5" displayName="mqs_qasi_last_quen">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="5"/>
+                    </Option>
+                    <Option id="6" displayName="mqs_qasi_last_igni">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="6"/>
+                    </Option>
+                    <Option id="7" displayName="mqs_qasi_last_axii">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="7"/>
+                    </Option>
+                    <Option id="8" displayName="mqs_qasi_last_aard">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="8"/>
+                    </Option>
+                    <Option id="9" displayName="mqs_qasi_last_crossbow">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="9"/>
+                    </Option>
+                    <Option id="10" displayName="mqs_qasi_last_petard1">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="10"/>
+                    </Option>
+                    <Option id="11" displayName="mqs_qasi_last_petard2">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="11"/>
+                    </Option>
+                    <Option id="12" displayName="mqs_qasi_last_petard3">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="12"/>
+                    </Option>
+                    <Option id="13" displayName="mqs_qasi_last_petard4">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="13"/>
+                    </Option>
+                    <Option id="14" displayName="mqs_qasi_last_pocket">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="14"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+            <Var id="Virtual_EquipSelectedItemOnQuickAccessClose" displayName="mqs_equip_selected_item_on_quick_access_close" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_qaei_default"> 
+                        <Entry varId="EquipSelectedItemOnQuickAccessClose" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_qaei_when_game_paused">
+                        <Entry varId="EquipSelectedItemOnQuickAccessClose" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_qaei_when_game_slowed">
+                        <Entry varId="EquipSelectedItemOnQuickAccessClose" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_qaei_manual">
+                        <Entry varId="EquipSelectedItemOnQuickAccessClose" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_ShowNewPotionQuickSlotsOnHud" displayName="mqs_show_new_potion_quick_slots_on_hud" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_snqs_never">
+                        <Entry varId="ShowNewPotionQuickSlotsOnHud" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_snqs_only_when_not_empty">
+                        <Entry varId="ShowNewPotionQuickSlotsOnHud" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_snqs_always">
+                        <Entry varId="ShowNewPotionQuickSlotsOnHud" value="2"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_NewPotionQuickSlotsKeys" displayName="mqs_new_potion_quick_slots_keys" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_pqsk_hold_std_key">
+                        <Entry varId="NewPotionQuickSlotsKeys" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_pqsk_quick_double_tap_std_key">
+                        <Entry varId="NewPotionQuickSlotsKeys" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_pqsk_bind_new_keys">
+                        <Entry varId="NewPotionQuickSlotsKeys" value="2"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="HoldKeyIntervalSeconds" displayName="mqs_hold_key_interval_seconds" displayType="SLIDER;0.1;0.9;80"/>
+            <Var id="DoubleTapKeyIntervalSeconds" displayName="mqs_double_tap_key_interval_seconds" displayType="SLIDER;0.1;0.9;80"/>
+
+            <Var id="Virtual_QuickInventoryEscAction" displayName="mqs_quick_inventory_esc_action" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_iact_nothing">
+                        <Entry varId="QuickInventoryEscAction" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_iact_back">
+                        <Entry varId="QuickInventoryEscAction" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_iact_back_to_game">
+                        <Entry varId="QuickInventoryEscAction" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_iact_quick_access_menu">
+                        <Entry varId="QuickInventoryEscAction" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_QuickInventoryRightMouseButtonAction" displayName="mqs_quick_inventory_right_mouse_button_action" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_iact_nothing">
+                        <Entry varId="QuickInventoryRightMouseButtonAction" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_iact_back">
+                        <Entry varId="QuickInventoryRightMouseButtonAction" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_iact_back_to_game">
+                        <Entry varId="QuickInventoryRightMouseButtonAction" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_iact_quick_access_menu">
+                        <Entry varId="QuickInventoryRightMouseButtonAction" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+        </VisibleVars>
+    </Group>
+
+    <Group id="MoreQuickSlotsGamepad" displayName="Mods.W3EE_w3ee.W3EE_addons.mqs_more_quick_slots.mqs_gamepad">
+        <VisibleVars>
+            <Var id="Virtual_SelectedItemOnQuickAccessOpen" displayName="mqs_selected_item_on_quick_access_open" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_qasi_default"> 
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_qasi_equipped_sign">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_qasi_equipped_item">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_qasi_last_selected">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="3"/>
+                    </Option>
+                    <Option id="4" displayName="mqs_qasi_last_yrden">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="4"/>
+                    </Option>
+                    <Option id="5" displayName="mqs_qasi_last_quen">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="5"/>
+                    </Option>
+                    <Option id="6" displayName="mqs_qasi_last_igni">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="6"/>
+                    </Option>
+                    <Option id="7" displayName="mqs_qasi_last_axii">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="7"/>
+                    </Option>
+                    <Option id="8" displayName="mqs_qasi_last_aard">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="8"/>
+                    </Option>
+                    <Option id="9" displayName="mqs_qasi_last_crossbow">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="9"/>
+                    </Option>
+                    <Option id="10" displayName="mqs_qasi_last_petard1">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="10"/>
+                    </Option>
+                    <Option id="11" displayName="mqs_qasi_last_petard2">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="11"/>
+                    </Option>
+                    <Option id="12" displayName="mqs_qasi_last_petard3">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="12"/>
+                    </Option>
+                    <Option id="13" displayName="mqs_qasi_last_petard4">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="13"/>
+                    </Option>
+                    <Option id="14" displayName="mqs_qasi_last_pocket">
+                        <Entry varId="SelectedItemOnQuickAccessOpen" value="14"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_GamepadEquipSelectedItemOnQuickAccessClose" displayName="mqs_equip_selected_item_on_quick_access_close" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_qaei_default"> 
+                        <Entry varId="GamepadEquipSelectedItemOnQuickAccessClose" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_qaei_when_game_paused">
+                        <Entry varId="GamepadEquipSelectedItemOnQuickAccessClose" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_qaei_when_game_slowed">
+                        <Entry varId="GamepadEquipSelectedItemOnQuickAccessClose" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_qaei_manual">
+                        <Entry varId="GamepadEquipSelectedItemOnQuickAccessClose" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="ShowAllPotionSlots" displayName="mqs_show_all_potion_slots_when_using_gamepad" displayType="TOGGLE"/>
+            <Var id="SelectFirstPotionSlotOnQuickAccessOpen" displayName="mqs_select_first_potion_slot_on_quick_access_open_when_using_gamepad" displayType="TOGGLE"/>
+            <Var id="UseDPadForPotionSlotsNavigation" displayName="mqs_use_dpad_for_potion_slots_navigation" displayType="TOGGLE"/>
+            <Var id="MinStickMagnitude" displayName="mqs_min_stick_magnitude" displayType="SLIDER;0.25;0.95;70"/>
+
+            <Var id="Virtual_QuickInventoryRightTriggerAction" displayName="mqs_quick_inventory_right_trigger_action" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_iact_nothing">
+                        <Entry varId="QuickInventoryRightTriggerAction" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_iact_back">
+                        <Entry varId="QuickInventoryRightTriggerAction" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_iact_back_to_game">
+                        <Entry varId="QuickInventoryRightTriggerAction" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_iact_quick_access_menu">
+                        <Entry varId="QuickInventoryRightTriggerAction" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+
+            <Var id="Virtual_QuickInventoryRightBumperAction" displayName="mqs_quick_inventory_right_bumper_action" displayType="OPTIONS">
+                <OptionsArray>
+                    <Option id="0" displayName="mqs_iact_nothing">
+                        <Entry varId="QuickInventoryRightBumperAction" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="mqs_iact_back">
+                        <Entry varId="QuickInventoryRightBumperAction" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="mqs_iact_back_to_game">
+                        <Entry varId="QuickInventoryRightBumperAction" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="mqs_iact_quick_access_menu">
+                        <Entry varId="QuickInventoryRightBumperAction" value="3"/>
+                    </Option>
+                </OptionsArray>
+            </Var>
+        </VisibleVars>
+    </Group>
+
+    <Group id="MoreQuickSlotsExtra" displayName="Mods.W3EE_w3ee.W3EE_addons.mqs_more_quick_slots.mqs_extra">
+        <VisibleVars>
+            <Var id="ShowWolfHeadInsideQuickAccessMenu" displayName="mqs_extra_show_wolfhead_inside_quick_access_menu" displayType="TOGGLE"/>
+            <Var id="ShowMinimapInsideQuickAccessMenu" displayName="mqs_extra_show_minimap_inside_quick_access_menu" displayType="TOGGLE"/>
+            <Var id="ShowTrackedQuestInsideQuickAccessMenu" displayName="mqs_extra_show_tracked_quest_inside_quick_access_menu" displayType="TOGGLE"/>
+            <Var id="HideHerbPinsFromMinimap" displayName="mqs_extra_hide_herb_pins_from_minimap" displayType="TOGGLE"/>
+            <Var id="HideEnemyPinsFromMinimap" displayName="mqs_extra_hide_enemy_pins_from_minimap" displayType="TOGGLE"/>
+            <Var id="CanApplyOilsWhileInCombat" displayName="mqs_extra_can_apply_oils_while_in_combat" displayType="TOGGLE" visibilityCondition="hideAlways"/>
+            <Var id="CanRepairItemsWhileInCombat" displayName="mqs_extra_can_repair_items_while_in_combat" displayType="TOGGLE" visibilityCondition="hideAlways"/>
+        </VisibleVars>
+    </Group>
+</UserConfig>

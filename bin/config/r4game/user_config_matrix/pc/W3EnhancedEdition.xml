@@ -1,79 +1,5 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <UserConfig>
-    <Group id="SCOptionCM" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Control">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="Lockon"				value="0"	/>
-				<Entry varId="LockonMSF"			value="0"	/>
-				<Entry varId="LockonM"				value="0"	/>
-				<Entry varId="Combatstate"			value="1"	/>
-			</Preset>
-			<Preset id="1" displayName="W3EE_Vanilla" >
-				<Entry varId="Lockon"				value="1"	/>
-				<Entry varId="LockonMSF"			value="1"	/>
-				<Entry varId="LockonM"				value="0"	/>
-				<Entry varId="Combatstate"			value="1"	/>
-			</Preset>
-		</PresetsArray>
-        <VisibleVars>
-			<Var id="Lockon" 		 	 	 displayName="W3EE_AutoTarget" 												displayType="TOGGLE"					 />
-			<Var id="LockonMSF" 		 	 displayName="W3EE_TargetMode1" 									displayType="OPTIONS"					>
-               <OptionsArray>
-					<Option id="0" displayName="W3EE_Improved">
-                        <Entry varId="LockonMSF" value="0"/>
-                    </Option>
-                    <Option id="1" displayName="W3EE_Vanilla">
-                        <Entry varId="LockonMSF" value="1"/>
-                    </Option>
-				</OptionsArray>
-			</Var>
-
-			<Var id="LockonM" 		 	 	 displayName="W3EE_TargetMode2" 								displayType="OPTIONS"					>
-               <OptionsArray>
-					<Option id="0" displayName="W3EE_CameraTarget">
-                        <Entry varId="LockonM" value="0"/>
-                    </Option>
-                    <Option id="1" displayName="W3EE_MovementTarget">
-                        <Entry varId="LockonM" value="1"/>
-                    </Option>
-				</OptionsArray>
-			</Var>
-			<Var id="Combatstate" 		 	 displayName="W3EE_CombatStance" 									displayType="TOGGLE"					 />
-		</VisibleVars>
-    </Group>
-
-    <Group id="EnhancedTargeting" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_SoftLock">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Keyboard">
-				<Entry varId="ETCameraWeight"	 	value="0.50"/>
-				<Entry varId="ETMovementWeight"	 	value="1.50"/>
-				<Entry varId="ETFacingWeight"	 	value="0.00"/>
-				<Entry varId="ETHysteresis" 	 	value="1.05"/>
-				<Entry varId="ETInFrameCheck"	 	value="false"/>
-				<Entry varId="ETSignsTowardsCamera" value="true"/>
-				<Entry varId="ETDisableCameraLock"  value="true"/>
-			</Preset>
-			<Preset id="1" displayName="W3EE_Controller">
-				<Entry varId="ETCameraWeight" 		value="0.50"/>
-				<Entry varId="ETMovementWeight"		value="1.00"/>
-				<Entry varId="ETFacingWeight" 		value="0.25"/>
-				<Entry varId="ETHysteresis" 		value="1.05"/>
-				<Entry varId="ETInFrameCheck" 		value="true"/>
-				<Entry varId="ETSignsTowardsCamera" value="false"/>
-				<Entry varId="ETDisableCameraLock"  value="false"/>
-			</Preset>
-		</PresetsArray>
-		<VisibleVars>
-			<Var id="ETCameraWeight" 			displayName="W3EE_CameraDirectionW" 							displayType="SLIDER;0;3;600"				 />
-			<Var id="ETMovementWeight" 			displayName="W3EE_MovementDirectionW" 						displayType="SLIDER;0;3;600"				 />
-			<Var id="ETFacingWeight" 			displayName="W3EE_FacingDirectionW" 							displayType="SLIDER;0;3;600"				 />
-			<Var id="ETHysteresis" 				displayName="W3EE_Hysteresis" 					displayType="SLIDER;1;2;101"				 />
-			<Var id="ETInFrameCheck" 			displayName="W3EE_InFrame" 									displayType="TOGGLE"						 />
-			<Var id="ETSignsTowardsCamera" 		displayName="W3EE_SignCamera" 							displayType="TOGGLE"						 />
-			<Var id="ETDisableCameraLock" 		displayName="W3EE_DisableCamHardlock" 					displayType="TOGGLE"						 />
-		</VisibleVars>
-    </Group>
-	
     <Group id="SCOptionCWh" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Abilities.W3EE_Whirl">
 		<PresetsArray>
 			<Preset id="0" displayName="W3EE_Default" >
@@ -97,7 +23,7 @@
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="ReSU"					value="1.0"	/>
 				<Entry varId="ReDM"					value="1.0"	/>
-				<Entry varId="ReDPS"				value="2"	/>
+				<Entry varId="ReDPS"				value="1"	/>
 			</Preset>
 			<Preset id="1" displayName="W3EE_Vanilla" >
 				<Entry varId="ReSU"					value="1"	/>
@@ -107,7 +33,6 @@
 		</PresetsArray>
         <VisibleVars>
 			<Var id="ReSU" 		 	 	 	 displayName="W3EE_RendStamUsage" 							displayType="SLIDER;0;5;25" 			 />
-			<Var id="ReDPS" 		 	 	 displayName="W3EE_RendStamDamageMult" 						displayType="SLIDER;0;10;50" 			 />
 			<Var id="ReDM" 		 	 		 displayName="W3EE_RendDamageMult" 						displayType="SLIDER;0;10;50" 			 />
 		</VisibleVars>
     </Group>
@@ -123,11 +48,15 @@
 				<Entry varId="EVSC"					value="6"	/>
 				<Entry varId="BLSC"					value="5"	/>
 				<Entry varId="COSC"					value="8"	/>
+				<Entry varId="COSCK"				value="9"	/>
+				<Entry varId="COSCB"				value="9"	/>
 				<Entry varId="RDSC"					value="0.8"	/>
 				<Entry varId="RDSCH"				value="1.1"	/>
 				<Entry varId="RDSCD"				value="0.9"	/>
 				<Entry varId="RDSCB"				value="0.5"	/>
 				<Entry varId="RDSCC"				value="0.8"	/>
+				<Entry varId="RDSCCK"				value="1.0"	/>
+				<Entry varId="RDSCCB"				value="1.0"	/>
 				<Entry varId="ASFA"					value="0.02"/>
 				<Entry varId="ASHA"					value="0.03"/>
 				<Entry varId="ASAPF"				value="0.01"/>
@@ -151,10 +80,14 @@
 				<Entry varId="RDSC"					value="0"	/>
 				<Entry varId="BLSC"					value="0"	/>
 				<Entry varId="COSC"					value="0"	/>
+				<Entry varId="COSCK"				value="0"	/>
+				<Entry varId="COSCB"				value="0"	/>
 				<Entry varId="RDSCH"				value="0"	/>
 				<Entry varId="RDSCD"				value="0"	/>
 				<Entry varId="RDSCB"				value="0"	/>
 				<Entry varId="RDSCC"				value="0"	/>
+				<Entry varId="RDSCCK"				value="0"	/>
+				<Entry varId="RDSCCB"				value="0"	/>
 				<Entry varId="ASFA"					value="0.02"/>
 				<Entry varId="ASHA"					value="0.03"/>
 				<Entry varId="ASAPF"				value="0.00"/>
@@ -170,19 +103,21 @@
 			</Preset>
 		</PresetsArray>
         <VisibleVars>
-			<Var id="ASC" 		 	 		 displayName="W3EE_AtkSpdCapHi" 									displayType="TOGGLE"					 />
-			<Var id="ASCL" 		 	 		 displayName="W3EE_AtkSpdCapLo" 									displayType="TOGGLE"					 />
 			<Var id="ASSD" 		 	 		 displayName="W3EE_AtkSpdDependency" 									displayType="TOGGLE"					 />
-			<Var id="FASC"	 		 	 	 displayName="W3EE_StamCostFast" 								displayType="SLIDER;0;100;100" 			 />
-			<Var id="SASC" 			 	 	 displayName="W3EE_StamCostHeavy" 								displayType="SLIDER;0;100;100" 			 />
-			<Var id="EVSC" 		 	 		 displayName="W3EE_StamCostMovement"							 			displayType="SLIDER;0;100;100"	 		 />
-			<Var id="BLSC" 		 	 		 displayName="W3EE_StamCostBlock"								 		displayType="SLIDER;0;100;100"	 		 />
-			<Var id="COSC" 		 	 		 displayName="W3EE_StamCostCounter"							 			displayType="SLIDER;0;100;100"	 		 />
+			<Var id="FASC"	 		 	 	 displayName="W3EE_StamCostFast" 								displayType="SLIDER;0;10.0;100" 			 />
+			<Var id="SASC" 			 	 	 displayName="W3EE_StamCostHeavy" 								displayType="SLIDER;0;10.0;100" 			 />
+			<Var id="EVSC" 		 	 		 displayName="W3EE_StamCostMovement"							 			displayType="SLIDER;0;10.0;100"	 		 />
+			<Var id="BLSC" 		 	 		 displayName="W3EE_StamCostBlock"								 		displayType="SLIDER;0;10.0;100"	 		 />
+			<Var id="COSC" 		 	 		 displayName="W3EE_StamCostCounter"							 			displayType="SLIDER;0;10.0;100"	 		 />
+			<Var id="COSCK" 		 	 	 displayName="W3EE_StamCostCounterKick"							 			displayType="SLIDER;0;10.0;100"	 		 />
+			<Var id="COSCB" 		 	 	 displayName="W3EE_StamCostCounterBash"							 			displayType="SLIDER;0;10.0;100"	 		 />
 			<Var id="RDSC" 		 	 		 displayName="W3EE_RegenDelayFast"							 	displayType="SLIDER;0;3;30"	 			 />
 			<Var id="RDSCH" 	 	 		 displayName="W3EE_RegenDelayStrong"							 	displayType="SLIDER;0;3;30"	 			 />
 			<Var id="RDSCD" 	 	 		 displayName="W3EE_RegenDelayMovement"								 	displayType="SLIDER;0;3;30"	 			 />
 			<Var id="RDSCB" 	 	 		 displayName="W3EE_RegenDelayBlock"									 	displayType="SLIDER;0;3;30"	 			 />
 			<Var id="RDSCC" 	 	 		 displayName="W3EE_RegenDelayCounter"								 	displayType="SLIDER;0;3;30"	 			 />
+			<Var id="RDSCCK" 	 	 		 displayName="W3EE_RegenDelayCounterKick"								 	displayType="SLIDER;0;3;30"	 			 />
+			<Var id="RDSCCB" 	 	 		 displayName="W3EE_RegenDelayCounterBash"								 	displayType="SLIDER;0;3;30"	 			 />
 			<Var id="ASDPS" 		 	 	 displayName="W3EE_MaxReductionStamina" 			displayType="SLIDER;0;100;100" 			 />
 			<Var id="ASDPH" 		 	 	 displayName="W3EE_MaxReductionHP" 				displayType="SLIDER;0;100;100" 			 />
 			<Var id="ASFAN" 		 	 	 displayName="W3EE_SpdMultFast" 			displayType="SLIDER;0.0;10;100" 		 />
@@ -191,8 +126,23 @@
 
 		</VisibleVars>
     </Group>
-			
-    <Group id="SCOptionCR" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Abilities.W3EE_Finishers">
+	
+    <Group id="SCOptionIN" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Abilities.W3EE_Injuries">
+		<PresetsArray>
+			<Preset id="0" displayName="W3EE_Default" >
+				<Entry varId="InjChan"				value="2"	/>
+				<Entry varId="InjPImm"				value="0"	/>
+				<Entry varId="InjMess"				value="0"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+			<Var id="InjChan" 		 	 	 displayName="W3EE_InjuryChance" 								displayType="SLIDER;0;100;100" 			 />
+			<Var id="InjPImm" 		 	 	 displayName="W3EE_InjPImmunity" 					displayType="TOGGLE" 					 />
+			<Var id="InjMess" 		 	 	 displayName="W3EE_InjuryMessage" 							displayType="TOGGLE" 					 />
+		</VisibleVars>
+    </Group>
+
+	<Group id="SCOptionCR" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Abilities.W3EE_Finishers">
 		<PresetsArray>
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="Dism"					value="100"	/>
@@ -232,8 +182,8 @@
 				<Entry varId="CCheckA"				value="0"	/>
 				<Entry varId="CADRGA"				value="0.3"	/>
 				<Entry varId="CTH"					value="0"	/>
-				<Entry varId="CTHH"					value="1"	/>
-				<Entry varId="CTHSH"				value="2"	/>
+				<Entry varId="CTHH"					value="0"	/>
+				<Entry varId="CTHSH"				value="0"	/>
 				<Entry varId="CTM"					value="0"	/>
 				<Entry varId="CTMH"					value="0"	/>
 				<Entry varId="KAT"					value="1"	/>
@@ -252,9 +202,9 @@
 				<Entry varId="CCheck"				value="0"	/>
 				<Entry varId="CCheckA"				value="0"	/>
 				<Entry varId="CADRGA"				value="0.3"	/>
-				<Entry varId="CTH"					value="1"	/>
-				<Entry varId="CTHH"					value="2"	/>
-				<Entry varId="CTHSH"				value="2"	/>
+				<Entry varId="CTH"					value="0"	/>
+				<Entry varId="CTHH"					value="0"	/>
+				<Entry varId="CTHSH"				value="0"	/>
 				<Entry varId="CTM"					value="0"	/>
 				<Entry varId="CTMH"					value="0"	/>
 				<Entry varId="KAT"					value="1"	/>
@@ -341,7 +291,7 @@
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="ADRP"					value="3"	/>
 				<Entry varId="ADRGenH"				value="1.0"	/>
-				<Entry varId="ADRGenD"				value="2.5"	/>
+				<Entry varId="ADRGenD"				value="1.0"	/>
 				<Entry varId="ADRDegH"				value="10"	/>
 				<Entry varId="ADRDegHH"				value="10"	/>
 				<Entry varId="ADRDegHSH"			value="6.7"	/>
@@ -356,61 +306,6 @@
 			<Var id="ADRDegHH" 		 	 	 displayName="W3EE_VigorDegenHeavy" 					displayType="SLIDER;0.0;20.0;200" 		 />
 			<Var id="ADRDegHSH" 	 	 	 displayName="W3EE_VigorDegenSHeavy" 			displayType="SLIDER;0.0;20.0;200" 		 />
 			<Var id="AdrVigInt" 	 	 	 displayName="W3EE_VigorIntLost" 			displayType="SLIDER;0;30;30" 			 />
-		</VisibleVars>
-    </Group>
-	
-    <Group id="SCOptionIN" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Injuries">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="InjChan"				value="2"	/>
-				<Entry varId="InjPImm"				value="0"	/>
-				<Entry varId="InjMess"				value="0"	/>
-			</Preset>
-		</PresetsArray>
-        <VisibleVars>
-			<Var id="InjChan" 		 	 	 displayName="W3EE_InjuryChance" 								displayType="SLIDER;0;100;100" 			 />
-			<Var id="InjPImm" 		 	 	 displayName="W3EE_InjPImmunity" 					displayType="TOGGLE" 					 />
-			<Var id="InjMess" 		 	 	 displayName="W3EE_InjuryMessage" 							displayType="TOGGLE" 					 />
-		</VisibleVars>
-    </Group>
-
-    <Group id="SCOptionAnims" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Animations">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="AnimCombat"				value="1"	/>
-				<Entry varId="AnimDrink"				value="1"	/>
-				<Entry varId="AnimEat"					value="1"	/>
-				<Entry varId="AnimOil"					value="1"	/>
-				<Entry varId="AnimLoot"					value="1"	/>
-			</Preset>
-		</PresetsArray>
-		<VisibleVars>
-			<Var id="AnimCombat" 		 	 displayName="W3EE_CombatAnim" 						displayType="TOGGLE"			 		 />
-			<Var id="AnimDrink" 		 	 displayName="W3EE_DrinkingAnim" 						displayType="TOGGLE"			 		 />
-			<Var id="AnimEat" 		 	  	 displayName="W3EE_EatingAnim" 						displayType="TOGGLE"			 		 />
-			<Var id="AnimOil" 		 	  	 displayName="W3EE_OilingAnim" 						displayType="TOGGLE"			 		 />
-			<Var id="AnimLoot" 		 	  	 displayName="W3EE_LootingAnim" 						displayType="TOGGLE"			 		 />
-		</VisibleVars>
-    </Group>
-	
-    <Group id="SCOptionTox" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Abilities.W3EE_Tox">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="standard_degeneration_rate"						value="0.25"/>
-				<Entry varId="accelerated_degeneration_rate"					value="1.75"/>
-				<Entry varId="accelerated_degeneration_threshold"				value="0.25"/>
-				<Entry varId="deccelerated_combat_degeneration"					value="false"/>				
-				<Entry varId="combat_degeneration_rate"							value="0"/>
-				<Entry varId="residual_degeneration_rate"						value="0.1"/>				
-			</Preset>
-		</PresetsArray>
-		<VisibleVars>		
-			<Var id="standard_degeneration_rate"								 displayName="W3EE_ToxDegen"							 displayType="SLIDER;0.0;10.0;1000"			 		 />		
-			<Var id="accelerated_degeneration_rate"								 displayName="W3EE_ToxDegenAcc"							 displayType="SLIDER;0.0;10.0;1000"			 		 />
-			<Var id="accelerated_degeneration_threshold"						 displayName="W3EE_ToxDegenThresh"					 displayType="SLIDER;0.0;1.0;100"			 		 />
-			<Var id="deccelerated_combat_degeneration"							 displayName="W3EE_ToxDecelCombDeg"					 displayType="TOGGLE"			 					 />
-			<Var id="combat_degeneration_rate"									 displayName="W3EE_ToxCombatDegen"								 displayType="SLIDER;0.0;10.0;1000"			 		 />
-			<Var id="residual_degeneration_rate"								 displayName="W3EE_ToxResidualDegen"							 displayType="SLIDER;0.0;1.0;100"			 		 />
 		</VisibleVars>
     </Group>
 	
@@ -462,7 +357,7 @@
 		<PresetsArray>
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="BlockHits1"						value="0"	/>
-				<Entry varId="BlockHits2"						value="50"	/>
+				<Entry varId="BlockHits2"						value="45"	/>
 				<Entry varId="BlockHits3"						value="30"	/>
 				<Entry varId="BlockHits4"						value="-10"	/>
 				<Entry varId="BlockHits5"						value="50"	/>
@@ -495,17 +390,17 @@
 		<PresetsArray>
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="BlockHits1"						value="0"	/>
-				<Entry varId="BlockHits2"						value="50"	/>
-				<Entry varId="BlockHits3"						value="15"	/>
+				<Entry varId="BlockHits2"						value="45"	/>
+				<Entry varId="BlockHits3"						value="20"	/>
 				<Entry varId="BlockHits4"						value="10"	/>
-				<Entry varId="BlockHits5"						value="80"	/>
+				<Entry varId="BlockHits5"						value="60"	/>
 				<Entry varId="BlockHits6"						value="15"	/>
 				<Entry varId="BlockHits7"						value="20"	/>
 				<Entry varId="BlockHits8"						value="0"	/>
 				<Entry varId="BlockHits9"						value="3"	/>
 				<Entry varId="BlockHits10"						value="1"	/>
-				<Entry varId="BlockHits11"						value="20"	/>
-				<Entry varId="BlockHits12"						value="20"	/>
+				<Entry varId="BlockHits11"						value="15"	/>
+				<Entry varId="BlockHits12"						value="10"	/>
 			</Preset>
 		</PresetsArray>
         <VisibleVars>
@@ -529,9 +424,9 @@
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="BlockHits1"						value="0"	/>
 				<Entry varId="BlockHits2"						value="60"	/>
-				<Entry varId="BlockHits3"						value="5"	/>
+				<Entry varId="BlockHits3"						value="15"	/>
 				<Entry varId="BlockHits4"						value="20"	/>
-				<Entry varId="BlockHits5"						value="90"	/>
+				<Entry varId="BlockHits5"						value="70"	/>
 				<Entry varId="BlockHits6"						value="20"	/>
 				<Entry varId="BlockHits7"						value="25"	/>
 				<Entry varId="BlockHits8"						value="5"	/>
@@ -562,9 +457,9 @@
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="BlockHits1"						value="0"	/>
 				<Entry varId="BlockHits2"						value="60"	/>
-				<Entry varId="BlockHits3"						value="0"	/>
+				<Entry varId="BlockHits3"						value="5"	/>
 				<Entry varId="BlockHits4"						value="40"	/>
-				<Entry varId="BlockHits5"						value="90"	/>
+				<Entry varId="BlockHits5"						value="80"	/>
 				<Entry varId="BlockHits6"						value="25"	/>
 				<Entry varId="BlockHits7"						value="30"	/>
 				<Entry varId="BlockHits8"						value="25"	/>
@@ -597,7 +492,7 @@
 				<Entry varId="BlockHits2"						value="75"	/>
 				<Entry varId="BlockHits3"						value="0"	/>
 				<Entry varId="BlockHits4"						value="25"	/>
-				<Entry varId="BlockHits5"						value="95"	/>
+				<Entry varId="BlockHits5"						value="90"	/>
 				<Entry varId="BlockHits6"						value="30"	/>
 				<Entry varId="BlockHits7"						value="30"	/>
 				<Entry varId="BlockHits8"						value="70"	/>
@@ -787,19 +682,91 @@
 			<Var id="BlockHits12" 			 displayName="W3EE_BH4"								displayType="SLIDER;-100;100;200" 	 />
 		</VisibleVars>
     </Group>
-
-    <Group id="SCOptionE" displayName="Mods.W3EE_w3ee.W3EE_Rewards">
+	
+    <Group id="SCOptionCM" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Control">
 		<PresetsArray>
 			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="GoldMult"				value="1"	/>
+				<Entry varId="Lockon"				value="0"	/>
+				<Entry varId="LockonMSF"			value="0"	/>
+				<Entry varId="LockonM"				value="0"	/>
+				<Entry varId="PadDistLong"			value="0.9"	/>
+				<Entry varId="PadDistMed"			value="0.4"	/>
+				<Entry varId="Combatstate"			value="1"	/>
+				<Entry varId="SignInstantCast"		value="1"	/>
+			</Preset>
+			<Preset id="1" displayName="W3EE_Vanilla" >
+				<Entry varId="Lockon"				value="1"	/>
+				<Entry varId="LockonMSF"			value="1"	/>
+				<Entry varId="LockonM"				value="0"	/>
+				<Entry varId="PadDistLong"			value="0.9"	/>
+				<Entry varId="PadDistMed"			value="0.4"	/>
+				<Entry varId="Combatstate"			value="1"	/>
+				<Entry varId="SignInstantCast"		value="0"	/>
 			</Preset>
 		</PresetsArray>
-		<VisibleVars>
-			<Var id="GoldMult" 			 displayName="W3EE_GoldMult"								displayType="SLIDER;0;10.0;100" 		 />
+        <VisibleVars>
+			<Var id="Lockon" 		 	 	 displayName="W3EE_AutoTarget" 												displayType="TOGGLE"					 />
+			<Var id="LockonMSF" 		 	 displayName="W3EE_TargetMode1" 									displayType="OPTIONS"					>
+               <OptionsArray>
+					<Option id="0" displayName="W3EE_Improved">
+                        <Entry varId="LockonMSF" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="W3EE_Vanilla">
+                        <Entry varId="LockonMSF" value="1"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+
+			<Var id="LockonM" 		 	 	 displayName="W3EE_TargetMode2" 								displayType="OPTIONS"					>
+               <OptionsArray>
+					<Option id="0" displayName="W3EE_CameraTarget">
+                        <Entry varId="LockonM" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="W3EE_MovementTarget">
+                        <Entry varId="LockonM" value="1"/>
+                    </Option>
+				</OptionsArray>
+			</Var>
+			<Var id="PadDistLong" 		 	 	 	 displayName="W3EE_PadDistLong" 							displayType="SLIDER;0;1;100" 			 />
+			<Var id="PadDistMed"	 		 	 	 displayName="W3EE_PadDistMed" 								displayType="SLIDER;0;1;100" 			 />
+			<Var id="Combatstate" 		 			 displayName="W3EE_CombatStance" 							displayType="TOGGLE"					 />
+			<Var id="SignInstantCast" 		 		 displayName="W3EE_SignInstantCast" 						displayType="TOGGLE"					 />
 		</VisibleVars>
     </Group>
 
-	<Group id="SCOptionSkills" displayName="Mods.W3EE_w3ee.W3EE_Talents">
+    <Group id="EnhancedTargeting" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_SoftLock">
+		<PresetsArray>
+			<Preset id="0" displayName="W3EE_Keyboard">
+				<Entry varId="ETCameraWeight"	 	value="0.50"/>
+				<Entry varId="ETMovementWeight"	 	value="1.50"/>
+				<Entry varId="ETFacingWeight"	 	value="0.00"/>
+				<Entry varId="ETHysteresis" 	 	value="1.05"/>
+				<Entry varId="ETInFrameCheck"	 	value="false"/>
+				<Entry varId="ETSignsTowardsCamera" value="true"/>
+				<Entry varId="ETDisableCameraLock"  value="true"/>
+			</Preset>
+			<Preset id="1" displayName="W3EE_Controller">
+				<Entry varId="ETCameraWeight" 		value="0.50"/>
+				<Entry varId="ETMovementWeight"		value="1.00"/>
+				<Entry varId="ETFacingWeight" 		value="0.25"/>
+				<Entry varId="ETHysteresis" 		value="1.05"/>
+				<Entry varId="ETInFrameCheck" 		value="true"/>
+				<Entry varId="ETSignsTowardsCamera" value="false"/>
+				<Entry varId="ETDisableCameraLock"  value="false"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="ETCameraWeight" 			displayName="W3EE_CameraDirectionW" 							displayType="SLIDER;0;3;600"				 />
+			<Var id="ETMovementWeight" 			displayName="W3EE_MovementDirectionW" 						displayType="SLIDER;0;3;600"				 />
+			<Var id="ETFacingWeight" 			displayName="W3EE_FacingDirectionW" 							displayType="SLIDER;0;3;600"				 />
+			<Var id="ETHysteresis" 				displayName="W3EE_Hysteresis" 					displayType="SLIDER;1;2;101"				 />
+			<Var id="ETInFrameCheck" 			displayName="W3EE_InFrame" 									displayType="TOGGLE"						 />
+			<Var id="ETSignsTowardsCamera" 		displayName="W3EE_SignCamera" 							displayType="TOGGLE"						 />
+			<Var id="ETDisableCameraLock" 		displayName="W3EE_DisableCamHardlock" 					displayType="TOGGLE"						 />
+		</VisibleVars>
+    </Group>
+	
+	<Group id="SCOptionSkills" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Talents">
 		<PresetsArray>
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="SPG"						value="1"	/>
@@ -829,7 +796,6 @@
         <VisibleVars>
 			<Var id="SPG" 			 	 displayName="W3EE_TalentsPerLevel"								displayType="SLIDER;1;10;90" 			 />
 			<Var id="PointReq" 			 displayName="W3EE_FreeSkills" 									displayType="TOGGLE"					 />
-			<Var id="SlotsUnlocked" 	 displayName="W3EE_SlotsUnlocked" 								displayType="TOGGLE"					 />
 			<Var id="MutsUnlocked" 	 	 displayName="W3EE_MutSlotsUnlocked" 							displayType="TOGGLE" 					 />
 			<Var id="MultWarning" 		 displayName="W3EE_SkillrateWarning"							displayType="TOGGLE" />
 			<Var id="SkillRateGeneral" 	 displayName="W3EE_SkillrateGeneral"							displayType="SLIDER;0;10;1000" 				 />
@@ -851,6 +817,131 @@
 			<Var id="VersionNr" 		 displayName="" 																displayType="SLIDER;0;50;50000"  		visibilityCondition="hideAlways"/>
 			<Var id="PrevVersion" 		 displayName="" 																displayType="TOGGLE"  					visibilityCondition="hideAlways"/>
 			</VisibleVars>
+    </Group>
+
+    <Group id="SCOptionPrepAlch" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Alchemy">
+		<PresetsArray>
+			<Preset id="0" displayName="W3EE_Default" >
+				<Entry varId="potion_cooked_quantity"					value="1"/>
+				<Entry varId="oil_cooked_quantity"					value="1"/>
+				<Entry varId="bomb_cooked_quantity"					value="1"/>
+				<Entry varId="alchemy_time_cost"					value="8"/>
+				<Entry varId="fade_out_alchemy"						value="1"/>
+				<Entry varId="alchemy_anywhere"						value="0"/>
+				<Entry varId="distillation_time"					value="35"/>
+				<Entry varId="max_potion_count"						value="0"/>
+				<Entry varId="max_bomb_count"						value="0"/>
+				<Entry varId="max_oil_count"						value="0"/>
+				<Entry varId="global_potion_duration"				value="0"/>				
+				<Entry varId="global_mininum_potion_duration"		value="0"/>
+				<Entry varId="mutagen_potion_duration"				value="0"/>
+				<Entry varId="mutagen_mininum_potion_duration"		value="0"/>
+				<Entry varId="oil_duration"							value="0"/>
+				<Entry varId="oil_minimum_duration"					value="0"/>
+				<Entry varId="potion_duration_multiplier"			value="1"/>
+				<Entry varId="mutagen_duration_multiplier"			value="1"/>
+				<Entry varId="oil_duration_multiplier"				value="1"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="potion_cooked_quantity"						 displayName="W3EE_PAlchYield"									 displayType="SLIDER;0;20;20"							 />
+			<Var id="oil_cooked_quantity"							 displayName="W3EE_OAlchYield"									 displayType="SLIDER;0;20;20"							 />
+			<Var id="bomb_cooked_quantity"							 displayName="W3EE_BAlchYield"									 displayType="SLIDER;0;20;20"							 />
+			<Var id="alchemy_time_cost" 							 displayName="W3EE_BrewDur"		 displayType="SLIDER;0;100;100" 			 			 />
+			<Var id="fade_out_alchemy" 								 displayName="W3EE_FadeOption"		 displayType="TOGGLE" 			 			 />
+			<Var id="alchemy_anywhere" 								 displayName="W3EE_AlchAnywhere"		 displayType="TOGGLE" 			 			 />
+			<Var id="distillation_time"								 displayName="W3EE_DistillDur" 					 displayType="SLIDER;0;100;100" 			 			 />
+			<Var id="max_potion_count" 								 displayName="W3EE_MaxPotCount"					 displayType="SLIDER;0;256;256" 			 			 />
+			<Var id="max_bomb_count"								 displayName="W3EE_MaxBombCount" 					 displayType="SLIDER;0;256;256" 			 			 />
+			<Var id="max_oil_count"									 displayName="W3EE_MaxOilCount"						 displayType="SLIDER;0;256;256" 			 			 />
+			<Var id="global_potion_duration"						 displayName="W3EE_GPotionDur"					 displayType="SLIDER;0;10800;10800" 			 		 />
+			<Var id="global_mininum_potion_duration"				 displayName="W3EE_MPotionDur"				 displayType="SLIDER;0;10800;10800" 			 		 />
+			<Var id="mutagen_potion_duration"						 displayName="W3EE_GDecocDur"				 displayType="SLIDER;0;10800;10800" 			 		 />
+			<Var id="mutagen_mininum_potion_duration"				 displayName="W3EE_MDecocDur"				 displayType="SLIDER;0;10800;10800" 			 		 />
+			<Var id="oil_duration"									 displayName="W3EE_GOilCharges"						 displayType="SLIDER;0;10800;10800" 			 		 />
+			<Var id="oil_minimum_duration"							 displayName="W3EE_MOilCharges"					 displayType="SLIDER;0;10800;10800" 			 		 />
+			<Var id="potion_duration_multiplier"					 displayName="W3EE_PDurMult"				 displayType="SLIDER;0.0;10.0;1000" 			 		 />
+			<Var id="mutagen_duration_multiplier"					 displayName="W3EE_DDurMult"			 displayType="SLIDER;0.0;10.0;1000"			 			 />
+			<Var id="oil_duration_multiplier"						 displayName="W3EE_OChargeMult"					 displayType="SLIDER;0.0;10.0;1000"			 			 />
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionTox" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Tox">
+		<PresetsArray>
+			<Preset id="0" displayName="W3EE_Default" >
+				<Entry varId="standard_degeneration_rate"						value="0.25"/>
+				<Entry varId="accelerated_degeneration_rate"					value="1.75"/>
+				<Entry varId="accelerated_degeneration_threshold"				value="0.25"/>
+				<Entry varId="deccelerated_combat_degeneration"					value="false"/>				
+				<Entry varId="combat_degeneration_rate"							value="0"/>
+				<Entry varId="residual_degeneration_rate"						value="0.1"/>				
+				<Entry varId="potion_drunk_dur_low"								value="1"/>				
+				<Entry varId="potion_drunk_dur_high"							value="10"/>				
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>		
+			<Var id="standard_degeneration_rate"								 displayName="W3EE_ToxDegen"							 displayType="SLIDER;0.0;10.0;1000"			 		 />		
+			<Var id="accelerated_degeneration_rate"								 displayName="W3EE_ToxDegenAcc"							 displayType="SLIDER;0.0;10.0;1000"			 		 />
+			<Var id="accelerated_degeneration_threshold"						 displayName="W3EE_ToxDegenThresh"						 displayType="SLIDER;0.0;1.0;100"			 		 />
+			<Var id="deccelerated_combat_degeneration"							 displayName="W3EE_ToxDecelCombDeg"						 displayType="TOGGLE"			 					 />
+			<Var id="combat_degeneration_rate"									 displayName="W3EE_ToxCombatDegen"						 displayType="SLIDER;0.0;10.0;1000"			 		 />
+			<Var id="residual_degeneration_rate"								 displayName="W3EE_ToxResidualDegen"					 displayType="SLIDER;0.0;1.0;100"			 		 />
+			<Var id="potion_drunk_dur_low"										 displayName="W3EE_ToxDrunkLow"							 displayType="SLIDER;0;600;600"				 		 />
+			<Var id="potion_drunk_dur_high"										 displayName="W3EE_ToxDrunkHigh"						 displayType="SLIDER;0;600;600"				 		 />
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionPrepMed" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Meditation">
+		<PresetsArray>
+			<Preset id="0" displayName="W3EE_Default" >
+				<Entry varId="PrepTimb"					value="2"	/>
+				<Entry varId="PrepHTimb"				value="1"	/>
+				<Entry varId="PrepLVL"					value="0"	/>
+				<Entry varId="PrepTalents"				value="0"	/>
+				<Entry varId="PrepUpgrade"				value="0"	/>
+				<Entry varId="PrepCamLock"				value="1"	/>
+				<Entry varId="PrepMenu"					value="1"	/>
+				<Entry varId="PrepTimeScale"			value="75"	/>
+			</Preset>
+		</PresetsArray>
+        <VisibleVars>
+            <Var id="PrepTimb" 				 displayName="W3EE_RequiredTimber" 							displayType="SLIDER;0;10;10"			 />
+            <Var id="PrepHTimb" 			 displayName="W3EE_RequiredHTimber" 						displayType="SLIDER;0;10;10"			 />
+			<Var id="PrepLVL" 		 		 displayName="W3EE_MeditationLevel" 					displayType="TOGGLE"			 		 />
+			<Var id="PrepTalents" 			 displayName="W3EE_MeditationChangeTalent" 			displayType="TOGGLE"			 		 />
+			<Var id="PrepUpgrade" 			 displayName="W3EE_MeditationUpgrade" 				displayType="TOGGLE"			 		 />
+			<Var id="PrepCamLock" 			 displayName="W3EE_MeditationCameraLock" 				displayType="TOGGLE"			 		 />
+			<Var id="PrepMenu" 				 displayName="W3EE_MeditationMenuType" 					displayType="OPTIONS"			 		  >
+				<OptionsArray>
+					<Option id="0" displayName="W3EE_MenuPaused">
+						<Entry varId="PrepMenu" value="0"/>
+					</Option>
+					<Option id="1" displayName="W3EE_MenuUnpaused">
+						<Entry varId="PrepMenu" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+            <Var id="PrepTimeScale" 			 displayName="W3EE_MeditationTimeScale" 				displayType="SLIDER;0;300;60"			 />
+		</VisibleVars>
+    </Group>
+	
+    <Group id="SCOptionAnims" displayName="Mods.W3EE_w3ee.W3EE_Gameplay.W3EE_Animations">
+		<PresetsArray>
+			<Preset id="0" displayName="W3EE_Default" >
+				<Entry varId="AnimCombat"				value="1"	/>
+				<Entry varId="AnimDrink"				value="1"	/>
+				<Entry varId="AnimEat"					value="1"	/>
+				<Entry varId="AnimOil"					value="1"	/>
+				<Entry varId="AnimLoot"					value="1"	/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="AnimCombat" 		 	 displayName="W3EE_CombatAnim" 						displayType="TOGGLE"			 		 />
+			<Var id="AnimDrink" 		 	 displayName="W3EE_DrinkingAnim" 						displayType="TOGGLE"			 		 />
+			<Var id="AnimEat" 		 	  	 displayName="W3EE_EatingAnim" 						displayType="TOGGLE"			 		 />
+			<Var id="AnimOil" 		 	  	 displayName="W3EE_OilingAnim" 						displayType="TOGGLE"			 		 />
+			<Var id="AnimLoot" 		 	  	 displayName="W3EE_LootingAnim" 						displayType="TOGGLE"			 		 />
+		</VisibleVars>
     </Group>
 
 	<Group id="SCOptionVisuals" displayName="Mods.W3EE_w3ee.W3EE_Visual">
@@ -917,8 +1008,8 @@
 			<Preset id="0" displayName="W3EE_Default" >
 				<Entry varId="FallingDamage"			value="1"	/>
 				<Entry varId="SStamUsage"				value="0"	/>
-				<Entry varId="SStamDelExpl"				value="3"	/>
-				<Entry varId="SStamDelComb"				value="2"	/>
+				<Entry varId="SStamDelExpl"				value="0"	/>
+				<Entry varId="SStamDelComb"				value="0"	/>
 				<Entry varId="SStamInstDr"				value="0"	/>
 				<Entry varId="SStamWitSen"				value="1"	/>
 				<Entry varId="SStamIndoor"				value="0"	/>
@@ -953,84 +1044,7 @@
 			<Var id="SStamDelExpl" 		 	 displayName="W3EE_SprintStamUseDelayE" 						displayType="SLIDER;0;10.0;100" 		 />
 			<Var id="SStamDelComb" 			 displayName="W3EE_SprintStamUseDelayC"								displayType="SLIDER;0;10.0;100" 		 />
 			<Var id="SStamInstDr" 			 displayName="W3EE_InstantDrain"									displayType="TOGGLE" 					 />
-			<Var id="SStamWitSen" 			 displayName="W3EE_WitcherSense" 								displayType="TOGGLE"					 />
 			<Var id="SStamIndoor" 			 displayName="W3EE_SprintIndoors"													displayType="TOGGLE" 					 />
-			<Var id="HorseSprinting"		 displayName="W3EE_SprintHorseCity"												displayType="TOGGLE" 					 />
-		</VisibleVars>
-    </Group>
-
-    <Group id="SCOptionPrepMed" displayName="Mods.W3EE_w3ee.W3EE_Preparation.W3EE_Meditation">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="PrepTimb"					value="2"	/>
-				<Entry varId="PrepHTimb"				value="1"	/>
-				<Entry varId="PrepLVL"					value="0"	/>
-				<Entry varId="PrepTalents"				value="0"	/>
-				<Entry varId="PrepUpgrade"				value="0"	/>
-				<Entry varId="PrepCamLock"				value="1"	/>
-				<Entry varId="PrepMenu"					value="1"	/>
-			</Preset>
-		</PresetsArray>
-        <VisibleVars>
-            <Var id="PrepTimb" 				 displayName="W3EE_RequiredTimber" 							displayType="SLIDER;0;10;10"			 />
-            <Var id="PrepHTimb" 			 displayName="W3EE_RequiredHTimber" 						displayType="SLIDER;0;10;10"			 />
-			<Var id="PrepLVL" 		 		 displayName="W3EE_MeditationLevel" 					displayType="TOGGLE"			 		 />
-			<Var id="PrepTalents" 			 displayName="W3EE_MeditationChangeTalent" 			displayType="TOGGLE"			 		 />
-			<Var id="PrepUpgrade" 			 displayName="W3EE_MeditationUpgrade" 				displayType="TOGGLE"			 		 />
-			<Var id="PrepCamLock" 			 displayName="W3EE_MeditationCameraLock" 				displayType="TOGGLE"			 		 />
-			<Var id="PrepMenu" 				 displayName="W3EE_MeditationMenuType" 					displayType="OPTIONS"			 		  >
-				<OptionsArray>
-					<Option id="0" displayName="W3EE_MenuPaused">
-						<Entry varId="PrepMenu" value="0"/>
-					</Option>
-					<Option id="1" displayName="W3EE_MenuUnpaused">
-						<Entry varId="PrepMenu" value="1"/>
-					</Option>
-				</OptionsArray>
-			</Var>
-		</VisibleVars>
-    </Group>
-	
-    <Group id="SCOptionPrepAlch" displayName="Mods.W3EE_w3ee.W3EE_Preparation.W3EE_Alchemy">
-		<PresetsArray>
-			<Preset id="0" displayName="W3EE_Default" >
-				<Entry varId="cooked_quantity"						value="1"/>
-				<Entry varId="alchemy_time_cost"					value="8"/>
-				<Entry varId="fade_out_alchemy"						value="1"/>
-				<Entry varId="alchemy_anywhere"						value="0"/>
-				<Entry varId="distillation_time"					value="35"/>
-				<Entry varId="max_potion_count"						value="0"/>
-				<Entry varId="max_bomb_count"						value="0"/>
-				<Entry varId="max_oil_count"						value="0"/>
-				<Entry varId="global_potion_duration"				value="0"/>				
-				<Entry varId="global_mininum_potion_duration"		value="240"/>
-				<Entry varId="mutagen_potion_duration"				value="0"/>
-				<Entry varId="mutagen_mininum_potion_duration"		value="0"/>
-				<Entry varId="oil_duration"							value="0"/>
-				<Entry varId="oil_minimum_duration"					value="0"/>
-				<Entry varId="potion_duration_multiplier"			value="1"/>
-				<Entry varId="mutagen_duration_multiplier"			value="1"/>
-				<Entry varId="oil_duration_multiplier"				value="1"/>
-			</Preset>
-		</PresetsArray>
-		<VisibleVars>
-			<Var id="cooked_quantity"								 displayName="W3EE_AlchYield"									 displayType="SLIDER;0;20;20"							 />
-			<Var id="alchemy_time_cost" 							 displayName="W3EE_BrewDur"		 displayType="SLIDER;0;100;100" 			 			 />
-			<Var id="fade_out_alchemy" 								 displayName="W3EE_FadeOption"		 displayType="TOGGLE" 			 			 />
-			<Var id="alchemy_anywhere" 								 displayName="W3EE_AlchAnywhere"		 displayType="TOGGLE" 			 			 />
-			<Var id="distillation_time"								 displayName="W3EE_DistillDur" 					 displayType="SLIDER;0;100;100" 			 			 />
-			<Var id="max_potion_count" 								 displayName="W3EE_MaxPotCount"					 displayType="SLIDER;0;256;256" 			 			 />
-			<Var id="max_bomb_count"								 displayName="W3EE_MaxBombCount" 					 displayType="SLIDER;0;256;256" 			 			 />
-			<Var id="max_oil_count"									 displayName="W3EE_MaxOilCount"						 displayType="SLIDER;0;256;256" 			 			 />
-			<Var id="global_potion_duration"						 displayName="W3EE_GPotionDur"					 displayType="SLIDER;0;10800;10800" 			 		 />
-			<Var id="global_mininum_potion_duration"				 displayName="W3EE_MPotionDur"				 displayType="SLIDER;0;10800;10800" 			 		 />
-			<Var id="mutagen_potion_duration"						 displayName="W3EE_GDecocDur"				 displayType="SLIDER;0;10800;10800" 			 		 />
-			<Var id="mutagen_mininum_potion_duration"				 displayName="W3EE_MDecocDur"				 displayType="SLIDER;0;10800;10800" 			 		 />
-			<Var id="oil_duration"									 displayName="W3EE_GOilCharges"						 displayType="SLIDER;0;10800;10800" 			 		 />
-			<Var id="oil_minimum_duration"							 displayName="W3EE_MOilCharges"					 displayType="SLIDER;0;10800;10800" 			 		 />
-			<Var id="potion_duration_multiplier"					 displayName="W3EE_PDurMult"				 displayType="SLIDER;0.0;10.0;1000" 			 		 />
-			<Var id="mutagen_duration_multiplier"					 displayName="W3EE_DDurMult"			 displayType="SLIDER;0.0;10.0;1000"			 			 />
-			<Var id="oil_duration_multiplier"						 displayName="W3EE_OChargeMult"					 displayType="SLIDER;0.0;10.0;1000"			 			 />
 		</VisibleVars>
     </Group>
 	

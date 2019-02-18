@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <UserConfig>
    
-    <Group id="fhudHUD" displayName="Mods.friendly_hud.fhud_hud">
+    <Group id="fhudHUD" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_hud">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
 				<Entry varId="fhudEnableCombatModules" value="false"/>
@@ -41,7 +41,7 @@
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudMarkers" displayName="Mods.friendly_hud.fhud_markers">
+    <Group id="fhudMarkers" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_markers">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
 				<Entry varId="fhud3DMarkersEnabled" value="true"/>
@@ -76,6 +76,9 @@
 				<Entry varId="fhudMarkersShowWSClues" value="1"/>
 				<Entry varId="fhudMarkerHideActivities" value="true"/>
 				<Entry varId="fhudMarkerShowUndiscoveredRoadsigns" value="false"/>
+				<Entry varId="fhudMarkerPinWithUserMarker" value="true"/>
+				<Entry varId="fhudMarkersSyncWithMap" value="true"/>
+				<Entry varId="fhudMarkersTransparency" value="0"/>
 			</Preset>
 			<Preset id="1" displayName="fhud_compass">
 				<Entry varId="fhud3DMarkersEnabled" value="true"/>
@@ -111,6 +114,9 @@
 				<Entry varId="fhudMarkersShowWSClues" value="1"/>
 				<Entry varId="fhudMarkerHideActivities" value="false"/>
 				<Entry varId="fhudMarkerShowUndiscoveredRoadsigns" value="false"/>
+				<Entry varId="fhudMarkerPinWithUserMarker" value="true"/>
+				<Entry varId="fhudMarkersSyncWithMap" value="true"/>
+				<Entry varId="fhudMarkersTransparency" value="0"/>
 			</Preset>
 			<Preset id="2" displayName="fhud_minimalistic">
 				<Entry varId="fhud3DMarkersEnabled" value="true"/>
@@ -140,6 +146,9 @@
 				<Entry varId="fhudMarkersShowWSClues" value="1"/>
 				<Entry varId="fhudMarkerHideActivities" value="false"/>
 				<Entry varId="fhudMarkerShowUndiscoveredRoadsigns" value="false"/>
+				<Entry varId="fhudMarkerPinWithUserMarker" value="false"/>
+				<Entry varId="fhudMarkersSyncWithMap" value="false"/>
+				<Entry varId="fhudMarkersTransparency" value="0"/>
 			</Preset>
 			<Preset id="3" displayName="fhud_vanilla">
 				<Entry varId="fhud3DMarkersEnabled" value="false"/>
@@ -453,10 +462,13 @@
 			</Var>
 			<Var id="fhudMarkerHideActivities" displayName="fhud_markerHideActivities" displayType="TOGGLE"/>
 			<Var id="fhudMarkerShowUndiscoveredRoadsigns" displayName="fhud_markerShowUndiscoveredRoadsigns" displayType="TOGGLE"/>
+			<Var id="fhudMarkerPinWithUserMarker" displayName="fhud_markerPinWithUserMarker" displayType="TOGGLE"/>
+			<Var id="fhudMarkersSyncWithMap" displayName="fhud_markersSyncWithMap" displayType="TOGGLE"/>
+            <Var id="fhudMarkersTransparency" displayName="fhud_markersTransparency" displayType="SLIDER;0;100;100"/>
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudQuickItems" displayName="Mods.friendly_hud.fhud_quick_items">
+    <Group id="fhudQuickItems" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_quick_items">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
 				<Entry varId="fhudEnableItemsInRadialMenu" value="true"/>
@@ -500,7 +512,7 @@
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudMap" displayName="Mods.friendly_hud.fhud_map">
+    <Group id="fhudMap" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_map">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
 				<Entry varId="fhudMapUnlimitedZoom" value="true"/>
@@ -529,7 +541,7 @@
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudInventory" displayName="Mods.friendly_hud.fhud_inventory">
+    <Group id="fhudInventory" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_inventory">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
 				<Entry varId="fhudDefaultInventoryTab" value="0"/>
@@ -594,7 +606,7 @@
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudInteractions" displayName="Mods.friendly_hud.fhud_interactions">
+    <Group id="fhudInteractions" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_interactions">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
 				<Entry varId="fhudDisableAllInteractionPrompts" value="false"/>
@@ -677,7 +689,7 @@
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudMainMenu" displayName="Mods.friendly_hud.fhud_mainMenu">
+    <Group id="fhudMainMenu" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_mainMenu">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_vanilla">
 				<Entry varId="fhudMainMenuMode" value="3"/>
@@ -712,10 +724,10 @@
         </VisibleVars>
     </Group>
 	
-    <Group id="fhudMisc" displayName="Mods.friendly_hud.fhud_misc">
+    <Group id="fhudMisc" displayName="Mods.W3EE_w3ee.W3EE_addons.friendly_hud.fhud_misc">
 		<PresetsArray>
 			<Preset id="0" displayName="fhud_defaults">
-				<Entry varId="fhudDoNotShowDamage" value="true"/>
+				<Entry varId="fhudDoNotShowDamage" value="false"/>
 				<Entry varId="fhudSilentJournalUpdates" value="false"/>
 			</Preset>
 			<Preset id="1" displayName="fhud_vanilla">

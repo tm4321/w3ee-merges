@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-16"?>
 <UserConfig>
-		<Group id="ImmersiveCamPositionsExploration" displayName="Mods.immersive_cam.cam_settings.cam_exploration">
+		<Group id="ImmersiveCamPositionsExploration" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_exploration">
 			<PresetsArray>
 				<Preset id="0" displayName="vanilla">
 					<Entry varId="expOffset"	 value="0"/>
@@ -47,7 +47,7 @@
 				<Var overrideGroup="ImmersiveCam" id="intHeight" displayName="intHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsSprint" displayName="Mods.immersive_cam.cam_settings.cam_sprint">
+		<Group id="ImmersiveCamPositionsSprint" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_sprint">
 			<PresetsArray>
 				<Preset id="0" displayName="immersive_cam">
 					<Entry varId="sprintMode"	 value="0"/>
@@ -76,7 +76,7 @@
 				<Var overrideGroup="ImmersiveCam" id="sprintHeight" displayName="sprintHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsCombat" displayName="Mods.immersive_cam.cam_settings.cam_combat">
+		<Group id="ImmersiveCamPositionsCombat" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_combat">
 			<PresetsArray>
 				<Preset id="0" displayName="vanilla">
 					<Entry varId="comOffset"	 value="0"/>
@@ -116,7 +116,7 @@
 				<Var overrideGroup="ImmersiveCam" id="hlHeight" displayName="hlHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsHorse" displayName="Mods.immersive_cam.cam_settings.cam_horseback">
+		<Group id="ImmersiveCamPositionsHorse" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_horseback">
 			<PresetsArray>
 				<Preset id="0" displayName="vanilla">
 					<Entry varId="hbDistance"	 value="2.4"/>
@@ -161,7 +161,7 @@
 				<Var overrideGroup="ImmersiveCam" id="hbHeight" displayName="hbHeight" displayType="SLIDER;-2.0;2.0;400" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsSailing" displayName="Mods.immersive_cam.cam_settings.cam_sailing">
+		<Group id="ImmersiveCamPositionsSailing" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_sailing">
 			<PresetsArray>
 				<Preset id="0" displayName="vanilla">
 					<Entry varId="sailPitch"	 value="10"/>
@@ -184,7 +184,7 @@
 				<Var overrideGroup="ImmersiveCam" id="sailHeight" displayName="sailHeight" displayType="SLIDER;0.0;2.0;200" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsWS" displayName="Mods.immersive_cam.cam_settings.cam_witcher_sense">
+		<Group id="ImmersiveCamPositionsWS" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_witcher_sense">
 			<PresetsArray>
 				<Preset id="0" displayName="vanilla">
 					<Entry varId="WitcherSenseZoom"	 value="true"/>
@@ -234,7 +234,7 @@
 				<Var overrideGroup="ImmersiveCam" id="iWSHeight" displayName="iWSHeight" displayType="SLIDER;-1.0;2.0;300" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsClue" displayName="Mods.immersive_cam.cam_settings.cam_clue_investigation">
+		<Group id="ImmersiveCamPositionsClue" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_clue_investigation">
 			<PresetsArray>
 					<Preset id="0" displayName="vanilla">
 					<Entry varId="clueOffset"	 	value="0.7"/>
@@ -253,7 +253,7 @@
 				<Var overrideGroup="ImmersiveCam" id="clueHeight" displayName="clueHeight" displayType="SLIDER;-3.0;1.0;400" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsAT" displayName="Mods.immersive_cam.cam_settings.cam_aim_throw">
+		<Group id="ImmersiveCamPositionsAT" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_aim_throw">
 			<PresetsArray>
 				<Preset id="0" displayName="vanilla">
 					<Entry varId="atRotate"	 value="true"/>
@@ -275,7 +275,7 @@
 				<Var overrideGroup="ImmersiveCam" id="atHeight" displayName="atHeight" displayType="SLIDER;-1.0;1.0;200" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCamPositionsFS" displayName="Mods.immersive_cam.cam_settings.cam_igni_firestream">
+		<Group id="ImmersiveCamPositionsFS" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.cam_settings.cam_igni_firestream">
 			<PresetsArray>
 					<Preset id="0" displayName="vanilla">
 					<Entry varId="fsOffset"	 	value="0.65"/>
@@ -294,27 +294,14 @@
 				<Var overrideGroup="ImmersiveCam" id="fsHeight" displayName="fsHeight" displayType="SLIDER;-1.0;1.0;200" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="SlowMotionCam" displayName="Mods.immersive_cam.slow_mo_combat">
-			<VisibleVars>
-				<Var overrideGroup="ImmersiveCam" id="CritSloMoCam" displayName="CritSloMoCam" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="criticalHitSlowMoChance" displayName="criticalHitSlowMoChance" displayType="SLIDER;0;100;100" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="dodgeRollSlowMoFactor" displayName="dodgeRollSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="evadeStepSlowMoFactor" displayName="evadeStepSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="aardSlowMoFactor" displayName="aardSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="igniSlowMoFactor" displayName="igniSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="counterAttackSlowMoFactor" displayName="counterAttackSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="criticalHitSlowMoFactor" displayName="criticalHitSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-				<Var overrideGroup="ImmersiveCam" id="dismemberSlowMoFactor" displayName="dismemberSlowMoFactor" displayType="SLIDER;.05;1.00;19.1" tags="customNames;nonLocalized;customDisplayName"/>
-			</VisibleVars>
-		</Group>
-		<Group id="HT" displayName="Mods.immersive_cam.player_headtracking">
+		<Group id="HT" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.player_headtracking">
 			<VisibleVars>
 				<Var overrideGroup="ImmersiveCam" id="Headtracking" displayName="Headtracking" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
 				<Var overrideGroup="ImmersiveCam" id="extHTDis" displayName="extHTDis" displayType="SLIDER;0.0;6.0;12" tags="customNames;nonLocalized;customDisplayName"/>
 				<Var overrideGroup="ImmersiveCam" id="intHTDis" displayName="intHTDis" displayType="SLIDER;0.0;6.0;12" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
 		</Group>
-		<Group id="ImmersiveCam" displayName="Mods.immersive_cam.ic_version">
+		<Group id="ImmersiveCam" displayName="Mods.W3EE_w3ee.W3EE_addons.immersive_cam.ic_version">
 			<VisibleVars>
 				<Var overrideGroup="ImmersiveCam" id="v42Initialized" displayName="v4Initialized" displayType="TOGGLE" tags="customNames;nonLocalized;customDisplayName"/>
 			</VisibleVars>
