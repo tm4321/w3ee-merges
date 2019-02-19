@@ -12,7 +12,7 @@
 
 #### Base
 - [Unification Patch](https://www.nexusmods.com/witcher3/mods/2134)
-- [W3EE v4.05](https://www.nexusmods.com/witcher3/mods/3522)
+- [W3EE v4.0](https://www.nexusmods.com/witcher3/mods/3522)
 
 #### Visuals
 - [AMM](https://www.nexusmods.com/witcher3/mods/780)
@@ -20,6 +20,7 @@
 #### Gameplay
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080)
 - [HUD Positioning and Scale](https://www.nexusmods.com/witcher3/mods/861)
+- [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921)
 
 #### Custom Tweaks
 I've made several small changes which are all located inside modW3CustomTweaks.
