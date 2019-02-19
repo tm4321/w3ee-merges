@@ -2,7 +2,7 @@
   <img src="./.github/banner.png" />
 
   <h3 align="center">
-    W3EE v4.04 Merges
+    W3EE v4.05 Merges
   </h3>
 </p>
 
@@ -12,7 +12,7 @@
 
 #### Base
 - [Unification Patch](https://www.nexusmods.com/witcher3/mods/2134)
-- [W3EE v4.04](https://www.nexusmods.com/witcher3/mods/3522)
+- [W3EE v4.05](https://www.nexusmods.com/witcher3/mods/3522)
 
 #### Visuals
 - [AMM](https://www.nexusmods.com/witcher3/mods/780)
