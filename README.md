@@ -2,7 +2,7 @@
   <img src="./.github/banner.png" />
 
   <h3 align="center">
-    W3EE v4.05 Merges
+    W3EE v4.07 Merges
   </h3>
 </p>
 
