@@ -3,3 +3,20 @@ IK_MiddleMouse=(Action=EnemyHealthBarToggle)
 
 [Combat_Replacer_Ciri]
 IK_MiddleMouse=(Action=EnemyHealthBarToggle)
+
+[BASE_INTERACTIONS_HORSE]
+IK_LShift=(Action=Follow) // DELETE
+
+[Horse]
+IK_LShift=(Action=Follow) // DELETE
+IK_LShift=(Action=Canter) // DELETE
+IK_S=(Action=SlowDown)
+IK_S=(Action=SlowDownFast,State=Duration,IdleTime=0.3)
+IK_W=(Action=Canter)
+
+[Horse_Replacer_Ciri]
+IK_LShift=(Action=Follow) // DELETE
+IK_LShift=(Action=Canter) // DELETE
+IK_S=(Action=SlowDown)
+IK_S=(Action=SlowDownFast,State=Duration,IdleTime=0.3)
+IK_W=(Action=Canter)

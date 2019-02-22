@@ -1,24 +1,24 @@
-[modNoDirtyLensEffect]
+[mod0000_MergedFiles]
 Enabled=1
 Priority=1
 
-[modNoScreenWaterDrops]
-Enabled=1
-Priority=1
-
-[modBetterWind_Phoenix_LMIII]
-Enabled=1
-Priority=1
-
-[modPhoenix_Lighting_Mod_III_1R_V2]
+[modW3CustomTweaks]
 Enabled=1
 Priority=2
 
-[mod0000_MergedPack]
+[modNoDirtyLensEffect]
 Enabled=1
-Priority=5
+Priority=3
 
-[mod0000_MergedFiles]
+[modNoScreenWaterDrops]
+Enabled=1
+Priority=3
+
+[modWLM_Phoenix_VIII]
+Enabled=1
+Priority=4
+
+[mod0000_MergedPack]
 Enabled=1
 Priority=5
 
@@ -32,4 +32,4 @@ Priority=100
 
 [modRTCElite]
 Enabled=1
-Priority=102
+Priority=101

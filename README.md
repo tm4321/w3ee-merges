@@ -30,6 +30,9 @@ Make sure you add the lines found in input.settings or use my highly customized 
 Here are all the changes:
 - Added ability to toggle enemy healthbar while in combat.
 - Added game time slider and option to show 24hr clock
+- Adjusted weather probability and wind scale for Wiedzmin Lighting Mod
+- Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
+- Removed sword trails and sparks
 - Removed yellow witcher sense colors and sound bubbles
 - Show subtitles for foreign languages
 
@@ -68,11 +71,10 @@ These mods are not included in this repository since they do not require any scr
 #### Environment & Lightning
 - [CLOUDS](https://www.nexusmods.com/witcher3/mods/2169?)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770)
-- [More Realistic Wind Effect](https://www.nexusmods.com/witcher3/mods/1853?) - Phoenix version
 - [Next Generation LOD](https://www.nexusmods.com/witcher3/mods/3193)
 - [Realistic Contrast Texture](https://www.nexusmods.com/witcher3/mods/1505) - Dont merge
 - [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836)
-- [Phoenix Lighting Mod](https://www.nexusmods.com/witcher3/mods/3170) - Dont merge
+- [Wiedzmin Lighting Mod](https://www.nexusmods.com/witcher3/mods/2358) - Dont merge
 
 ## Credits
 All credits go to CD Project Red and the original mod authors
