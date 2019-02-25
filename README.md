@@ -58,11 +58,11 @@ These mods are not included in this repository since they do not require any scr
 - [Lore-friendly Witchers - Full](https://www.nexusmods.com/witcher3/mods/390)
 - [Lore Friendly Ciri - Short scar](https://www.nexusmods.com/witcher3/mods/685)
 - [New Djinn Face](https://www.nexusmods.com/witcher3/mods/554)
+- [Original Witcher Armor Sets Colors - All in One](https://www.nexusmods.com/witcher3/mods/1536) - Fixes red armors from AMM
 - [Pieces of Filth](https://www.nexusmods.com/witcher3/mods/3444)
 
 #### Effects
 - [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594)
-- [Better FX](https://www.nexusmods.com/witcher3/mods/2425?) - No signs except Igni
 - [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366)
 - [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853?)
 - [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347)
