@@ -483,6 +483,8 @@ IK_Q=(Action=CastSignHold,State=Duration,IdleTime=0.2)
 IK_Q=(Action=CastSign)
 
 [Boat]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Pad_A_CROSS=(Action=GI_Accelerate)
 IK_Pad_LeftShoulder=(Action=VehicleItemActionHold,State=Duration,IdleTime=0.2)
 IK_Pad_LeftShoulder=(Action=VehicleItemAction)
@@ -579,6 +581,8 @@ IK_Pad_DigitUp=(Action=DrinkPotionUpperHold,State=Duration,IdleTime=0.3)
 IK_Pad_DigitUp=(Action=DrinkPotion1)
 
 [BoatPassenger]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Tab=(Action=RadialMenu)
 IK_F10=(Action=ToggleEssentials)
 IK_F11=(Action=PauseGameToggle)
@@ -663,6 +667,8 @@ IK_W=(Action=GI_AxisLeftY,State=Axis,Value=1)
 IK_Y=(Action=DrinkPotion4)
 
 [Combat]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Alt=(Action=CbtRoll)
 IK_Pad_A_CROSS=(Action=CbtRoll)
 IK_Pad_A_CROSS=(Action=PlaceTrophy)
@@ -964,6 +970,8 @@ IK_Pad_DigitUp=(Action=DrinkPotionUpperHold,State=Duration,IdleTime=0.3)
 IK_Pad_DigitUp=(Action=DrinkPotion1)
 
 [Combat_Replacer_Ciri]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Alt=(Action=CiriDash)
 IK_Pad_A_CROSS=(Action=CiriDash)
 IK_Pad_A_CROSS=(Action=PlaceTrophy)
@@ -1209,6 +1217,8 @@ IK_F11=(Action=PauseGameToggle)
 [Death]
 
 [Diving]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Pad_A_CROSS=(Action=PlaceTrophy)
 IK_Pad_A_CROSS=(Action=HideIn)
 IK_Pad_A_CROSS=(Action=DisposePaint)
@@ -1484,6 +1494,8 @@ IK_Up=(Action=MoveSpriteU)
 IK_Pad_DigitUp=(Action=IngredientShift,State=Axis,Value=1)
 
 [Exploration]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Pad_A_CROSS=(Action=PlaceTrophy)
 IK_Pad_A_CROSS=(Action=HideIn)
 IK_Pad_A_CROSS=(Action=DisposePaint)
@@ -1780,6 +1792,8 @@ IK_Pad_DigitUp=(Action=DrinkPotionUpperHold,State=Duration,IdleTime=0.3)
 IK_Pad_DigitUp=(Action=DrinkPotion1)
 
 [Exploration_Replacer_Ciri]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Tab=(Action=RadialMenu)
 IK_Pad_LeftShoulder=(Action=ThrowItemHold,State=Duration,IdleTime=0.2)
 IK_Pad_LeftShoulder=(Action=ThrowItem)
@@ -2258,6 +2272,8 @@ IK_Z=(Action=CameraLock)
 Version=43
 
 [JumpClimb]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Tab=(Action=RadialMenu)
 IK_F11=(Action=PauseGameToggle)
 IK_Pad_Start=(Action=ShowEntryInPanel)
@@ -2419,6 +2435,8 @@ IK_Pad_A_CROSS=(Action=Sprint)
 IK_D=(Action=GI_AxisLeftX,State=Axis,Value=1)
 
 [Scene]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Pad_RightAxisY=(Action=GI_AxisRightY)
 IK_Pad_LeftThumb=(Action=Nightsight)
 IK_Pad_DigitDown=(Action=ChangeChoiceUp)
@@ -2439,6 +2457,8 @@ IK_Pad_RightAxisX=(Action=GI_AxisRightX)
 IK_S=(Action=ChangeChoiceDown)
 
 [ScriptedAction]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_PS4_OPTIONS=(Action=IngameMenu)
 IK_Pad_A_CROSS=(Action=Gallop,State=Duration,IdleTime=0.3)
 IK_Pad_A_CROSS=(Action=Sprint)
@@ -2480,6 +2500,8 @@ IK_Pad_Back_Select=(Action=IngameMenu)
 IK_Pad_Back_Select=(Action=GotoGlossary,State=Duration,IdleTime=1.2)
 
 [Swimming]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Pad_A_CROSS=(Action=PlaceTrophy)
 IK_Pad_A_CROSS=(Action=HideIn)
 IK_Pad_A_CROSS=(Action=DisposePaint)
@@ -2740,6 +2762,8 @@ IK_Pad_DigitUp=(Action=DrinkPotionUpperHold,State=Duration,IdleTime=0.3)
 IK_Pad_DigitUp=(Action=DrinkPotion1)
 
 [ThrowHold]
+IK_PageDown=(Action=AMMToggle)
+IK_PageUp=(Action=RefreshAP)
 IK_Pad_A_CROSS=(Action=Sprint)
 IK_6=(Action=SwordSheatheSteel,State=Duration,IdleTime=0.3)
 IK_6=(Action=SteelSword)
