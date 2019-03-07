@@ -900,7 +900,6 @@
 				<Entry varId="PrepTalents"				value="0"	/>
 				<Entry varId="PrepUpgrade"				value="0"	/>
 				<Entry varId="PrepCamLock"				value="1"	/>
-				<Entry varId="PrepMenu"					value="1"	/>
 				<Entry varId="PrepTimeScale"			value="75"	/>
 			</Preset>
 		</PresetsArray>
@@ -911,16 +910,6 @@
 			<Var id="PrepTalents" 			 displayName="W3EE_MeditationChangeTalent" 			displayType="TOGGLE"			 		 />
 			<Var id="PrepUpgrade" 			 displayName="W3EE_MeditationUpgrade" 				displayType="TOGGLE"			 		 />
 			<Var id="PrepCamLock" 			 displayName="W3EE_MeditationCameraLock" 				displayType="TOGGLE"			 		 />
-			<Var id="PrepMenu" 				 displayName="W3EE_MeditationMenuType" 					displayType="OPTIONS"			 		  >
-				<OptionsArray>
-					<Option id="0" displayName="W3EE_MenuPaused">
-						<Entry varId="PrepMenu" value="0"/>
-					</Option>
-					<Option id="1" displayName="W3EE_MenuUnpaused">
-						<Entry varId="PrepMenu" value="1"/>
-					</Option>
-				</OptionsArray>
-			</Var>
             <Var id="PrepTimeScale" 			 displayName="W3EE_MeditationTimeScale" 				displayType="SLIDER;0;300;60"			 />
 		</VisibleVars>
     </Group>
