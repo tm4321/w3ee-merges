@@ -21,6 +21,7 @@
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080)
 - [HUD Positioning and Scale](https://www.nexusmods.com/witcher3/mods/861)
 - [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921)
+- [Unread Descriptions](https://www.nexusmods.com/witcher3/mods/2831)
 
 #### Custom Tweaks
 I've made several small changes which are all located inside modW3CustomTweaks.
