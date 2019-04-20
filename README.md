@@ -1,9 +1,8 @@
 <p align="center">
   <img src="./.github/banner.png" />
 
-  <h3 align="center">
-    W3EE v4.32 Merges
-  </h3>
+  <h3 align="center" style="margin: 0;">W3EE v4.42 Merges</h3>
+  <h4 align="center" style="margin: 0;">Original Combat Stance</h4>
 </p>
 
 <br>
@@ -33,6 +32,7 @@ Here are all the changes:
 - Added game time slider and option to show 24hr clock
 - Adjusted weather probability and wind scale for Wiedzmin Lighting Mod
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
+- Kept original combat stance mechanics.
 - Removed sword trails and sparks
 - Removed yellow witcher sense colors and sound bubbles
 - Show subtitles for foreign languages

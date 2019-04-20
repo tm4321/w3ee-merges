@@ -756,13 +756,14 @@
 			</Preset>
 		</PresetsArray>
 		<VisibleVars>
-			<Var id="ETCameraWeight" 			displayName="W3EE_CameraDirectionW" 							displayType="SLIDER;0;3;600"				 />
+			<Var id="ETCameraWeight" 			displayName="W3EE_CameraDirectionW" 						displayType="SLIDER;0;3;600"				 />
 			<Var id="ETMovementWeight" 			displayName="W3EE_MovementDirectionW" 						displayType="SLIDER;0;3;600"				 />
-			<Var id="ETFacingWeight" 			displayName="W3EE_FacingDirectionW" 							displayType="SLIDER;0;3;600"				 />
-			<Var id="ETHysteresis" 				displayName="W3EE_Hysteresis" 					displayType="SLIDER;1;2;101"				 />
+			<Var id="ETDistanceWeight" 			displayName="W3EE_DistanceW" 								displayType="SLIDER;0;3;600"				 />
+			<Var id="ETFacingWeight" 			displayName="W3EE_FacingDirectionW" 						displayType="SLIDER;0;3;600"				 />
+			<Var id="ETHysteresis" 				displayName="W3EE_Hysteresis" 								displayType="SLIDER;1;2;101"				 />
 			<Var id="ETInFrameCheck" 			displayName="W3EE_InFrame" 									displayType="TOGGLE"						 />
-			<Var id="ETSignsTowardsCamera" 		displayName="W3EE_SignCamera" 							displayType="TOGGLE"						 />
-			<Var id="ETDisableCameraLock" 		displayName="W3EE_DisableCamHardlock" 					displayType="TOGGLE"						 />
+			<Var id="ETSignsTowardsCamera" 		displayName="W3EE_SignCamera" 								displayType="TOGGLE"						 />
+			<Var id="ETDisableCameraLock" 		displayName="W3EE_DisableCamHardlock" 						displayType="TOGGLE"						 />
 		</VisibleVars>
     </Group>
 	
