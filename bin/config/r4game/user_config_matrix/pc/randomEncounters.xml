@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+    <Group id="RandomEncounters" displayName="Mods.modRE_title">
+    </Group>
+
+    <Group id="RandomEncountersMENU" displayName="Mods.modRE_title.modRE_main">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_vardefault" tags="customNames;customDisplayName">
+                <Entry varId="enableTrophies"			value="0"	/>
+				<Entry varId="citySpawn"				value="0"	/>
+                <Entry varId="dayFrequency"				value="2"	/>
+                <Entry varId="nightFrequency"			value="3"	/>
+                <Entry varId="Difficulty"				value="1"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>	
+
+            <Var id="enableTrophies" displayName="modRE_trophies" displayType="OPTIONS"
+			tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="modRE_just_no">
+						<Entry varId="enableTrophies" value="0"/>
+					</Option>
+					<Option id="1" displayName="modRE_just_yes">
+						<Entry varId="enableTrophies" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>	
+			
+			<Var id="citySpawn" displayName="modRE_city" displayType="OPTIONS"
+			tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="modRE_just_no">
+						<Entry varId="citySpawn" value="0"/>
+					</Option>
+					<Option id="1" displayName="modRE_just_yes">
+						<Entry varId="citySpawn" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			
+			<Var id="cityBruxa" displayName="modRE_cityBruxa" displayType="OPTIONS"
+			tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="modRE_just_no">
+						<Entry varId="cityBruxa" value="0"/>
+					</Option>
+					<Option id="1" displayName="modRE_just_yes">
+						<Entry varId="cityBruxa" value="1"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+                      
+            <Var id="dayFrequency" displayName="modRE_freq_day" displayType="OPTIONS" 
+            tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="modRE_none">
+                        <Entry varId="dayFrequency" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="modRE_low">
+                        <Entry varId="dayFrequency" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="modRE_med">
+                        <Entry varId="dayFrequency" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="modRE_high">
+                        <Entry varId="dayFrequency" value="3"/>
+                    </Option>					
+                </OptionsArray>
+            </Var>
+            
+            <Var id="nightFrequency" displayName="modRE_freq_night" displayType="OPTIONS" 
+            tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="modRE_none">
+                        <Entry varId="nightFrequency" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="modRE_low">
+                        <Entry varId="nightFrequency" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="modRE_med">
+                        <Entry varId="nightFrequency" value="2"/>
+                    </Option>
+                    <Option id="3" displayName="modRE_high">
+                        <Entry varId="nightFrequency" value="3"/>
+                    </Option>					
+                </OptionsArray>
+            </Var>
+            
+            <Var id="Difficulty" displayName="modRE_diff" displayType="OPTIONS" 
+            tags="customNames;customDisplayName">
+                <OptionsArray>
+                    <Option id="0" displayName="modRE_easy">
+                        <Entry varId="Difficulty" value="0"/>
+                    </Option>
+                    <Option id="1" displayName="modRE_med">
+                        <Entry varId="Difficulty" value="1"/>
+                    </Option>
+                    <Option id="2" displayName="modRE_hard">
+                        <Entry varId="Difficulty" value="2"/>
+                    </Option>
+                </OptionsArray>
+            </Var>					
+        </VisibleVars>
+    </Group>	
+
+    <Group id="encounterChance" displayName="Mods.modRE_title.modRE_Encounter_Chance">
+    </Group>
+
+    <Group id="encounterChanceDay" displayName="Mods.modRE_title.modRE_Encounter_Chance.Day">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_vardefault" tags="customNames;customDisplayName">
+                <Entry varId="enableFlyingMonsters"		value="5"	/>
+                <Entry varId="enableGroundMonsters"		value="2"	/>
+                <Entry varId="enableGroupMonsters"		value="3"	/>
+                <Entry varId="enableHumanEnemies"		value="4"	/>
+                <Entry varId="enableWildHunt"			value="4"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>	
+            <Var id="enableFlyingMonsters" displayName="modRE_fly_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="enableGroundMonsters" displayName="modRE_ground_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="enableGroupMonsters" displayName="modRE_group_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="enableHumanEnemies" displayName="modRE_human_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="enableWildHunt" displayName="modRE_wild_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="encounterChanceNight" displayName="Mods.modRE_title.modRE_Encounter_Chance.Night">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_vardefault" tags="customNames;customDisplayName">
+                <Entry varId="enableFlyingMonsters"		value="2"	/>
+                <Entry varId="enableGroundMonsters"		value="6"	/>
+                <Entry varId="enableGroupMonsters"		value="4"	/>
+                <Entry varId="enableHumanEnemies"		value="3"	/>
+                <Entry varId="enableWildHunt"			value="4"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>	
+            <Var id="enableFlyingMonsters" displayName="modRE_fly_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="enableGroundMonsters" displayName="modRE_ground_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="enableGroupMonsters" displayName="modRE_group_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="enableHumanEnemies" displayName="modRE_human_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="enableWildHunt" displayName="modRE_wild_chance" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="monsterHuntChance" displayName="Mods.modRE_title.modRE_hunt_chance">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_off" tags="customNames;customDisplayName">
+                <Entry varId="flyingMonsterHunts"				value="0"	/>
+                <Entry varId="groundMonsterHunts"				value="0"	/>
+                <Entry varId="groupMonsterHunts"				value="0"	/>
+            </Preset>
+            <Preset id="1" displayName="modRE_max" tags="customNames;customDisplayName">
+                <Entry varId="flyingMonsterHunts"				value="10"	/>
+                <Entry varId="groundMonsterHunts"				value="10"	/>
+                <Entry varId="groupMonsterHunts"				value="10"	/>
+            </Preset>
+            <Preset id="2" displayName="modRE_vardefault" tags="customNames;customDisplayName">
+                <Entry varId="flyingMonsterHunts"				value="8"	/>
+                <Entry varId="groundMonsterHunts"				value="6"	/>
+                <Entry varId="groupMonsterHunts"				value="6"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>			
+            <Var id="flyingMonsterHunts" displayName="modRE_fly_hunt" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="groundMonsterHunts" displayName="modRE_ground_hunt" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>		
+
+            <Var id="groupMonsterHunts" displayName="modRE_group_hunt" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+        </VisibleVars>
+    </Group>	
+    
+    <Group id="monsterList" displayName="Mods.modRE_title.modRE_list">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_off" tags="customNames;customDisplayName">
+                    <Entry varId="Gryphons"				value="0"	/>
+                    <Entry varId="Cockatrice"			value="0"	/>
+                    <Entry varId="Wyverns"				value="0"	/>
+                    <Entry varId="Forktails"			value="0"	/>
+                    <Entry varId="Leshens"				value="0"	/>
+                    <Entry varId="Werewolves"			value="0"	/>
+                    <Entry varId="Cyclops"				value="0"	/>
+                    <Entry varId="Arachas"				value="0"	/>
+                    <Entry varId="Fiends"				value="0"	/>
+                    <Entry varId="Chorts"				value="0"	/>
+                    <Entry varId="Vampires"				value="0"	/>
+                    <Entry varId="Bears"				value="0"	/>
+                    <Entry varId="Golems"				value="0"	/>
+                    <Entry varId="Elementals"			value="0"	/>
+                    <Entry varId="NightWraiths"			value="0"	/>
+                    <Entry varId="NoonWraiths"			value="0"	/>
+                    <Entry varId="Hags"					value="0"	/>
+                    <Entry varId="Harpies"				value="0"	/>
+                    <Entry varId="Fogling"				value="0"	/>
+                    <Entry varId="Endrega"				value="0"	/>
+                    <Entry varId="Ghouls"				value="0"	/>
+                    <Entry varId="Alghouls"				value="0"	/>
+                    <Entry varId="Nekkers"				value="0"	/>
+                    <Entry varId="Drowners"				value="0"	/>
+                    <Entry varId="Rotfiends"			value="0"	/>
+                    <Entry varId="Wolves"				value="0"	/>
+                    <Entry varId="Wraiths"				value="0"	/>
+                    <Entry varId="Spiders"				value="0"	/>
+                    <Entry varId="Boars"				value="0"	/>
+                    <Entry varId="Troll"				value="0"	/>
+					
+					<Entry varId="HigherVamp"			value="0"	/>
+					<Entry varId="Bruxa"				value="0"	/>
+					<Entry varId="Fleder"				value="0"	/>
+					<Entry varId="Garkain"				value="0"	/>
+					<Entry varId="DrownerDLC"			value="0"	/>
+					<Entry varId="Skeleton"				value="0"	/>
+					<Entry varId="Barghest"				value="0"	/>
+					<Entry varId="Echinops"				value="0"	/>
+					<Entry varId="Centipede"			value="0"	/>
+					<Entry varId="Kikimore"				value="0"	/>
+					<Entry varId="Panther"				value="0"	/>
+					<Entry varId="Sharley"				value="0"	/>
+					<Entry varId="Wight"				value="0"	/>
+					<Entry varId="Giant"				value="0"	/>
+            </Preset>
+            <Preset id="1" displayName="modRE_on" tags="customNames;customDisplayName">
+                    <Entry varId="Gryphons"				value="1"	/>
+                    <Entry varId="Cockatrice"			value="1"	/>
+                    <Entry varId="Wyverns"				value="1"	/>
+                    <Entry varId="Forktails"			value="1"	/>
+                    <Entry varId="Leshens"				value="1"	/>
+                    <Entry varId="Werewolves"			value="1"	/>
+                    <Entry varId="Cyclops"				value="1"	/>
+                    <Entry varId="Arachas"				value="1"	/>
+                    <Entry varId="Fiends"				value="1"	/>
+                    <Entry varId="Chorts"				value="1"	/>
+                    <Entry varId="Vampires"				value="1"	/>
+                    <Entry varId="Bears"				value="1"	/>
+                    <Entry varId="Golems"				value="1"	/>
+                    <Entry varId="Elementals"			value="1"	/>
+                    <Entry varId="NightWraiths"			value="1"	/>
+                    <Entry varId="NoonWraiths"			value="1"	/>
+                    <Entry varId="Hags"					value="1"	/>
+                    <Entry varId="Harpies"				value="1"	/>
+                    <Entry varId="Fogling"				value="1"	/>
+                    <Entry varId="Endrega"				value="1"	/>
+                    <Entry varId="Ghouls"				value="1"	/>
+                    <Entry varId="Alghouls"				value="1"	/>
+                    <Entry varId="Nekkers"				value="1"	/>
+                    <Entry varId="Drowners"				value="1"	/>
+                    <Entry varId="Rotfiends"			value="1"	/>
+                    <Entry varId="Wolves"				value="1"	/>
+                    <Entry varId="Wraiths"				value="1"	/>
+                    <Entry varId="Spiders"				value="1"	/>
+                    <Entry varId="Boars"				value="1"	/>
+                    <Entry varId="Troll"				value="1"	/>
+					
+					<Entry varId="HigherVamp"			value="1"	/>
+					<Entry varId="Bruxa"				value="1"	/>
+					<Entry varId="Fleder"				value="1"	/>
+					<Entry varId="Garkain"				value="1"	/>
+					<Entry varId="DrownerDLC"			value="1"	/>
+					<Entry varId="Skeleton"				value="1"	/>
+					<Entry varId="Barghest"				value="1"	/>
+					<Entry varId="Echinops"				value="1"	/>
+					<Entry varId="Centipede"			value="1"	/>
+					<Entry varId="Kikimore"				value="1"	/>
+					<Entry varId="Panther"				value="1"	/>
+					<Entry varId="Sharley"				value="1"	/>
+					<Entry varId="Wight"				value="1"	/>
+					<Entry varId="Giant"				value="1"	/>
+            </Preset>
+            <Preset id="2" displayName="modRE_rec" tags="customNames;customDisplayName">
+                    <Entry varId="Gryphons"				value="1"	/>
+                    <Entry varId="Cockatrice"			value="1"	/>
+                    <Entry varId="Wyverns"				value="1"	/>
+                    <Entry varId="Forktails"			value="1"	/>
+                    <Entry varId="Leshens"				value="1"	/>
+                    <Entry varId="Werewolves"			value="1"	/>
+                    <Entry varId="Cyclops"				value="0"	/>
+                    <Entry varId="Arachas"				value="1"	/>
+                    <Entry varId="Fiends"				value="1"	/>
+                    <Entry varId="Fiends"				value="0"	/>
+                    <Entry varId="Vampires"				value="1"	/>
+                    <Entry varId="Bears"				value="1"	/>
+                    <Entry varId="Golems"				value="0"	/>
+                    <Entry varId="Elementals"			value="0"	/>
+                    <Entry varId="NightWraiths"			value="1"	/>
+                    <Entry varId="NoonWraiths"			value="1"	/>
+                    <Entry varId="Hags"					value="1"	/>
+                    <Entry varId="Harpies"				value="0"	/>
+                    <Entry varId="Fogling"				value="1"	/>
+                    <Entry varId="Endrega"				value="1"	/>
+                    <Entry varId="Ghouls"				value="1"	/>
+                    <Entry varId="Alghouls"				value="1"	/>
+                    <Entry varId="Nekkers"				value="1"	/>
+                    <Entry varId="Drowners"				value="1"	/>
+                    <Entry varId="Rotfiends"			value="1"	/>
+                    <Entry varId="Wolves"				value="1"	/>
+                    <Entry varId="Wraiths"				value="1"	/>
+                    <Entry varId="Spiders"				value="1"	/>
+                    <Entry varId="Boars"				value="1"	/>
+                    <Entry varId="Troll"				value="0"	/>
+					
+					<Entry varId="HigherVamp"			value="0"	/>
+					<Entry varId="Bruxa"				value="1"	/>
+					<Entry varId="Fleder"				value="1"	/>
+					<Entry varId="Garkain"				value="1"	/>
+					<Entry varId="DrownerDLC"			value="1"	/>
+					<Entry varId="Skeleton"				value="1"	/>
+					<Entry varId="Barghest"				value="1"	/>
+					<Entry varId="Echinops"				value="1"	/>
+					<Entry varId="Centipede"			value="1"	/>
+					<Entry varId="Kikimore"				value="1"	/>
+					<Entry varId="Panther"				value="1"	/>
+					<Entry varId="Sharley"				value="1"	/>
+					<Entry varId="Wight"				value="1"	/>
+					<Entry varId="Giant"				value="0"	/>
+            </Preset>			
+        </PresetsArray>
+        <VisibleVars>				
+            <Var id="Gryphons" displayName="modRE_gryphon" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Cockatrice" displayName="modRE_cock" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wyverns" displayName="modRE_Wyvern" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Forktails" displayName="modRE_Forktail" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Leshens" displayName="modRE_leshen" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Werewolves" displayName="modRE_were" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Cyclops" displayName="modRE_cyclops" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Arachas" displayName="modRE_arachas" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Fiends" displayName="modRE_fiend" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Chorts" displayName="modRE_chort" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Vampires" displayName="modRE_vamp" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Bears" displayName="modRE_bear" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Golems" displayName="modRE_golem" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Elementals" displayName="modRE_elemental" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="NightWraiths" displayName="modRE_nightw" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="NoonWraiths" displayName="modRE_noonw" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>	
+
+            <Var id="Troll" displayName="modRE_troll" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>			
+            
+            <Var id="Hags" displayName="modRE_hag" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Harpies" displayName="modRE_harpies" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Fogling" displayName="modRE_fogl" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Endrega" displayName="modRE_endrega" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Ghouls" displayName="modRE_ghoul" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Alghouls" displayName="modRE_algh" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Nekkers" displayName="modRE_nekkers" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>			
+            
+            <Var id="Drowners" displayName="modRE_drown" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Rotfiends" displayName="modRE_rotf" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wolves" displayName="modRE_wolf" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wraiths" displayName="modRE_wraith" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>		
+            
+            <Var id="Spiders" displayName="modRE_spaider" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="Boars" displayName="modRE_boars" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>	
+				
+			
+			<Var id="BWSpoilers" displayName="modRE_BWSpoilers" displayType="SLIDER;0;0;0"
+            tags="customNames;customDisplayName"/>			
+			
+			
+			<Var id="HigherVamp" displayName="modRE_HigherVamp" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Bruxa" displayName="modRE_Bruxa" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Fleder" displayName="modRE_Fleder" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Garkain" displayName="modRE_Garkain" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="DrownerDLC" displayName="modRE_DrownerDLC" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Giant" displayName="modRE_Giant" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Skeleton" displayName="modRE_Skeleton" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+					
+			<Var id="Barghest" displayName="modRE_Barghest" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>							
+			
+			<Var id="Echinops" displayName="modRE_Echinops" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Centipede" displayName="modRE_Centipede" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+						
+			<Var id="Kikimore" displayName="modRE_Kikimore" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Panther" displayName="modRE_Panther" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>								
+			
+			<Var id="Sharley" displayName="modRE_Sharley" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+
+			<Var id="Wight" displayName="modRE_Wight" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+	
+        </VisibleVars>
+    </Group>
+    
+        
+    <Group id="custom" displayName="Mods.modRE_title.modRE_custom_frequency">
+        <VisibleVars>			
+            <Var id="customFrequencyToggle" displayName="modRE_custom_freq" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>	
+
+            <Var id="customFlyingMonsters" displayName="modRE_en_cusf" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+
+            <Var id="customGroundMonsters" displayName="modRE_en_cusg" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+
+            <Var id="customdFrequencyLow" displayName="modRE_custom_freq_lowd"
+            displayType="SLIDER;0;6000;6000" tags="customNames;customDisplayName"/>
+                
+            <Var id="customdFrequencyHigh" displayName="modRE_custom_freq_highd"
+            displayType="SLIDER;0;6000;6000" tags="customNames;customDisplayName"/>	
+            
+            <Var id="customnFrequencyLow" displayName="modRE_custom_freq_lown"
+            displayType="SLIDER;0;6000;6000" tags="customNames;customDisplayName"/>
+                
+            <Var id="customnFrequencyHigh" displayName="modRE_custom_freq_highn"
+            displayType="SLIDER;0;6000;6000" tags="customNames;customDisplayName"/>	
+        </VisibleVars>
+    </Group>
+
+    <Group id="customFlying" displayName="Mods.modRE_title.modRE_custom_flying">
+    </Group>
+
+    <Group id="customFlyingDay" displayName="Mods.modRE_title.modRE_custom_flying.Day">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_off" tags="customNames;customDisplayName">
+                <Entry varId="Gryphons"				value="0"	/>
+                <Entry varId="Cockatrice"			value="0"	/>
+                <Entry varId="Wyverns"				value="0"	/>
+                <Entry varId="Forktails"			value="0"	/>
+            </Preset>
+            <Preset id="1" displayName="modRE_max" tags="customNames;customDisplayName">
+                <Entry varId="Gryphons"				value="10"	/>
+                <Entry varId="Cockatrice"			value="10"	/>
+                <Entry varId="Wyverns"				value="10"	/>
+                <Entry varId="Forktails"			value="10"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>		
+            <Var id="Gryphons" displayName="modRE_gryphon" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        
+            <Var id="Cockatrice" displayName="modRE_cock" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        
+            <Var id="Wyverns" displayName="modRE_Wyvern" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        
+            <Var id="Forktails" displayName="modRE_Forktail" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="customFlyingNight" displayName="Mods.modRE_title.modRE_custom_flying.Night">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_off" tags="customNames;customDisplayName">
+                <Entry varId="Gryphons"				value="0"	/>
+                <Entry varId="Cockatrice"			value="0"	/>
+                <Entry varId="Wyverns"				value="0"	/>
+                <Entry varId="Forktails"			value="0"	/>
+            </Preset>
+            <Preset id="1" displayName="modRE_max" tags="customNames;customDisplayName">
+                <Entry varId="Gryphons"				value="10"	/>
+                <Entry varId="Cockatrice"			value="10"	/>
+                <Entry varId="Wyverns"				value="10"	/>
+                <Entry varId="Forktails"			value="10"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>		
+            <Var id="Gryphons" displayName="modRE_gryphon" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        
+            <Var id="Cockatrice" displayName="modRE_cock" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        
+            <Var id="Wyverns" displayName="modRE_Wyvern" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        
+            <Var id="Forktails" displayName="modRE_Forktail" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="customGround" displayName="Mods.modRE_title.modRE_custom_ground">
+    </Group>
+
+    <Group id="customGroundDay" displayName="Mods.modRE_title.modRE_custom_ground.Day">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_off" tags="customNames;customDisplayName">
+                    <Entry varId="Leshens"				value="0"	/>
+                    <Entry varId="Werewolves"			value="0"	/>
+                    <Entry varId="Cyclops"				value="0"	/>
+                    <Entry varId="Arachas"				value="0"	/>
+                    <Entry varId="Fiends"				value="0"	/>
+                    <Entry varId="Chorts"				value="0"	/>
+                    <Entry varId="Vampires"				value="0"	/>
+                    <Entry varId="Bears"				value="0"	/>
+                    <Entry varId="Golems"				value="0"	/>
+                    <Entry varId="Elementals"			value="0"	/>
+                    <Entry varId="NightWraiths"			value="0"	/>
+                    <Entry varId="NoonWraiths"			value="0"	/>
+                    <Entry varId="Hags"					value="0"	/>
+                    <Entry varId="Harpies"				value="0"	/>
+                    <Entry varId="Fogling"				value="0"	/>
+                    <Entry varId="Endrega"				value="0"	/>
+                    <Entry varId="Ghouls"				value="0"	/>
+                    <Entry varId="Alghouls"				value="0"	/>
+                    <Entry varId="Nekkers"				value="0"	/>
+                    <Entry varId="Drowners"				value="0"	/>
+                    <Entry varId="Rotfiends"			value="0"	/>
+                    <Entry varId="Wolves"				value="0"	/>
+                    <Entry varId="Wraiths"				value="0"	/>
+                    <Entry varId="Spiders"				value="0"	/>
+                    <Entry varId="Boars"				value="0"	/>
+                    <Entry varId="Troll"				value="0"	/>
+					
+					<Entry varId="HigherVamp"			value="0"	/>
+					<Entry varId="Bruxa"				value="0"	/>
+					<Entry varId="Fleder"				value="0"	/>
+					<Entry varId="Garkain"				value="0"	/>
+					<Entry varId="DrownerDLC"			value="0"	/>
+					<Entry varId="Skeleton"				value="0"	/>
+					<Entry varId="Barghest"				value="0"	/>
+					<Entry varId="Echinops"				value="0"	/>
+					<Entry varId="Centipede"			value="0"	/>
+					<Entry varId="Kikimore"				value="0"	/>
+					<Entry varId="Panther"				value="0"	/>
+					<Entry varId="Sharley"				value="0"	/>
+					<Entry varId="Wight"				value="0"	/>
+					<Entry varId="Giant"				value="0"	/>
+            </Preset>
+            <Preset id="1" displayName="modRE_max" tags="customNames;customDisplayName">
+                    <Entry varId="Leshens"				value="10"	/>
+                    <Entry varId="Werewolves"			value="10"	/>
+                    <Entry varId="Cyclops"				value="10"	/>
+                    <Entry varId="Arachas"				value="10"	/>
+                    <Entry varId="Fiends"				value="10"	/>
+                    <Entry varId="Chorts"				value="10"	/>
+                    <Entry varId="Vampires"				value="10"	/>
+                    <Entry varId="Bears"				value="10"	/>
+                    <Entry varId="Golems"				value="10"	/>
+                    <Entry varId="Elementals"			value="10"	/>
+                    <Entry varId="NightWraiths"			value="10"	/>
+                    <Entry varId="NoonWraiths"			value="10"	/>
+                    <Entry varId="Hags"					value="10"	/>
+                    <Entry varId="Harpies"				value="10"	/>
+                    <Entry varId="Fogling"				value="10"	/>
+                    <Entry varId="Endrega"				value="10"	/>
+                    <Entry varId="Ghouls"				value="10"	/>
+                    <Entry varId="Alghouls"				value="10"	/>
+                    <Entry varId="Nekkers"				value="10"	/>
+                    <Entry varId="Drowners"				value="10"	/>
+                    <Entry varId="Rotfiends"			value="10"	/>
+                    <Entry varId="Wolves"				value="10"	/>
+                    <Entry varId="Wraiths"				value="10"	/>
+                    <Entry varId="Spiders"				value="10"	/>
+                    <Entry varId="Boars"				value="10"	/>
+                    <Entry varId="Troll"				value="10"	/>
+					
+					<Entry varId="HigherVamp"			value="10"	/>
+					<Entry varId="Bruxa"				value="10"	/>
+					<Entry varId="Fleder"				value="10"	/>
+					<Entry varId="Garkain"				value="10"	/>
+					<Entry varId="DrownerDLC"			value="10"	/>
+					<Entry varId="Skeleton"				value="10"	/>
+					<Entry varId="Barghest"				value="10"	/>
+					<Entry varId="Echinops"				value="10"	/>
+					<Entry varId="Centipede"			value="10"	/>
+					<Entry varId="Kikimore"				value="10"	/>
+					<Entry varId="Panther"				value="10"	/>
+					<Entry varId="Sharley"				value="10"	/>
+					<Entry varId="Wight"				value="10"	/>
+					<Entry varId="Giant"				value="10"	/>
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>
+            <Var id="Leshens" displayName="modRE_leshen" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Werewolves" displayName="modRE_were" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Cyclops" displayName="modRE_cyclops" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Arachas" displayName="modRE_arachas" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Fiends" displayName="modRE_fiend" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Chorts" displayName="modRE_chort" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Vampires" displayName="modRE_vamp" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Bears" displayName="modRE_bear" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Golems" displayName="modRE_golem" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Elementals" displayName="modRE_elemental" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="NightWraiths" displayName="modRE_nightw" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="NoonWraiths" displayName="modRE_noonw" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+
+            <Var id="Troll" displayName="modRE_troll" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="Hags" displayName="modRE_hag" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Harpies" displayName="modRE_harpies" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Fogling" displayName="modRE_fogl" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Endrega" displayName="modRE_endrega" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Ghouls" displayName="modRE_ghoul" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Alghouls" displayName="modRE_algh" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Nekkers" displayName="modRE_nekkers" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Drowners" displayName="modRE_drown" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Rotfiends" displayName="modRE_rotf" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wolves" displayName="modRE_wolf" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wraiths" displayName="modRE_wraith" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>		
+            
+            <Var id="Spiders" displayName="modRE_spaider" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+
+            <Var id="Boars" displayName="modRE_boars" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			
+			
+			
+			<Var id="BWSpoilers" displayName="modRE_BWSpoilers" displayType="SLIDER;0;0;0"
+            tags="customNames;customDisplayName"/>
+			
+			
+			<Var id="HigherVamp" displayName="modRE_HigherVamp" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+
+			<Var id="Bruxa" displayName="modRE_Bruxa" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Fleder" displayName="modRE_Fleder" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Garkain" displayName="modRE_Garkain" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="DrownerDLC" displayName="modRE_DrownerDLC" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Giant" displayName="modRE_Giant" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Skeleton" displayName="modRE_Skeleton" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+					
+			<Var id="Barghest" displayName="modRE_Barghest" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>							
+			
+			<Var id="Echinops" displayName="modRE_Echinops" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Centipede" displayName="modRE_Centipede" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+						
+			<Var id="Kikimore" displayName="modRE_Kikimore" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Panther" displayName="modRE_Panther" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>								
+			
+			<Var id="Sharley" displayName="modRE_Sharley" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Wight" displayName="modRE_Wight" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+    <Group id="customGroundNight" displayName="Mods.modRE_title.modRE_custom_ground.Night">
+        <PresetsArray>
+            <Preset id="0" displayName="modRE_off" tags="customNames;customDisplayName">
+                    <Entry varId="Leshens"				value="0"	/>
+                    <Entry varId="Werewolves"			value="0"	/>
+                    <Entry varId="Cyclops"				value="0"	/>
+                    <Entry varId="Arachas"				value="0"	/>
+                    <Entry varId="Fiends"				value="0"	/>
+                    <Entry varId="Chorts"				value="0"	/>
+                    <Entry varId="Vampires"				value="0"	/>
+                    <Entry varId="Bears"				value="0"	/>
+                    <Entry varId="Golems"				value="0"	/>
+                    <Entry varId="Elementals"			value="0"	/>
+                    <Entry varId="NightWraiths"			value="0"	/>
+                    <Entry varId="NoonWraiths"			value="0"	/>
+                    <Entry varId="Hags"					value="0"	/>
+                    <Entry varId="Harpies"				value="0"	/>
+                    <Entry varId="Fogling"				value="0"	/>
+                    <Entry varId="Endrega"				value="0"	/>
+                    <Entry varId="Ghouls"				value="0"	/>
+                    <Entry varId="Alghouls"				value="0"	/>
+                    <Entry varId="Nekkers"				value="0"	/>
+                    <Entry varId="Drowners"				value="0"	/>
+                    <Entry varId="Rotfiends"			value="0"	/>
+                    <Entry varId="Wolves"				value="0"	/>
+                    <Entry varId="Wraiths"				value="0"	/>
+                    <Entry varId="Spiders"				value="0"	/>
+                    <Entry varId="Boars"				value="0"	/>
+                    <Entry varId="Troll"				value="0"	/>
+					
+					<Entry varId="HigherVamp"			value="0"	/>
+					<Entry varId="Bruxa"				value="0"	/>
+					<Entry varId="Fleder"				value="0"	/>
+					<Entry varId="Garkain"				value="0"	/>
+					<Entry varId="DrownerDLC"			value="0"	/>
+					<Entry varId="Skeleton"				value="0"	/>
+					<Entry varId="Barghest"				value="0"	/>
+					<Entry varId="Echinops"				value="0"	/>
+					<Entry varId="Centipede"			value="0"	/>
+					<Entry varId="Kikimore"				value="0"	/>
+					<Entry varId="Panther"				value="0"	/>
+					<Entry varId="Sharley"				value="0"	/>
+					<Entry varId="Wight"				value="0"	/>
+					<Entry varId="Giant"				value="0"	/>
+            </Preset>
+            <Preset id="1" displayName="modRE_max" tags="customNames;customDisplayName">
+                    <Entry varId="Leshens"				value="10"	/>
+                    <Entry varId="Werewolves"			value="10"	/>
+                    <Entry varId="Cyclops"				value="10"	/>
+                    <Entry varId="Arachas"				value="10"	/>
+                    <Entry varId="Fiends"				value="10"	/>
+                    <Entry varId="Chorts"				value="10"	/>
+                    <Entry varId="Vampires"				value="10"	/>
+                    <Entry varId="Bears"				value="10"	/>
+                    <Entry varId="Golems"				value="10"	/>
+                    <Entry varId="Elementals"			value="10"	/>
+                    <Entry varId="NightWraiths"			value="10"	/>
+                    <Entry varId="NoonWraiths"			value="10"	/>
+                    <Entry varId="Hags"					value="10"	/>
+                    <Entry varId="Harpies"				value="10"	/>
+                    <Entry varId="Fogling"				value="10"	/>
+                    <Entry varId="Endrega"				value="10"	/>
+                    <Entry varId="Ghouls"				value="10"	/>
+                    <Entry varId="Alghouls"				value="10"	/>
+                    <Entry varId="Nekkers"				value="10"	/>
+                    <Entry varId="Drowners"				value="10"	/>
+                    <Entry varId="Rotfiends"			value="10"	/>
+                    <Entry varId="Wolves"				value="10"	/>
+                    <Entry varId="Wraiths"				value="10"	/>
+                    <Entry varId="Spiders"				value="10"	/>
+                    <Entry varId="Boars"				value="10"	/>
+                    <Entry varId="Troll"				value="10"	/>					
+					<Entry varId="HigherVamp"			value="10"	/>
+					<Entry varId="Bruxa"				value="10"	/>
+					<Entry varId="Fleder"				value="10"	/>
+					<Entry varId="Garkain"				value="10"	/>
+					<Entry varId="DrownerDLC"			value="10"	/>
+					<Entry varId="Skeleton"				value="10"	/>
+					<Entry varId="Barghest"				value="10"	/>
+					<Entry varId="Echinops"				value="10"	/>
+					<Entry varId="Centipede"			value="10"	/>
+					<Entry varId="Kikimore"				value="10"	/>
+					<Entry varId="Panther"				value="10"	/>
+					<Entry varId="Sharley"				value="10"	/>
+					<Entry varId="Wight"				value="10"	/>
+					<Entry varId="Giant"				value="10"	/>
+
+            </Preset>
+        </PresetsArray>
+        <VisibleVars>
+            <Var id="Leshens" displayName="modRE_leshen" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Werewolves" displayName="modRE_were" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Cyclops" displayName="modRE_cyclops" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Arachas" displayName="modRE_arachas" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Fiends" displayName="modRE_fiend" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Chorts" displayName="modRE_chort" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Vampires" displayName="modRE_vamp" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Bears" displayName="modRE_bear" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Golems" displayName="modRE_golem" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Elementals" displayName="modRE_elemental" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="NightWraiths" displayName="modRE_nightw" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="NoonWraiths" displayName="modRE_noonw" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+
+            <Var id="Troll" displayName="modRE_troll" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+            
+            <Var id="Hags" displayName="modRE_hag" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Harpies" displayName="modRE_harpies" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Fogling" displayName="modRE_fogl" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Endrega" displayName="modRE_endrega" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Ghouls" displayName="modRE_ghoul" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Alghouls" displayName="modRE_algh" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Nekkers" displayName="modRE_nekkers" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Drowners" displayName="modRE_drown" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Rotfiends" displayName="modRE_rotf" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wolves" displayName="modRE_wolf" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+            
+            <Var id="Wraiths" displayName="modRE_wraith" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>		
+            
+            <Var id="Spiders" displayName="modRE_spaider" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+
+            <Var id="Boars" displayName="modRE_boars" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>	
+			
+			
+			
+			
+			<Var id="BWSpoilers" displayName="modRE_BWSpoilers" displayType="SLIDER;0;0;0"
+            tags="customNames;customDisplayName"/>
+			
+			
+			<Var id="HigherVamp" displayName="modRE_HigherVamp" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+
+			<Var id="Bruxa" displayName="modRE_Bruxa" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Fleder" displayName="modRE_Fleder" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Garkain" displayName="modRE_Garkain" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="DrownerDLC" displayName="modRE_DrownerDLC" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Giant" displayName="modRE_Giant" displayType="TOGGLE"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Skeleton" displayName="modRE_Skeleton" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+					
+			<Var id="Barghest" displayName="modRE_Barghest" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>							
+			
+			<Var id="Echinops" displayName="modRE_Echinops" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Centipede" displayName="modRE_Centipede" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+						
+			<Var id="Kikimore" displayName="modRE_Kikimore" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Panther" displayName="modRE_Panther" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>								
+			
+			<Var id="Sharley" displayName="modRE_Sharley" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+			
+			<Var id="Wight" displayName="modRE_Wight" displayType="SLIDER;0;10;10"
+            tags="customNames;customDisplayName"/>
+        </VisibleVars>
+    </Group>
+
+</UserConfig>

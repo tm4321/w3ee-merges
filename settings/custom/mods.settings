@@ -2,6 +2,10 @@
 Enabled=1
 Priority=1
 
+[modNoTrailsSparks]
+Enabled=1
+Priority=1
+
 [modW3CustomTweaks]
 Enabled=1
 Priority=2

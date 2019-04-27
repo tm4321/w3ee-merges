@@ -2,7 +2,6 @@
   <img src="./.github/banner.png" />
 
   <h3 align="center" style="margin: 0;">W3EE v4.42 Merges</h3>
-  <h4 align="center" style="margin: 0;">Original Combat Stance</h4>
 </p>
 
 <br>
@@ -10,6 +9,7 @@
 ## Included mods
 
 #### Base
+- [Bootstrap](https://www.nexusmods.com/witcher3/mods/2109)
 - [Unification Patch](https://www.nexusmods.com/witcher3/mods/2134)
 - [W3EE v4.0](https://www.nexusmods.com/witcher3/mods/3522)
 
@@ -20,6 +20,7 @@
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080)
 - [HUD Positioning and Scale](https://www.nexusmods.com/witcher3/mods/861)
 - [Immersive Sound](https://www.nexusmods.com/witcher3/mods/1921)
+- [Random Encounters](https://www.nexusmods.com/witcher3/mods/785)
 - [Unread Descriptions](https://www.nexusmods.com/witcher3/mods/2831)
 
 #### Custom Tweaks
@@ -33,6 +34,7 @@ Here are all the changes:
 - Adjusted weather probability and wind scale for Wiedzmin Lighting Mod
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
 - Kept original combat stance mechanics.
+- Manually disabled certain monsters from Random Encounters due to issues with mod menu
 - Removed sword trails and sparks
 - Removed yellow witcher sense colors and sound bubbles
 - Show subtitles for foreign languages
@@ -61,6 +63,8 @@ These mods are not included in this repository since they do not require any scr
 - [New Djinn Face](https://www.nexusmods.com/witcher3/mods/554)
 - [Original Witcher Armor Sets Colors - All in One](https://www.nexusmods.com/witcher3/mods/1536) - Fixes red armors from AMM
 - [Pieces of Filth](https://www.nexusmods.com/witcher3/mods/3444)
+- [Triss (G)Lorified](https://www.nexusmods.com/witcher3/mods/3223)
+- [TW2 Triss](https://www.nexusmods.com/witcher3/mods/2223)
 
 #### Effects
 - [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594)
