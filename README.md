@@ -35,7 +35,7 @@ Here are all the changes:
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
 - Kept original combat stance mechanics.
 - Included script fixes from [Besserwisser](https://www.nexusmods.com/witcher3/mods/3163)
-- Manually disabled certain monsters from Random Encounters due to issues with mod menu
+- Manually disabled certain monsters and city spawns from Random Encounters due to issues with mod menu
 - Removed sword trails and sparks
 - Removed yellow witcher sense colors and sound bubbles
 - Show subtitles for foreign languages
