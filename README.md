@@ -34,6 +34,7 @@ Here are all the changes:
 - Adjusted weather probability and wind scale for Wiedzmin Lighting Mod
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
 - Kept original combat stance mechanics.
+- Included script fixes from [Besserwisser](https://www.nexusmods.com/witcher3/mods/3163)
 - Manually disabled certain monsters from Random Encounters due to issues with mod menu
 - Removed sword trails and sparks
 - Removed yellow witcher sense colors and sound bubbles
@@ -46,14 +47,14 @@ Here are all the changes:
 
 ## Recommended mods
 These mods are not included in this repository since they do not require any script merges with W3EE.
-[Mod Merger](https://www.nexusmods.com/witcher3/mods/1931) will be required to prevent mod limit issue.
+[Mod Merger](https://www.nexusmods.com/witcher3/mods/1931) or [Mod Limit Fix](https://www.nexusmods.com/witcher3/mods/3643) will be required to prevent mod limit issue.
 
 #### Bug Fixes & Tweaks
 - [Abandoned Sites Time Lapse](https://www.nexusmods.com/witcher3/mods/2635)
+- [Community Patch - The Besserwisser's Fix](https://www.nexusmods.com/witcher3/mods/3163)
 - [Familiar Music Replacement](https://www.nexusmods.com/witcher3/mods/1922?)
-- [Fix For Avalach Lab Music](https://www.nexusmods.com/witcher3/mods/2165)
+- [Nitpicker's Patch - Old Armor Textures](https://www.nexusmods.com/witcher3/mods/2117) - Using the [edited version](https://drive.google.com/drive/folders/1XxyLct5M4mntvIB3QPNvBMn_Q0SKTJ-Z) to work with [Besserwisser](https://www.nexusmods.com/witcher3/mods/3163)
 - [Merged Free DLC - Mod Limit FIX](https://www.nexusmods.com/witcher3/mods/3334)
-- [Nitpicker's Patch - Old Armor Textures](https://www.nexusmods.com/witcher3/mods/2117) - Give W3EE priority
 
 #### Characters & Equipment
 - [Eredin VGX Armor](https://www.nexusmods.com/witcher3/mods/1319)
@@ -71,6 +72,7 @@ These mods are not included in this repository since they do not require any scr
 - [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366)
 - [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853?)
 - [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347)
+- [No More Glowing](https://www.nexusmods.com/witcher3/mods/3242)
 - [The Aard](https://www.nexusmods.com/witcher3/mods/2346) - Remove buffers0.bundle if merging
 
 #### Environment & Lightning

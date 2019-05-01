@@ -6,34 +6,34 @@ Priority=1
 Enabled=1
 Priority=1
 
+[modNoDirtyLensEffect]
+Enabled=1
+Priority=1
+
+[modNoScreenWaterDrops]
+Enabled=1
+Priority=1
+
 [modW3CustomTweaks]
 Enabled=1
 Priority=2
 
-[modNoDirtyLensEffect]
-Enabled=1
-Priority=3
-
-[modNoScreenWaterDrops]
-Enabled=1
-Priority=3
-
-[modWLM_Phoenix_VIII]
-Enabled=1
-Priority=4
-
-[mod0000_MergedPack]
+[modW3EEMain]
 Enabled=1
 Priority=5
 
-[modW3EEMain]
+[modWLM_Phoenix_VIII]
 Enabled=1
 Priority=10
 
-[modNitpickerOldArmors]
+[modBesserwisser]
 Enabled=1
 Priority=100
 
-[modRTCElite]
+[modNitpickerOldArmorsEdit]
 Enabled=1
 Priority=101
+
+[modRTCElite]
+Enabled=1
+Priority=102

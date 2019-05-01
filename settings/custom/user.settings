@@ -33,6 +33,7 @@ bMilitaryTime=false
 SvswEnabled=true
 GlovesEnabled=true
 BeardRefreshEnabled=true
+HasSeenGotyWelcomeMessage=true
 HasSetup=true
 Accessories1GearEnabled=true
 ChestEnabled=true
@@ -69,7 +70,7 @@ Subtitles=false
 [Viewport]
 VSync=false
 Resolution="1920x1080"
-FullScreenMode=1
+FullScreenMode=2
 VSyncThreshold=0
 OutputMonitor=0
 [AMMSets]
