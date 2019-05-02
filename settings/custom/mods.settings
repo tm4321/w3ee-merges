@@ -2,29 +2,33 @@
 Enabled=1
 Priority=1
 
-[modNoTrailsSparks]
-Enabled=1
-Priority=1
-
 [modNoDirtyLensEffect]
 Enabled=1
-Priority=1
+Priority=2
 
 [modNoScreenWaterDrops]
 Enabled=1
-Priority=1
+Priority=2
+
+[modNoTrailsSparks]
+Enabled=1
+Priority=2
 
 [modW3CustomTweaks]
 Enabled=1
-Priority=2
+Priority=3
 
 [modW3EEMain]
 Enabled=1
 Priority=5
 
-[modWLM_Phoenix_VIII]
+[modHDReworkedProject]
 Enabled=1
 Priority=10
+
+[modZ_PLM_11_Velen_Original]
+Enabled=1
+Priority=11
 
 [modBesserwisser]
 Enabled=1
@@ -33,7 +37,3 @@ Priority=100
 [modNitpickerOldArmorsEdit]
 Enabled=1
 Priority=101
-
-[modRTCElite]
-Enabled=1
-Priority=102

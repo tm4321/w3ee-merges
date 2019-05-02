@@ -31,12 +31,11 @@ Make sure you add the lines found in input.settings or use my highly customized 
 Here are all the changes:
 - Added ability to toggle enemy healthbar while in combat.
 - Added game time slider and option to show 24hr clock
-- Adjusted weather probability and wind scale for Wiedzmin Lighting Mod
+- Adjusted weather probability and wind scale for [PLM 11 - Fire - Velen Original](https://www.nexusmods.com/witcher3/mods/3170)
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
 - Kept original combat stance mechanics.
 - Included script fixes from [Besserwisser](https://www.nexusmods.com/witcher3/mods/3163)
 - Manually disabled certain monsters and city spawns from Random Encounters due to issues with mod menu
-- Removed sword trails and sparks
 - Removed yellow witcher sense colors and sound bubbles
 - Show subtitles for foreign languages
 
@@ -47,12 +46,11 @@ Here are all the changes:
 
 ## Recommended mods
 These mods are not included in this repository since they do not require any script merges with W3EE.
-[Mod Merger](https://www.nexusmods.com/witcher3/mods/1931) or [Mod Limit Fix](https://www.nexusmods.com/witcher3/mods/3643) will be required to prevent mod limit issue.
+[Mod Limit Fix](https://www.nexusmods.com/witcher3/mods/3643) will be required to prevent mod limit issue.
 
 #### Bug Fixes & Tweaks
 - [Abandoned Sites Time Lapse](https://www.nexusmods.com/witcher3/mods/2635)
 - [Community Patch - The Besserwisser's Fix](https://www.nexusmods.com/witcher3/mods/3163)
-- [Familiar Music Replacement](https://www.nexusmods.com/witcher3/mods/1922?)
 - [Nitpicker's Patch - Old Armor Textures](https://www.nexusmods.com/witcher3/mods/2117) - Using the [edited version](https://drive.google.com/drive/folders/1XxyLct5M4mntvIB3QPNvBMn_Q0SKTJ-Z) to work with [Besserwisser](https://www.nexusmods.com/witcher3/mods/3163)
 - [Merged Free DLC - Mod Limit FIX](https://www.nexusmods.com/witcher3/mods/3334)
 
@@ -70,18 +68,20 @@ These mods are not included in this repository since they do not require any scr
 #### Effects
 - [Axii E3 visual](https://www.nexusmods.com/witcher3/mods/594)
 - [E3 Quen - performance](https://www.nexusmods.com/witcher3/mods/2366)
-- [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853?)
+- [Lightsource Yrden and Igni](https://www.nexusmods.com/witcher3/mods/2853)
 - [No Dirty Lens Effect](https://www.nexusmods.com/witcher3/mods/347)
 - [No More Glowing](https://www.nexusmods.com/witcher3/mods/3242)
-- [The Aard](https://www.nexusmods.com/witcher3/mods/2346) - Remove buffers0.bundle if merging
+- [No Trails and Sparks](https://www.nexusmods.com/witcher3/mods/3522)
+- [Remove Screen Water Droplets Effect](https://www.nexusmods.com/witcher3/mods/408)
+- [The Aard](https://www.nexusmods.com/witcher3/mods/2346)
 
 #### Environment & Lightning
-- [CLOUDS](https://www.nexusmods.com/witcher3/mods/2169?)
+- [4K Soft Clouds](https://www.nexusmods.com/witcher3/mods/3114)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770)
-- [Next Generation LOD](https://www.nexusmods.com/witcher3/mods/3193)
-- [Realistic Contrast Texture](https://www.nexusmods.com/witcher3/mods/1505) - Dont merge
+- [New Heavy Clouds V2](https://www.nexusmods.com/witcher3/mods/3315)
+- [PLM 11 - Fire - Velen Original](https://www.nexusmods.com/witcher3/mods/3170)
+- [The Witcher 3 HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021)
 - [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836)
-- [Wiedzmin Lighting Mod](https://www.nexusmods.com/witcher3/mods/2358) - Dont merge
 
 ## Credits
 All credits go to CD Project Red and the original mod authors
