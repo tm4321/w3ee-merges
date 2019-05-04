@@ -29,15 +29,16 @@ Some of these can be configured using the mod menu.
 Make sure you add the lines found in input.settings or use my highly customized settings.
 
 Here are all the changes:
-- Added ability to toggle enemy healthbar while in combat.
+- Added ability to toggle enemy healthbar while in combat
 - Added game time slider and option to show 24hr clock
 - Adjusted weather probability and wind scale for [PLM 11 - Fire - Velen Original](https://www.nexusmods.com/witcher3/mods/3170)
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
-- Kept original combat stance mechanics.
+- Kept original combat stance mechanics
 - Included script fixes from [Besserwisser](https://www.nexusmods.com/witcher3/mods/3163)
-- Manually disabled certain monsters and city spawns from Random Encounters due to issues with mod menu
+- Manually disabled city spawns from Random Encounters
 - Removed yellow witcher sense colors and sound bubbles
 - Show subtitles for foreign languages
+- Stopped npcs from flailing when bumped by Geralt
 
 ## Installation
 1. Start with a fresh install of The Witcher 3
