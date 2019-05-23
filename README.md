@@ -32,6 +32,7 @@ Here are all the changes:
 - Added ability to toggle enemy healthbar while in combat
 - Added game time slider and option to show 24hr clock
 - Added periods of silence between exploration music
+- Added option to have horse auto follow roads. This can be toggled by holding left Ctrl
 - Adjusted weather probability and wind scale for [PLM 11 - Fire - Velen Original](https://www.nexusmods.com/witcher3/mods/3170)
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
 - Kept original combat stance mechanics

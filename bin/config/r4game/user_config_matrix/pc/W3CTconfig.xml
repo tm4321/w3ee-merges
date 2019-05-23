@@ -2,6 +2,17 @@
 
 <UserConfig>
 
+	<Group id="W3CT_Horse" displayName="Mods.W3CT.Horse">
+		<PresetsArray>
+			<Preset id="0" displayName="default">
+				<Entry varId="bAutoFollowRoad" value="true"/>
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="bAutoFollowRoad" displayName="AutoFollowRoad" displayType="TOGGLE"/>
+		</VisibleVars>
+	</Group>
+
 	<Group id="W3CT_Time" displayName="Mods.W3CT.Time">
 		<PresetsArray>
 			<Preset id="0" displayName="default">

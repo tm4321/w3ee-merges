@@ -1288,6 +1288,7 @@ IK_W=(Action=GI_AxisLeftY,State=Axis,Value=1)
 IK_X=(Action=Stop)
 IK_Z=(Action=GatherHerbsHorse)
 IK_Z=(Action=CameraLock)
+IK_LControl=(Action=FollowRoadToggle)
 
 [Horse_Replacer_Ciri]
 IK_Tab=(Action=RadialMenu)
@@ -1346,6 +1347,7 @@ IK_PageUp=(Action=RefreshAP)
 IK_1=(Action=CiriDrawWeapon)
 IK_Mouse5=(Action=HorseDismount)
 IK_2=(Action=CiriDrawWeaponAlternative)
+IK_LControl=(Action=FollowRoadToggle)
 
 [InputSettings]
 Version=43
