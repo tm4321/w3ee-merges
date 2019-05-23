@@ -18,11 +18,19 @@ Priority=2
 Enabled=1
 Priority=3
 
+[modTrissGLorifiedGAME]
+Enabled=1
+Priority=3
+
 [modW3EEMain]
 Enabled=1
 Priority=5
 
-[modHDReworkedProject]
+[modRCTElite]
+Enabled=1
+Priority=10
+
+[modA_PLM_Fix]
 Enabled=1
 Priority=10
 

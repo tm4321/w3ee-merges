@@ -31,6 +31,7 @@ Make sure you add the lines found in input.settings or use my highly customized 
 Here are all the changes:
 - Added ability to toggle enemy healthbar while in combat
 - Added game time slider and option to show 24hr clock
+- Added periods of silence between exploration music
 - Adjusted weather probability and wind scale for [PLM 11 - Fire - Velen Original](https://www.nexusmods.com/witcher3/mods/3170)
 - Changed horse controls similar to [this mod](https://www.nexusmods.com/witcher3/mods/2900)
 - Kept original combat stance mechanics
@@ -77,11 +78,10 @@ These mods are not included in this repository since they do not require any scr
 - [The Aard](https://www.nexusmods.com/witcher3/mods/2346)
 
 #### Environment & Lightning
-- [4K Soft Clouds](https://www.nexusmods.com/witcher3/mods/3114)
+- [CLOUDS](https://www.nexusmods.com/witcher3/mods/2169)
 - [Lamp on Player's boat](https://www.nexusmods.com/witcher3/mods/2770)
-- [New Heavy Clouds V2](https://www.nexusmods.com/witcher3/mods/3315)
 - [PLM 11 - Fire - Velen Original](https://www.nexusmods.com/witcher3/mods/3170)
-- [The Witcher 3 HD Reworked Project](https://www.nexusmods.com/witcher3/mods/1021)
+- [Realistic Contrast Textures](https://www.nexusmods.com/witcher3/mods/1505)
 - [Toussaint Grass in Velen and Novigrad](https://www.nexusmods.com/witcher3/mods/1836)
 
 ## Credits
