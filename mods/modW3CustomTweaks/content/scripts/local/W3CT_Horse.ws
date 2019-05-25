@@ -1,41 +1,48 @@
 
 class W3CT_HorseHandler
 {
-    private var W3CT_FollowRoad : bool;
-    private var bIsFirstCheck : bool;
-    default bIsFirstCheck = true;
+    private var bBlockCorrection : bool;
+    default bBlockCorrection = false;
 
-    public function ToggleFollowRoad(action : SInputAction) : void
+    public function BlockCorrection(action : SInputAction) : void
     {
-        var bAutoFollowRoad : bool;
+        bBlockCorrection = IsPressed(action);
+    }
+
+    public function ShouldBlockCorrection() : bool
+    {
+        return bBlockCorrection;
+    }
+
+    public function ShouldFollowRoad() : bool
+    {
         var hud : CR4ScriptedHud;
         var inGameConfigWrapper : CInGameConfigWrapper;
 
         hud = (CR4ScriptedHud)theGame.GetHud();
         inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
-        bAutoFollowRoad = inGameConfigWrapper.GetVarValue('W3CT_Horse', 'bAutoFollowRoad') == "true";
-        W3CT_FollowRoad = bAutoFollowRoad;
 
-        if (hud && IsPressed(action))
-        {
-            W3CT_FollowRoad = !bAutoFollowRoad;
-        }
+        return inGameConfigWrapper.GetVarValue('W3CT_Horse', 'bAutoFollowRoad') == "true";
     }
 
-    public function GetFollowRoad() : bool
+    public function ToggleAutoFollowRoad(action : SInputAction) : void
     {
-        var bAutoFollowRoad : bool;
+        var flag : string;
         var hud : CR4ScriptedHud;
         var inGameConfigWrapper : CInGameConfigWrapper;
 
-        if (bIsFirstCheck) {
-            hud = (CR4ScriptedHud)theGame.GetHud();
-            inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
-            bAutoFollowRoad = inGameConfigWrapper.GetVarValue('W3CT_Horse', 'bAutoFollowRoad') == "true";
-            bIsFirstCheck = false;
-            W3CT_FollowRoad = bAutoFollowRoad;
-        }
+        flag = "true";
+        hud = (CR4ScriptedHud)theGame.GetHud();
+        inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
         
-        return W3CT_FollowRoad;
+        if(hud && IsPressed(action))
+        {
+            if (inGameConfigWrapper.GetVarValue('W3CT_Horse', 'bAutoFollowRoad') == "true")    
+            {
+                flag = "false";
+            }
+
+            inGameConfigWrapper.SetVarValue('W3CT_Horse', 'bAutoFollowRoad', flag);
+        }
     }
 }

@@ -10,6 +10,8 @@ IK_LShift=(Action=Follow) // DELETE
 [Horse]
 IK_LShift=(Action=Follow) // DELETE
 IK_LShift=(Action=Canter) // DELETE
+IK_LShift=(Action=BlockCorrection)
+IK_LControl=(Action=ToggleAutoFollowRoad)
 IK_S=(Action=SlowDown)
 IK_S=(Action=SlowDownFast,State=Duration,IdleTime=0.3)
 IK_W=(Action=Canter)
@@ -17,6 +19,8 @@ IK_W=(Action=Canter)
 [Horse_Replacer_Ciri]
 IK_LShift=(Action=Follow) // DELETE
 IK_LShift=(Action=Canter) // DELETE
+IK_LShift=(Action=BlockCorrection)
+IK_LControl=(Action=ToggleAutoFollowRoad)
 IK_S=(Action=SlowDown)
 IK_S=(Action=SlowDownFast,State=Duration,IdleTime=0.3)
 IK_W=(Action=Canter)
