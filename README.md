@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./.github/banner.png" />
 
-  <h3 align="center" style="margin: 0;">W3EE v4.43 Merges</h3>
+  <h3 align="center" style="margin: 0;">W3EE v4.45 Merges</h3>
 </p>
 
 <br>
