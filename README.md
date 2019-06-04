@@ -15,6 +15,7 @@
 
 #### Visuals
 - [AMM](https://www.nexusmods.com/witcher3/mods/780)
+- [Skellige Ice Breath](https://www.nexusmods.com/witcher3/mods/1257)
 
 #### Gameplay
 - [Block and Dodge Whenever You Want](https://www.nexusmods.com/witcher3/mods/1080)
